@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-13T18:23:29.764Z</updated>
+  <updated>2024-02-13T18:31:13.465Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2024/02/14/quantum%20computer/"/>
     <id>http://example.com/2024/02/14/quantum%20computer/</id>
     <published>2024-02-13T17:27:45.000Z</published>
-    <updated>2024-02-13T18:23:29.764Z</updated>
+    <updated>2024-02-13T18:31:13.465Z</updated>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 這個密碼看著不太對, 請在試試." data-whm="抱歉, 這個文章不能被校驗, 不過您還是能看看解密後的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="43bcf3ecde0c2c9fd9244f5778e5edd43fa8802e69eecf5432e165e00b64563e">80d465b1137d1d4b28970f57ccc08334c43c1dcf1ed0e6af7c8881c6a8f0ec34ad4d91d14ca3f74965191ddae463eae6</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 這裡需要密碼才能查看.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 這個密碼看著不太對, 請在試試." data-whm="抱歉, 這個文章不能被校驗, 不過您還是能看看解密後的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="734cad0f7ea5e7bdef526b36131e41ba7023316d387cbda3db90e6bc4edce902">3cd6baab87fefa84ceaa4c423d7c92200388099fd112ec6b24eb227083b30f83ba871a21a52fa8f1cbae75833593b2e5</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 這裡需要密碼才能查看.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
     
     <summary type="html">有東西被加密了, 請輸入密碼查看.</summary>
