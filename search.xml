@@ -26,6 +26,29 @@
 ]]></content>
   </entry>
   <entry>
+    <title>computer</title>
+    <url>/2024/02/14/quantum%20computer/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 這個密碼看著不太對, 請在試試." data-whm="抱歉, 這個文章不能被校驗, 不過您還是能看看解密後的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="aa82602019f7bca326b07042f9fdc890f20ca86c4fb00b8818b6173c147bc21e">80d465b1137d1d4b28970f57ccc08334698b8d0073e5db24de3f5247a88933e4</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 這裡需要密碼才能查看.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>每週文章</category>
+      </categories>
+      <tags>
+        <tag>Electronic technology</tag>
+        <tag>password</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vscode安裝c++指南</title>
     <url>/2024/02/12/vscode%E5%AE%89%E8%A3%9Dc++%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<h1 id="環境安裝"><a href="#環境安裝" class="headerlink" title="環境安裝"></a>環境安裝</h1><h2 id="超好用VS套件"><a href="#超好用VS套件" class="headerlink" title="超好用VS套件"></a>超好用VS套件</h2><ul>

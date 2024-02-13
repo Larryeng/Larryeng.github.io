@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-12T18:06:26.863Z</updated>
+  <updated>2024-02-13T17:57:08.201Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>computer</title>
+    <link href="http://example.com/2024/02/14/quantum%20computer/"/>
+    <id>http://example.com/2024/02/14/quantum%20computer/</id>
+    <published>2024-02-13T17:27:45.000Z</published>
+    <updated>2024-02-13T17:57:08.201Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 這個密碼看著不太對, 請在試試." data-whm="抱歉, 這個文章不能被校驗, 不過您還是能看看解密後的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="aa82602019f7bca326b07042f9fdc890f20ca86c4fb00b8818b6173c147bc21e">80d465b1137d1d4b28970f57ccc08334698b8d0073e5db24de3f5247a88933e4</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 這裡需要密碼才能查看.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">有東西被加密了, 請輸入密碼查看.</summary>
+    
+    
+    
+    <category term="每週文章" scheme="http://example.com/categories/%E6%AF%8F%E9%80%B1%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="Electronic technology" scheme="http://example.com/tags/Electronic-technology/"/>
+    
+    <category term="password" scheme="http://example.com/tags/password/"/>
+    
+  </entry>
   
   <entry>
     <title>vscode安裝c++指南</title>
