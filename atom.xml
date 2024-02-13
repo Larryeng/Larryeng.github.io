@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TPEC</title>
+  <icon>http://example.com/fas%20fa-rss</icon>
+  <subtitle>This is TPEC here</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-02-12T18:06:26.863Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Larry</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vscode安裝c++指南</title>
+    <link href="http://example.com/2024/02/12/vscode%E5%AE%89%E8%A3%9Dc++%E6%8C%87%E5%8D%97/"/>
+    <id>http://example.com/2024/02/12/vscode%E5%AE%89%E8%A3%9Dc++%E6%8C%87%E5%8D%97/</id>
+    <published>2024-02-12T10:08:49.192Z</published>
+    <updated>2024-02-12T18:06:26.863Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;環境安裝&quot;&gt;&lt;a href=&quot;#環境安裝&quot; class=&quot;headerlink&quot; title=&quot;環境安裝&quot;&gt;&lt;/a&gt;環境安裝&lt;/h1&gt;&lt;h2 id=&quot;超好用VS套件&quot;&gt;&lt;a href=&quot;#超好用VS套件&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="C++" scheme="http://example.com/categories/C/"/>
+    
+    
+    <category term="環境配置" scheme="http://example.com/tags/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2024/02/11/hello-world/"/>
+    <id>http://example.com/2024/02/11/hello-world/</id>
+    <published>2024-02-10T16:44:59.678Z</published>
+    <updated>2024-02-13T03:24:22.679Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
