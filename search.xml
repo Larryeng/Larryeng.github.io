@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2024/02/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  stateDiagram-v2
+    [*] --&gt; 2&#x2F;10完成網站架設
+    2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
+    2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
+    2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
+  </pre></div>
+]]></content>
+  </entry>
+  <entry>
+    <title>每週文章:quantum computer</title>
+    <url>/2024/02/14/quantum%20computer/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 這個密碼看著不太對, 請在試試." data-whm="抱歉, 這個文章不能被校驗, 不過您還是能看看解密後的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="75e110d1a417bb4bc899f62c1fe69dff6c37bc73b137af2fa8d9af702972e735">3cd6baab87fefa84ceaa4c423d7c92209b41c1fbc0a3c0aeea3c9b9467ae2c05177efc97466eee528ec9fa4e0eb3d3eda3052da2cbffca9b103596e4bcb1b7efebc01a170816731f8f2df268dfc484f78c9c027603c835dbd6ef65027985e81997efbfcbc41460b1423672cc28d8c294e071647ff97db6ca120f28fefeafd1651746d78f169cc0c4a6066c546ae67463fd99ed506c7996fc0ed9def9913b78fe39ef08f593805cdbc4ddf30eb0413a96625ee429b4334aa6b63adcb1e21017fdd37a34fc18adbc71baacf2e8d89fbf8256d5e65a70035fa2604b25886bbfb99d0ea9caa5c2b5cbc75cc04c636953e1c5c821fac0060f5ee0e0a8650a804794e47763e62ffcf495fa39192597ab72ba9b478f79fd3afe60dd09c4a2d196f9087f62c3ee5b0a102994d840816d57379d1def118897dd2b56ae11563c5c26cf02900502c2e95826cc78903d9e85c14cf7f77e125ddeba3c81152bf74f04d427a94d969076269d706318a54eea76925533f1a8ee36ad800888db6d165b00dbc45fd70af5334a60f587fecd89f0f768715896d71959c0819e592a529e75374039ddc8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 這裡需要密碼才能查看.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>每週文章</category>
+      </categories>
+      <tags>
+        <tag>Electronic technology</tag>
+        <tag>password</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vscode安裝c++指南</title>
     <url>/2024/02/12/vscode%E5%AE%89%E8%A3%9Dc++%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<h1 id="環境安裝"><a href="#環境安裝" class="headerlink" title="環境安裝"></a>環境安裝</h1><h2 id="超好用VS套件"><a href="#超好用VS套件" class="headerlink" title="超好用VS套件"></a>超好用VS套件</h2><ul>
@@ -98,53 +146,5 @@
       <tags>
         <tag>環境配置</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>每週文章:quantum computer</title>
-    <url>/2024/02/14/quantum%20computer/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 這個密碼看著不太對, 請在試試." data-whm="抱歉, 這個文章不能被校驗, 不過您還是能看看解密後的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="75e110d1a417bb4bc899f62c1fe69dff6c37bc73b137af2fa8d9af702972e735">3cd6baab87fefa84ceaa4c423d7c92209b41c1fbc0a3c0aeea3c9b9467ae2c05177efc97466eee528ec9fa4e0eb3d3eda3052da2cbffca9b103596e4bcb1b7efebc01a170816731f8f2df268dfc484f78c9c027603c835dbd6ef65027985e81997efbfcbc41460b1423672cc28d8c294e071647ff97db6ca120f28fefeafd1651746d78f169cc0c4a6066c546ae67463fd99ed506c7996fc0ed9def9913b78fe39ef08f593805cdbc4ddf30eb0413a96625ee429b4334aa6b63adcb1e21017fdd37a34fc18adbc71baacf2e8d89fbf8256d5e65a70035fa2604b25886bbfb99d0ea9caa5c2b5cbc75cc04c636953e1c5c821fac0060f5ee0e0a8650a804794e47763e62ffcf495fa39192597ab72ba9b478f79fd3afe60dd09c4a2d196f9087f62c3ee5b0a102994d840816d57379d1def118897dd2b56ae11563c5c26cf02900502c2e95826cc78903d9e85c14cf7f77e125ddeba3c81152bf74f04d427a94d969076269d706318a54eea76925533f1a8ee36ad800888db6d165b00dbc45fd70af5334a60f587fecd89f0f768715896d71959c0819e592a529e75374039ddc8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 這裡需要密碼才能查看.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>每週文章</category>
-      </categories>
-      <tags>
-        <tag>Electronic technology</tag>
-        <tag>password</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/02/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  stateDiagram-v2
-    [*] --&gt; 2&#x2F;10完成網站架設
-    2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
-    2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
-    2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
-  </pre></div>
-]]></content>
   </entry>
 </search>
