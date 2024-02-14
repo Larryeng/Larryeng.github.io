@@ -26,7 +26,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>每週文章:quantum computer</title>
+    <title>Quantum computer</title>
     <url>/2024/02/14/quantum%20computer/</url>
     <content><![CDATA[<h2 id="What-is-quantum-computing"><a href="#What-is-quantum-computing" class="headerlink" title="What is quantum computing?"></a>What is quantum computing?</h2><blockquote>
 <p>  Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>    IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>    All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>

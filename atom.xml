@@ -6,7 +6,7 @@
   <link href="https://exemple.com/atom.xml" rel="self"/>
   
   <link href="https://exemple.com/"/>
-  <updated>2024-02-14T19:27:41.384Z</updated>
+  <updated>2024-02-14T19:30:53.211Z</updated>
   <id>https://exemple.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>每週文章:quantum computer</title>
+    <title>Quantum computer</title>
     <link href="https://exemple.com/2024/02/14/quantum%20computer/"/>
     <id>https://exemple.com/2024/02/14/quantum%20computer/</id>
     <published>2024-02-13T17:27:45.000Z</published>
-    <updated>2024-02-14T19:27:41.384Z</updated>
+    <updated>2024-02-14T19:30:53.211Z</updated>
     
     <content type="html"><![CDATA[<h2 id="What-is-quantum-computing"><a href="#What-is-quantum-computing" class="headerlink" title="What is quantum computing?"></a>What is quantum computing?</h2><blockquote><p>  Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>    IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>    All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p></blockquote><h2 id="Why-do-we-need-quantum-computers"><a href="#Why-do-we-need-quantum-computers" class="headerlink" title="Why do we need quantum computers?"></a>Why do we need quantum computers?</h2><blockquote><p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>   If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>    Complex problems are problems with lots of variables interacting in complicated ways. Modeling the behavior of individual atoms in a molecule is a complex problem, because of all the different electrons interacting with one another. Identifying subtle patterns of fraud in financial transactions or new physics in a supercollider are also complex problems. There are some complex problems that we do not know how to solve with classical computers at any scale.<br>    The real world runs on quantum physics. Computers that make calculations using the quantum states of quantum bits should in many situations be our best tools for understanding it.</p></blockquote><div class="note primary no-icon flat"><p>Using word:</p></div><details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Quantum computing(n.) &#x3D;&gt;量子計算<br>Computing(V.) &#x3D;&gt;計算<br>Computer(n.) &#x3D;&gt;電腦<br>Revolutionary(a.) &#x3D;&gt;革命性的<br>Classical(a.) &#x3D;&gt;古典的、傳統的<br>basic unit(n.) &#x3D;&gt;基本單位<br>qubits(n.) &#x3D;&gt;量子位元<br>exist(v.) &#x3D;&gt;存在<br>multiple(a.) &#x3D;&gt;多個<br>phenomenon(n.) &#x3D;&gt;跡象<br>superposition(N.) &#x3D;&gt;重合、重疊、疊加<br>parallel(N.) &#x3D;&gt;並行</p></div></details><div class="note primary no-icon flat"><p>Using phrase[&#x2F;frez&#x2F;]</p></div><details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Field of &#x3D;&gt;~的領域<br>principles of &#x3D;&gt; ~的原理</p></div></details>]]></content>
     
