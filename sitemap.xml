@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://larryeng.github.io/categories/index.html</loc>
+    <loc>https://larryeng.github.io/messageboard/index.html</loc>
+    
+    <lastmod>2024-02-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://larryeng.github.io/timeline/index.html</loc>
     
     <lastmod>2024-02-15</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://larryeng.github.io/timeline/index.html</loc>
+    <loc>https://larryeng.github.io/categories/index.html</loc>
     
     <lastmod>2024-02-15</lastmod>
     
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://larryeng.github.io/2024/02/11/hello-world/</loc>
-    
-    <lastmod>2024-02-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://larryeng.github.io/messageboard/index.html</loc>
     
     <lastmod>2024-02-13</lastmod>
     
