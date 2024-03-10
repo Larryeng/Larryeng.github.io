@@ -4,42 +4,41 @@
     <title>Hello World</title>
     <url>/2024/02/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
+<h3 id="Run-server">Run server</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
+<h3 id="Generate-static-files">Generate static files</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+<!-- <div class="mermaid-wrap"><pre class="mermaid-src" hidden>
   stateDiagram-v2
     [*] --&gt; 2&#x2F;10完成網站架設
     2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
     2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
     2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
-  </pre></div>
-<p>% \f is defined as #1f(#2) using the macro<br>
-\f\relax{x} = \int_{-\infty}^\infty<br>
-\f\hat\xi,e^{2 \pi i \xi x}<br>
-,d\xi</p>
+  </pre></div> -->
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><munderover><mo>⋂</mo><mn>1</mn><mi>n</mi></munderover><mi>p</mi><msubsup><mo>∭</mo><mi>E</mi><mi>V</mi></msubsup><mtext> </mtext><mi>d</mi><mi>x</mi><mtext> </mtext><mi>d</mi><mi>y</mi><mtext> </mtext><mi>d</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">\bigcap_1^{n} p
+\iiint_{E}^{V} \, dx\,dy\,dz
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.9185em;vertical-align:-1.2671em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8829em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">⋂</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2671em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.001em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5912em;"><span style="top:-1.7883em;margin-left:-0.4445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.05764em;">E</span></span></span></span><span style="top:-3.8129em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.22222em;">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9117em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mord mathnormal" style="margin-right:0.04398em;">z</span></span></span></span></span></p>
 ]]></content>
   </entry>
   <entry>
     <title>Quantum computer</title>
     <url>/2024/02/14/quantum%20computer/</url>
-    <content><![CDATA[<h2 id="what-is-quantum-computing">What is quantum computing?</h2>
+    <content><![CDATA[<h2 id="What-is-quantum-computing">What is quantum computing?</h2>
 <blockquote>
 <p>Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>
 IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>
 All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>
 </blockquote>
-<h2 id="why-do-we-need-quantum-computers">Why do we need quantum computers?</h2>
+<h2 id="Why-do-we-need-quantum-computers">Why do we need quantum computers?</h2>
 <blockquote>
 <p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>
 If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>
@@ -77,7 +76,7 @@ principles of =&gt; ~的原理</p>
     <title>vscode安裝c++指南</title>
     <url>/2024/02/12/vscode%E5%AE%89%E8%A3%9Dc++%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<h1>環境安裝</h1>
-<h2 id="超好用vs套件">超好用VS套件</h2>
+<h2 id="超好用VS套件">超好用VS套件</h2>
 <ul>
 <li><a href="https://youtu.be/pfgFU2JKnI8?si=BQYg3sr6bomqiad4">GitLens</a></li>
 </ul>
@@ -138,7 +137,7 @@ gcc --version 會出現版本號，如圖</strong><br>
 </blockquote>
 </li>
 </ul>
-<h3 id="此時我們前置作業就差不多了這時候開啟vscode開始vs環境建立">此時我們前置作業就差不多了這時候開啟VScode開始VS環境建立</h3>
+<h3 id="此時我們前置作業就差不多了這時候開啟VScode開始VS環境建立">此時我們前置作業就差不多了這時候開啟VScode開始VS環境建立</h3>
 <blockquote>
 <p><strong>安裝完第三點所述的Code Runner後，如圖打開擴充設定</strong></p>
 </blockquote>
@@ -151,8 +150,8 @@ gcc --version 會出現版本號，如圖</strong><br>
 <p><img src="https://hackmd.io/_uploads/HkyHxQjv6.png" alt="image"></p>
 <p><strong>上面那個是要改執行路徑的，此時打開資料夾回到Mingw64的資料夾找到bin資料夾並點開來然後找到g++.exe然後複製路徑貼到我說要改執行路徑的地方</strong></p>
 <div class="note warning flat"><p><strong>注意 複製的路徑跟VScode規定的格式不同請更改，如下所示</strong><br>
-<strong>&quot;C:\Program Files\mingw64\bin\g++.exe&quot;</strong><br>
-改成 <strong>&quot;C:/Program Files/mingw64/bin/g++.exe&quot;</strong></p>
+<strong>“C:\Program Files\mingw64\bin\g++.exe”</strong><br>
+改成 <strong>“C:/Program Files/mingw64/bin/g++.exe”</strong></p>
 </div>
 <p><img src="https://hackmd.io/_uploads/rJMOZ7jvT.png" alt="螢幕擷取畫面 2023-12-29 002442"></p>
 <p><img src="https://hackmd.io/_uploads/SJtdbmsDT.png" alt="螢幕擷取畫面 2023-12-29 002452"></p>
@@ -168,8 +167,8 @@ gcc --version 會出現版本號，如圖</strong><br>
 <blockquote>
 <p>[給你影片](<a href="https://drive.google.com/file/d/1qHxhkUMMbCozsfEC6W3akKaNO">https://drive.google.com/file/d/1qHxhkUMMbCozsfEC6W3akKaNO</a></p>
 </blockquote>
-<h2 id="c-visual-studio-完整ide版">c++ (visual studio 完整IDE版)</h2>
-<h2 id="c">c</h2>
+<h2 id="c-visual-studio-完整IDE版">c++ (visual studio 完整IDE版)</h2>
+<h2 id="c-2">c</h2>
 <div class="note warning flat"><p>編譯器已在C++安裝時順便設置好了</p>
 </div>
 <h3 id="學習資源">學習資源</h3>
@@ -216,7 +215,7 @@ a ^ b 的結果是 0110，因為只有第一位和第四位不同。<br>
     <title>電腦科學之父_艾倫·圖靈</title>
     <url>/2024/03/03/%E8%89%BE%E5%80%AB%E5%9C%96%E9%9D%88/</url>
     <content><![CDATA[<h1>電腦科學之父_艾倫·圖靈</h1>
-<h2 id="艾倫-圖靈求學階段">艾倫·圖靈求學階段</h2>
+<h2 id="艾倫·圖靈求學階段">艾倫·圖靈求學階段</h2>
 <blockquote>
 <p>艾倫·圖靈小的時候隊自然科學以及數學有著極高的興趣，到了大學更以數學最為出色，所以畢業後在劍橋大學擔任數學教授，到了二戰時，圖靈被英國皇家海軍招聘並在英國軍情六處的監督下從事對德國機密軍事密碼 [Enigma] 進行破譯工作，於是第一台運算機器「圖靈機」出現了。</p>
 </blockquote>
