@@ -1,29 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/02/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>Quantum computer</title>
+    <url>/2024/02/14/quantum%20computer/</url>
+    <content><![CDATA[<h2 id="What-is-quantum-computing"><a href="#What-is-quantum-computing" class="headerlink" title="What is quantum computing?"></a>What is quantum computing?</h2><blockquote>
+<p>Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>    IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>    All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>
+</blockquote>
+<h2 id="Why-do-we-need-quantum-computers"><a href="#Why-do-we-need-quantum-computers" class="headerlink" title="Why do we need quantum computers?"></a>Why do we need quantum computers?</h2><blockquote>
+<p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>   If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>    Complex problems are problems with lots of variables interacting in complicated ways. Modeling the behavior of individual atoms in a molecule is a complex problem, because of all the different electrons interacting with one another. Identifying subtle patterns of fraud in financial transactions or new physics in a supercollider are also complex problems. There are some complex problems that we do not know how to solve with classical computers at any scale.<br>    The real world runs on quantum physics. Computers that make calculations using the quantum states of quantum bits should in many situations be our best tools for understanding it.</p>
+</blockquote>
+<div class="note primary no-icon flat"><p>Using word:</p>
+</div>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Quantum computing(n.) &#x3D;&gt;量子計算<br>Computing(V.) &#x3D;&gt;計算<br>Computer(n.) &#x3D;&gt;電腦<br>Revolutionary(a.) &#x3D;&gt;革命性的<br>Classical(a.) &#x3D;&gt;古典的、傳統的<br>basic unit(n.) &#x3D;&gt;基本單位<br>qubits(n.) &#x3D;&gt;量子位元<br>exist(v.) &#x3D;&gt;存在<br>multiple(a.) &#x3D;&gt;多個<br>phenomenon(n.) &#x3D;&gt;跡象<br>superposition(N.) &#x3D;&gt;重合、重疊、疊加<br>parallel(N.) &#x3D;&gt;並行</p>
+</div></details>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  stateDiagram-v2
-    [*] --&gt; 2&#x2F;10完成網站架設
-    2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
-    2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
-    2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
-  </pre></div>
+<div class="note primary no-icon flat"><p>Using phrase[&#x2F;frez&#x2F;]</p>
+</div>
+<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Field of &#x3D;&gt;~的領域<br>principles of &#x3D;&gt; ~的原理</p>
+</div></details>]]></content>
+      <categories>
+        <category>每週文章</category>
+      </categories>
+      <tags>
+        <tag>Electronic technology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>無線電原理</title>
+    <url>/2024/03/03/%E7%84%A1%E7%B7%9A%E9%9B%BB/</url>
+    <content><![CDATA[<h1 id="無線電"><a href="#無線電" class="headerlink" title="無線電"></a>無線電</h1><blockquote>
+<p>無線電波又稱射頻電波、電波、射頻，屬於一種電磁波，在空氣和真空傳播。在電磁波譜上，其波長比紅外線(IR)長。無線電波的頻率範圍為300GHz以下，對應波長範圍為1毫米以上；頻率介於300GHz至3kHz之間，1GHz或3GHz以上為微波。頻率在300GHz時無線電波對應的波長為1mm；在3kHz時波長為100km。和其他電磁波一樣，無線電也是以光速行進。 </p>
+</blockquote>
+<h2 id="天然-人工"><a href="#天然-人工" class="headerlink" title="天然&amp;人工"></a>天然&amp;人工</h2><blockquote>
+<p>自然界中的無線電波以閃電或者宇宙天體形成。<br>人工產生的無線電波被應用在無線通訊、廣播、雷達、通訊衛星、導航、電腦網路。    </p>
+</blockquote>
+<h2 id="頻率差別"><a href="#頻率差別" class="headerlink" title="頻率差別"></a>頻率差別</h2><blockquote>
+<p>不同頻率的無線電波在地球大氣層中具有不同的特性；長波可以在山脈等障礙物周圍衍射並隨地球表面進行傳波(地波)，較短的波可以從電離層被反射並傳播至地平線以外(天波)，而短得多的波長則很少彎曲或衍射並繼續以視線傳播 ，因此它們的傳播距離僅限於地平線。 </p>
+</blockquote>
+<h2 id="防護措施"><a href="#防護措施" class="headerlink" title="防護措施"></a>防護措施</h2><blockquote>
+<p>為了防止不同無線電台之間的干擾，無線電波的人為操作行為受到法律的嚴格監管，由國際電信聯盟(ITU)協調，國際機構將無線電波定義為「在太空中傳播的頻率低於 3,000 GHz的電磁波」。無線電頻譜波根據頻率分為多個無線電配不同的用途。 </p>
+</blockquote>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><blockquote>
+<p>無線電發射機，藉由交流電，經過振盪器，變成高頻率交流電，產生電磁場，而經由電磁場可產生無線電波。無線電波像磁鐵，有同性相斥、異性相吸的現象。同類電子會互相排斥，因此當無線電波射出時，會將前方電波往前推，當連續電波一直射出來時，電波就會在空氣中傳播。<br>無線電波傳播訊號的技術，其原理在於，導體中電流強弱的改變會產生無線電波。利用這一現象，通過調製可將資訊加載於無線電波之上。當電波通過空間傳播到達收信端，電波引起的電磁場變化又會在導體中產生電流。通過解調將訊息從電流變化中提取出來，就達到了資訊傳遞的目的。 </p>
+</blockquote>
+<h2 id="偉人"><a href="#偉人" class="headerlink" title="偉人"></a>偉人</h2><blockquote>
+<p>麥克斯韋最早在他遞交給英國皇家學會的論文《電磁場的動力理論》中闡明了電磁波傳播的理論基礎。他的這些工作完成於1861年至1865年之間。 </p>
+</blockquote>
+<blockquote>
+<p>海因里希·魯道夫·赫茲在1886年至1888年間首先通過試驗驗證了麥克斯韋爾的理論。他證明了無線電輻射具有波的所有特性，並發現電磁場方程可以用偏微分方程表達，通常稱為波動方程。 </p>
+</blockquote>
+<h2 id="收發機制"><a href="#收發機制" class="headerlink" title="收發機制"></a>收發機制</h2><blockquote>
+<p>每個無線電系統都具有發射器。發射器的功能藉由能夠製造出所需振盪頻率的交流電源所實現。發射器含有用於調製的系統。其功能是將電源輸送來的訊號加以修改，並藉此傳遞資訊。最簡單的調製方法是不時地切斷電源，正如拍電報時發報員的工作。這種簡單的調製，手工就能完成。而現代無線電通訊所需的複雜調製則涉及到許多交流電屬性的細微調整，如振幅、頻率和相位（而且往往同時調節的參數不止一個）。隨後，發射器將調製後的訊號傳遞給調諧過的共振天線。此舉能將震盪電流轉化為電磁波，並以無線的形式傳播。 </p>
+</blockquote>
+<blockquote>
+<p>調整訊號振幅 (即訊號強度)，使之與所要傳遞的訊號的變化相同步，而傳送訊息。例如，訊號強弱可用於描述話筒傳出的聲震動情況，或者用於確定電視熒幕上某個畫素的熒光情況。世界上首個聲訊電台採用的便是此種調製方式，而時至今日它仍被廣泛使用。”AM”目前常用於指中波廣播電台。 </p>
+</blockquote>
+<h2 id="天線"><a href="#天線" class="headerlink" title="天線"></a>天線</h2><blockquote>
+<p>天線可以將電流轉換為無線電波，也可以將無線電波轉換為電流。常配合發送器或接收器一起使用。在傳輸時，發送器會產生震盪的無線電頻率電流到天線上，而天線會產生電磁輻射。在接收時，天線會拮取電磁波的部份能量，產生微小的電壓，再透過接收器放大。天線可以用來傳送及接收的用途。 </p>
+</blockquote>
+<h2 id="傳播"><a href="#傳播" class="headerlink" title="傳播"></a>傳播</h2><blockquote>
+<p>電磁波產生後，可以在空間中直接傳播，但其路徑也可能被反射、折射及繞射等影響。電磁波的強度會因幾何距離而變小(平方反比定律)，有些情形下介質也會吸收能量。雜訊也會影響電磁波的訊號，電磁干擾的來源可能是自然的，也可是人造的(例如其他電磁波傳送器或是非蓄意輻射)。雜訊也可能因為設備本身的特性而產生，如果雜訊的強度太大，就無法分辨電磁波中的訊號及雜訊，這也是無線電通訊的基本限制。 </p>
+</blockquote>
+<h2 id="諧振"><a href="#諧振" class="headerlink" title="諧振"></a>諧振</h2><blockquote>
+<p>無線電中的諧振電路可以選擇接收特定頻率訊號。諧振電路可以針對特定頻率的訊號有較大的響應，對其他特定頻率訊號的響應會較小，因此無線電接收器可以區分不同頻率的訊號。<br>電磁波可以用調諧過的天線接收其他訊號。天線可以擷取一些電磁波的能量，變成電路中的諧振電流。接收器可以將電流解調，轉成可用的訊號。接收器一般也會調成調諧到可以接收特定頻段的訊號，拒絕其他頻段的訊號。</p>
+</blockquote>
+<h2 id="早期"><a href="#早期" class="headerlink" title="早期"></a>早期</h2><blockquote>
+<p>早期的無線電系統只靠天線拮取到的能量來產生訊號。後來發明了像真空管及電晶體等電子設備，可以將微弱的訊號放大，因此無線電就更為普及。無線電的應用包括無線對講機、兒童的玩具、到無人行星探測任務先鋒計劃的控制，也包括廣播及其他的應用。<br>無線電接收機從天線中接收訊號，利用電子濾波器從天線接收到的訊號中分離出想要的訊號，再利用放大器將訊號放大到適合後續處理的準位，最後將訊號轉換為使用者需要的形式，例如聲音、影像、數位資料、量測值及導航的位置等。 </p>
+</blockquote>
+<h2 id="廣播"><a href="#廣播" class="headerlink" title="廣播"></a>廣播</h2><blockquote>
+<p>聲音廣播的最早形式是航海無線電報。它採用開關控制連續波的發射與否，由此在接收機產生斷續的聲音訊號，即摩斯電碼。 </p>
+</blockquote>
+<h2 id="調整接收頻段"><a href="#調整接收頻段" class="headerlink" title="調整接收頻段"></a>調整接收頻段</h2><blockquote>
+<p>調幅廣播可以傳播音樂和聲音。調幅廣播採用振幅調變技術，即話筒處接受的音量越大則電台發射的能量也越大。 這樣的訊號容易受到諸如閃電或其他干擾源的干擾。<br>調頻廣播可以比調幅廣播更高的保真度傳播音樂和聲音。對頻率調製而言，話筒處接受的音量越大對應發射訊號的頻率越高。調頻廣播工作於甚高頻段(Very High Frequency, VHF)。頻段越高，其所擁有的頻率帶寬(頻帶寬度)也越大，因而可以容納更多的電台。同時，波長越短的無線電波的傳播也越接近於光波直線傳播的特性。 </p>
+</blockquote>
+<h2 id="雷達"><a href="#雷達" class="headerlink" title="雷達"></a>雷達</h2><blockquote>
+<p>雷達通過測量反射無線電波的延遲來推算目標的距離。並通過反射波的偏振和頻率感應目標的表面類型。 </p>
+</blockquote>
+<h2 id="導航類型"><a href="#導航類型" class="headerlink" title="導航類型"></a>導航類型</h2><blockquote>
+<p>導航雷達使用超短波掃描目標區域。一般掃描頻率為每分鐘兩到四次，通過反射波確定地形。這種技術通常應用在商船和長距離商用飛機上。<br>多用途雷達通常使用導航雷達的頻段。不過，其所發射的脈波經過調變和偏振化以便確定反射體的表面類型。優良的多用途雷達可以辨別暴雨、陸地、車輛等等。 </p>
+</blockquote>
+<h2 id="搜索偵查類型"><a href="#搜索偵查類型" class="headerlink" title="搜索偵查類型"></a>搜索偵查類型</h2><blockquote>
+<p>搜索雷達運用短波脈波掃描目標區域，通常每分鐘2－4次。有些搜索雷達應用都卜勒效應可以將移動物體同背景中區分開來 </p>
+</blockquote>
+<h2 id="氣象類型"><a href="#氣象類型" class="headerlink" title="氣象類型"></a>氣象類型</h2><blockquote>
+<p>氣象雷達與搜索雷達類似，但使用圓偏振波以及水滴易於反射的波長。風廓線雷達利用都卜勒效應測量風速，都卜勒雷達利用都卜勒效應檢測災害性天氣。 </p>
+</blockquote>
+<h2 id="資訊來源"><a href="#資訊來源" class="headerlink" title="資訊來源"></a>資訊來源</h2><p><a href="https://zh.wikipedia.org/wiki/File:Dipole_xmting_antenna_animation_4_408x318x150ms.gif">https://zh.wikipedia.org/wiki/File:Dipole_xmting_antenna_animation_4_408x318x150ms.gif</a> </p>
+<p><a href="https://zh.wikipedia.org/wiki/File:Amfm3-en-de.gif">https://zh.wikipedia.org/wiki/File:Amfm3-en-de.gif</a> </p>
+<p><a href="https://zh.wikipedia.org/wiki/File:Crystal_radio_receiver.PNG">https://zh.wikipedia.org/wiki/File:Crystal_radio_receiver.PNG</a> </p>
+<h2 id="圖片來源"><a href="#圖片來源" class="headerlink" title="圖片來源"></a>圖片來源</h2><p><a href="https://infolaw.iias.sinica.edu.tw/wp-content/uploads/2019/09/%E5%82%B3%E6%92%AD%E8%87%AA%E7%94%B1%E4%B9%8B%E6%86%B2%E6%B3%95%E4%BF%9D%E9%9A%9C%E8%88%87%E7%84%A1%E7%B7%9A%E9%9B%BB%E6%B3%A2%E9%A0%BB%E7%8E%87%E4%BD%BF%E7%94%A8%E4%B9%8B%E9%99%90%E5%88%B6%E2%94%80%E9%87%8B%E5%AD%97%E7%AC%AC%E5%85%AD%E4%B8%83%E5%85%AB%E8%99%9F%E8%A7%A3%E9%87%8B.jpg">https://infolaw.iias.sinica.edu.tw/wp-content/uploads/2019/09/%E5%82%B3%E6%92%AD%E8%87%AA%E7%94%B1%E4%B9%8B%E6%86%B2%E6%B3%95%E4%BF%9D%E9%9A%9C%E8%88%87%E7%84%A1%E7%B7%9A%E9%9B%BB%E6%B3%A2%E9%A0%BB%E7%8E%87%E4%BD%BF%E7%94%A8%E4%B9%8B%E9%99%90%E5%88%B6%E2%94%80%E9%87%8B%E5%AD%97%E7%AC%AC%E5%85%AD%E4%B8%83%E5%85%AB%E8%99%9F%E8%A7%A3%E9%87%8B.jpg</a></p>
+<p><strong>文章作者:TPEC小編三弦</strong></p>
 ]]></content>
+      <categories>
+        <category>每週文章</category>
+      </categories>
+      <tags>
+        <tag>Electronic technology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>電腦科學之父_艾倫·圖靈</title>
+    <url>/2024/03/03/%E8%89%BE%E5%80%AB%E5%9C%96%E9%9D%88/</url>
+    <content><![CDATA[<h1 id="電腦科學之父-艾倫·圖靈"><a href="#電腦科學之父-艾倫·圖靈" class="headerlink" title="電腦科學之父_艾倫·圖靈"></a>電腦科學之父_艾倫·圖靈</h1><h2 id="艾倫·圖靈求學階段"><a href="#艾倫·圖靈求學階段" class="headerlink" title="艾倫·圖靈求學階段"></a>艾倫·圖靈求學階段</h2><blockquote>
+<p>艾倫·圖靈小的時候隊自然科學以及數學有著極高的興趣，到了大學更以數學最為出色，所以畢業後在劍橋大學擔任數學教授，到了二戰時，圖靈被英國皇家海軍招聘並在英國軍情六處的監督下從事對德國機密軍事密碼 [Enigma] 進行破譯工作，於是第一台運算機器「圖靈機」出現了。</p>
+</blockquote>
+<h2 id="圖靈機的出現"><a href="#圖靈機的出現" class="headerlink" title="圖靈機的出現"></a>圖靈機的出現</h2><blockquote>
+<p>圖靈機在剛啟動時沒人知道他何時才會運算於是只能一直運轉一直運轉，然而德軍在使用Enigma加密時加入了Plugboard (接線板)的裝置可以以德軍所需的方式重新排列密文，每十八個小時更新一次打亂順序。於是使很難破解的Enigma密文更難被人破譯，欸~但其實這很奇怪，很難被破譯怎麼還會被圖靈的團隊破譯。這就要說到人的惰性了，當密碼每八個小時就要換一次也就代表一天也就要換一至兩次時，人的大腦就會想要簡化工作，於是就決定乾脆不換了，然而這個改變被英國軍事情報處的一個破譯員發現了規律，於是將此現象告訴了圖靈，於是他將機器的開頭字詞跟結尾字詞固定只讓機器運算中間的字詞而已，這時圖靈機在運作後的三十秒停了下來並給出了破譯結果，圖靈將這些結果反向輸入Enigma編譯機裡頭得到的最終答案就是破譯後的結果了。</p>
+</blockquote>
+<h2 id="不公平的人生"><a href="#不公平的人生" class="headerlink" title="不公平的人生"></a>不公平的人生</h2><blockquote>
+<p>有了這項發現英國在部署策略以及應對方式時更加的快速，於是這項成就成功使二戰提早至少兩年結束，然而當時的軍事情報局因為祕密條款所以將所有破譯團隊做出來的資料全數銷並將所有紀錄封存五十年後才公開，所以圖靈又被稱作[不備承認的二戰英雄]，然而故事還沒完，圖靈其實是一位同性戀，然而在當時的英國社會同性戀是一種罪，所以當時圖靈被以「明顯的猥褻和性顛倒行為」罪，被處以化學閹割以及坐牢兩種選擇，圖靈選擇了前者，之後治療時間持續了一年藥物產生的副作用(乳房不斷發育)，對於熱愛體育的圖靈身心產生極大的傷害，1954年，圖靈因食用了浸過氰化物的蘋果而死亡。直至2013年12越24日英國的司法大臣才宣布英國女王伊莉莎白二世赦免因同性戀被定罪的圖靈。艾倫·圖靈的家人早在23日提出五十萬人簽名的請願書要求政府赦免同為被因同性戀而被定罪的人。</p>
+</blockquote>
+<h2 id="圖靈測試的誕生"><a href="#圖靈測試的誕生" class="headerlink" title="圖靈測試的誕生"></a>圖靈測試的誕生</h2><blockquote>
+<p>艾倫·圖靈不但幫助二戰提早結束，更提出了「圖靈測試」，這個測試很簡單，先找一些真人以及機器人將他們關在不同的房間，之後再由提問者對於各個房間的人或機器人提問，在依據他們的回答判斷是不是真人，如果能讓人分辨不出是否為真人的話即代表通過圖靈測試。</p>
+</blockquote>
+<h2 id="圖靈的觀點"><a href="#圖靈的觀點" class="headerlink" title="圖靈的觀點"></a>圖靈的觀點</h2><blockquote>
+<p>圖靈的觀點是，或許我們根本無從判斷答題者究竟是真人，或只不過是機器在假扮人。究竟電腦能否在這場模仿遊戲中勝出，圖靈的猜測是：「我相信大約要到五十年後，人類才有能力設計出電腦程式⋯⋯ 讓電腦玩模仿遊戲的功力高強到，一般人質問電腦五分鐘後，能正確判斷的機率低於七成。」，圖靈也試圖在論文中為他所定義的思考提出辯駁。神學界的異議著眼於，世間萬物中，上帝只賦予人類靈魂和思考能力；圖靈則加以駁斥，認為他們的觀點「暗自為無所不能的上帝設下嚴重限制」。他問道，只要上帝「認為適當」，祂能否「自由賦予大象靈魂」？假設如此，那麼依照相同的邏輯，只要上帝想這麼做，祂自然可以讓機器也擁有靈魂。</p>
+</blockquote>
+<h2 id="結尾"><a href="#結尾" class="headerlink" title="結尾"></a>結尾</h2><blockquote>
+<p>艾倫·圖靈。他的智慧和勇氣不僅改變了戰爭的走向，更深遠地影響了我們對計算機科學和人工智慧的理解。儘管遭遇了許多困難和不公，他的貢獻卻永遠地烙印在歷史的頁面上，啟發著世代的科學家、工程師和思想家。讓我們永遠懷念這位電腦科學之父。</p>
+</blockquote>
+<h2 id="資料來源"><a href="#資料來源" class="headerlink" title="資料來源:"></a>資料來源:</h2><p><a href="https://zh.wikipedia.org/zh-tw/%E8%89%BE%E4%BC%A6%C2%B7%E5%9B%BE%E7%81%B5">https://zh.wikipedia.org/zh-tw/艾伦·图灵</a><br><a href="https://www.cw.com.tw/article/5064501?template=fashion">https://www.cw.com.tw/article/5064501?template=fashion</a><br><a href="https://pansci.asia/archives/151801">https://pansci.asia/archives/151801</a></p>
+]]></content>
+      <categories>
+        <category>每週文章</category>
+      </categories>
+      <tags>
+        <tag>歷史人物介紹</tag>
+      </tags>
   </entry>
   <entry>
     <title>vscode安裝c++指南</title>
@@ -125,132 +229,28 @@
       </tags>
   </entry>
   <entry>
-    <title>Quantum computer</title>
-    <url>/2024/02/14/quantum%20computer/</url>
-    <content><![CDATA[<h2 id="What-is-quantum-computing"><a href="#What-is-quantum-computing" class="headerlink" title="What is quantum computing?"></a>What is quantum computing?</h2><blockquote>
-<p>Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>    IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>    All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>
-</blockquote>
-<h2 id="Why-do-we-need-quantum-computers"><a href="#Why-do-we-need-quantum-computers" class="headerlink" title="Why do we need quantum computers?"></a>Why do we need quantum computers?</h2><blockquote>
-<p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>   If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>    Complex problems are problems with lots of variables interacting in complicated ways. Modeling the behavior of individual atoms in a molecule is a complex problem, because of all the different electrons interacting with one another. Identifying subtle patterns of fraud in financial transactions or new physics in a supercollider are also complex problems. There are some complex problems that we do not know how to solve with classical computers at any scale.<br>    The real world runs on quantum physics. Computers that make calculations using the quantum states of quantum bits should in many situations be our best tools for understanding it.</p>
-</blockquote>
-<div class="note primary no-icon flat"><p>Using word:</p>
-</div>
+    <title>Hello World</title>
+    <url>/2024/02/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Quantum computing(n.) &#x3D;&gt;量子計算<br>Computing(V.) &#x3D;&gt;計算<br>Computer(n.) &#x3D;&gt;電腦<br>Revolutionary(a.) &#x3D;&gt;革命性的<br>Classical(a.) &#x3D;&gt;古典的、傳統的<br>basic unit(n.) &#x3D;&gt;基本單位<br>qubits(n.) &#x3D;&gt;量子位元<br>exist(v.) &#x3D;&gt;存在<br>multiple(a.) &#x3D;&gt;多個<br>phenomenon(n.) &#x3D;&gt;跡象<br>superposition(N.) &#x3D;&gt;重合、重疊、疊加<br>parallel(N.) &#x3D;&gt;並行</p>
-</div></details>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<div class="note primary no-icon flat"><p>Using phrase[&#x2F;frez&#x2F;]</p>
-</div>
-<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Field of &#x3D;&gt;~的領域<br>principles of &#x3D;&gt; ~的原理</p>
-</div></details>]]></content>
-      <categories>
-        <category>每週文章</category>
-      </categories>
-      <tags>
-        <tag>Electronic technology</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>電腦科學之父_艾倫·圖靈</title>
-    <url>/2024/03/03/%E8%89%BE%E5%80%AB%E5%9C%96%E9%9D%88/</url>
-    <content><![CDATA[<h1 id="電腦科學之父-艾倫·圖靈"><a href="#電腦科學之父-艾倫·圖靈" class="headerlink" title="電腦科學之父_艾倫·圖靈"></a>電腦科學之父_艾倫·圖靈</h1><h2 id="艾倫·圖靈求學階段"><a href="#艾倫·圖靈求學階段" class="headerlink" title="艾倫·圖靈求學階段"></a>艾倫·圖靈求學階段</h2><blockquote>
-<p>艾倫·圖靈小的時候隊自然科學以及數學有著極高的興趣，到了大學更以數學最為出色，所以畢業後在劍橋大學擔任數學教授，到了二戰時，圖靈被英國皇家海軍招聘並在英國軍情六處的監督下從事對德國機密軍事密碼 [Enigma] 進行破譯工作，於是第一台運算機器「圖靈機」出現了。</p>
-</blockquote>
-<h2 id="圖靈機的出現"><a href="#圖靈機的出現" class="headerlink" title="圖靈機的出現"></a>圖靈機的出現</h2><blockquote>
-<p>圖靈機在剛啟動時沒人知道他何時才會運算於是只能一直運轉一直運轉，然而德軍在使用Enigma加密時加入了Plugboard (接線板)的裝置可以以德軍所需的方式重新排列密文，每十八個小時更新一次打亂順序。於是使很難破解的Enigma密文更難被人破譯，欸~但其實這很奇怪，很難被破譯怎麼還會被圖靈的團隊破譯。這就要說到人的惰性了，當密碼每八個小時就要換一次也就代表一天也就要換一至兩次時，人的大腦就會想要簡化工作，於是就決定乾脆不換了，然而這個改變被英國軍事情報處的一個破譯員發現了規律，於是將此現象告訴了圖靈，於是他將機器的開頭字詞跟結尾字詞固定只讓機器運算中間的字詞而已，這時圖靈機在運作後的三十秒停了下來並給出了破譯結果，圖靈將這些結果反向輸入Enigma編譯機裡頭得到的最終答案就是破譯後的結果了。</p>
-</blockquote>
-<h2 id="不公平的人生"><a href="#不公平的人生" class="headerlink" title="不公平的人生"></a>不公平的人生</h2><blockquote>
-<p>有了這項發現英國在部署策略以及應對方式時更加的快速，於是這項成就成功使二戰提早至少兩年結束，然而當時的軍事情報局因為祕密條款所以將所有破譯團隊做出來的資料全數銷並將所有紀錄封存五十年後才公開，所以圖靈又被稱作[不備承認的二戰英雄]，然而故事還沒完，圖靈其實是一位同性戀，然而在當時的英國社會同性戀是一種罪，所以當時圖靈被以「明顯的猥褻和性顛倒行為」罪，被處以化學閹割以及坐牢兩種選擇，圖靈選擇了前者，之後治療時間持續了一年藥物產生的副作用(乳房不斷發育)，對於熱愛體育的圖靈身心產生極大的傷害，1954年，圖靈因食用了浸過氰化物的蘋果而死亡。直至2013年12越24日英國的司法大臣才宣布英國女王伊莉莎白二世赦免因同性戀被定罪的圖靈。艾倫·圖靈的家人早在23日提出五十萬人簽名的請願書要求政府赦免同為被因同性戀而被定罪的人。</p>
-</blockquote>
-<h2 id="圖靈測試的誕生"><a href="#圖靈測試的誕生" class="headerlink" title="圖靈測試的誕生"></a>圖靈測試的誕生</h2><blockquote>
-<p>艾倫·圖靈不但幫助二戰提早結束，更提出了「圖靈測試」，這個測試很簡單，先找一些真人以及機器人將他們關在不同的房間，之後再由提問者對於各個房間的人或機器人提問，在依據他們的回答判斷是不是真人，如果能讓人分辨不出是否為真人的話即代表通過圖靈測試。</p>
-</blockquote>
-<h2 id="圖靈的觀點"><a href="#圖靈的觀點" class="headerlink" title="圖靈的觀點"></a>圖靈的觀點</h2><blockquote>
-<p>圖靈的觀點是，或許我們根本無從判斷答題者究竟是真人，或只不過是機器在假扮人。究竟電腦能否在這場模仿遊戲中勝出，圖靈的猜測是：「我相信大約要到五十年後，人類才有能力設計出電腦程式⋯⋯ 讓電腦玩模仿遊戲的功力高強到，一般人質問電腦五分鐘後，能正確判斷的機率低於七成。」，圖靈也試圖在論文中為他所定義的思考提出辯駁。神學界的異議著眼於，世間萬物中，上帝只賦予人類靈魂和思考能力；圖靈則加以駁斥，認為他們的觀點「暗自為無所不能的上帝設下嚴重限制」。他問道，只要上帝「認為適當」，祂能否「自由賦予大象靈魂」？假設如此，那麼依照相同的邏輯，只要上帝想這麼做，祂自然可以讓機器也擁有靈魂。</p>
-</blockquote>
-<h2 id="結尾"><a href="#結尾" class="headerlink" title="結尾"></a>結尾</h2><blockquote>
-<p>艾倫·圖靈。他的智慧和勇氣不僅改變了戰爭的走向，更深遠地影響了我們對計算機科學和人工智慧的理解。儘管遭遇了許多困難和不公，他的貢獻卻永遠地烙印在歷史的頁面上，啟發著世代的科學家、工程師和思想家。讓我們永遠懷念這位電腦科學之父。</p>
-</blockquote>
-<h2 id="資料來源"><a href="#資料來源" class="headerlink" title="資料來源:"></a>資料來源:</h2><p><a href="https://zh.wikipedia.org/zh-tw/%E8%89%BE%E4%BC%A6%C2%B7%E5%9B%BE%E7%81%B5">https://zh.wikipedia.org/zh-tw/艾伦·图灵</a><br><a href="https://www.cw.com.tw/article/5064501?template=fashion">https://www.cw.com.tw/article/5064501?template=fashion</a><br><a href="https://pansci.asia/archives/151801">https://pansci.asia/archives/151801</a></p>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  stateDiagram-v2
+    [*] --&gt; 2&#x2F;10完成網站架設
+    2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
+    2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
+    2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
+  </pre></div>
 ]]></content>
-      <categories>
-        <category>每週文章</category>
-      </categories>
-      <tags>
-        <tag>歷史人物介紹</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>無線電原理</title>
-    <url>/2024/03/03/%E7%84%A1%E7%B7%9A%E9%9B%BB/</url>
-    <content><![CDATA[<h1 id="無線電"><a href="#無線電" class="headerlink" title="無線電"></a>無線電</h1><blockquote>
-<p>無線電波又稱射頻電波、電波、射頻，屬於一種電磁波，在空氣和真空傳播。在電磁波譜上，其波長比紅外線(IR)長。無線電波的頻率範圍為300GHz以下，對應波長範圍為1毫米以上；頻率介於300GHz至3kHz之間，1GHz或3GHz以上為微波。頻率在300GHz時無線電波對應的波長為1mm；在3kHz時波長為100km。和其他電磁波一樣，無線電也是以光速行進。 </p>
-</blockquote>
-<h2 id="天然-人工"><a href="#天然-人工" class="headerlink" title="天然&amp;人工"></a>天然&amp;人工</h2><blockquote>
-<p>自然界中的無線電波以閃電或者宇宙天體形成。<br>人工產生的無線電波被應用在無線通訊、廣播、雷達、通訊衛星、導航、電腦網路。    </p>
-</blockquote>
-<h2 id="頻率差別"><a href="#頻率差別" class="headerlink" title="頻率差別"></a>頻率差別</h2><blockquote>
-<p>不同頻率的無線電波在地球大氣層中具有不同的特性；長波可以在山脈等障礙物周圍衍射並隨地球表面進行傳波(地波)，較短的波可以從電離層被反射並傳播至地平線以外(天波)，而短得多的波長則很少彎曲或衍射並繼續以視線傳播 ，因此它們的傳播距離僅限於地平線。 </p>
-</blockquote>
-<h2 id="防護措施"><a href="#防護措施" class="headerlink" title="防護措施"></a>防護措施</h2><blockquote>
-<p>為了防止不同無線電台之間的干擾，無線電波的人為操作行為受到法律的嚴格監管，由國際電信聯盟(ITU)協調，國際機構將無線電波定義為「在太空中傳播的頻率低於 3,000 GHz的電磁波」。無線電頻譜波根據頻率分為多個無線電配不同的用途。 </p>
-</blockquote>
-<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><blockquote>
-<p>無線電發射機，藉由交流電，經過振盪器，變成高頻率交流電，產生電磁場，而經由電磁場可產生無線電波。無線電波像磁鐵，有同性相斥、異性相吸的現象。同類電子會互相排斥，因此當無線電波射出時，會將前方電波往前推，當連續電波一直射出來時，電波就會在空氣中傳播。<br>無線電波傳播訊號的技術，其原理在於，導體中電流強弱的改變會產生無線電波。利用這一現象，通過調製可將資訊加載於無線電波之上。當電波通過空間傳播到達收信端，電波引起的電磁場變化又會在導體中產生電流。通過解調將訊息從電流變化中提取出來，就達到了資訊傳遞的目的。 </p>
-</blockquote>
-<h2 id="偉人"><a href="#偉人" class="headerlink" title="偉人"></a>偉人</h2><blockquote>
-<p>麥克斯韋最早在他遞交給英國皇家學會的論文《電磁場的動力理論》中闡明了電磁波傳播的理論基礎。他的這些工作完成於1861年至1865年之間。 </p>
-</blockquote>
-<blockquote>
-<p>海因里希·魯道夫·赫茲在1886年至1888年間首先通過試驗驗證了麥克斯韋爾的理論。他證明了無線電輻射具有波的所有特性，並發現電磁場方程可以用偏微分方程表達，通常稱為波動方程。 </p>
-</blockquote>
-<h2 id="收發機制"><a href="#收發機制" class="headerlink" title="收發機制"></a>收發機制</h2><blockquote>
-<p>每個無線電系統都具有發射器。發射器的功能藉由能夠製造出所需振盪頻率的交流電源所實現。發射器含有用於調製的系統。其功能是將電源輸送來的訊號加以修改，並藉此傳遞資訊。最簡單的調製方法是不時地切斷電源，正如拍電報時發報員的工作。這種簡單的調製，手工就能完成。而現代無線電通訊所需的複雜調製則涉及到許多交流電屬性的細微調整，如振幅、頻率和相位（而且往往同時調節的參數不止一個）。隨後，發射器將調製後的訊號傳遞給調諧過的共振天線。此舉能將震盪電流轉化為電磁波，並以無線的形式傳播。 </p>
-</blockquote>
-<blockquote>
-<p>調整訊號振幅 (即訊號強度)，使之與所要傳遞的訊號的變化相同步，而傳送訊息。例如，訊號強弱可用於描述話筒傳出的聲震動情況，或者用於確定電視熒幕上某個畫素的熒光情況。世界上首個聲訊電台採用的便是此種調製方式，而時至今日它仍被廣泛使用。”AM”目前常用於指中波廣播電台。 </p>
-</blockquote>
-<h2 id="天線"><a href="#天線" class="headerlink" title="天線"></a>天線</h2><blockquote>
-<p>天線可以將電流轉換為無線電波，也可以將無線電波轉換為電流。常配合發送器或接收器一起使用。在傳輸時，發送器會產生震盪的無線電頻率電流到天線上，而天線會產生電磁輻射。在接收時，天線會拮取電磁波的部份能量，產生微小的電壓，再透過接收器放大。天線可以用來傳送及接收的用途。 </p>
-</blockquote>
-<h2 id="傳播"><a href="#傳播" class="headerlink" title="傳播"></a>傳播</h2><blockquote>
-<p>電磁波產生後，可以在空間中直接傳播，但其路徑也可能被反射、折射及繞射等影響。電磁波的強度會因幾何距離而變小(平方反比定律)，有些情形下介質也會吸收能量。雜訊也會影響電磁波的訊號，電磁干擾的來源可能是自然的，也可是人造的(例如其他電磁波傳送器或是非蓄意輻射)。雜訊也可能因為設備本身的特性而產生，如果雜訊的強度太大，就無法分辨電磁波中的訊號及雜訊，這也是無線電通訊的基本限制。 </p>
-</blockquote>
-<h2 id="諧振"><a href="#諧振" class="headerlink" title="諧振"></a>諧振</h2><blockquote>
-<p>無線電中的諧振電路可以選擇接收特定頻率訊號。諧振電路可以針對特定頻率的訊號有較大的響應，對其他特定頻率訊號的響應會較小，因此無線電接收器可以區分不同頻率的訊號。<br>電磁波可以用調諧過的天線接收其他訊號。天線可以擷取一些電磁波的能量，變成電路中的諧振電流。接收器可以將電流解調，轉成可用的訊號。接收器一般也會調成調諧到可以接收特定頻段的訊號，拒絕其他頻段的訊號。</p>
-</blockquote>
-<h2 id="早期"><a href="#早期" class="headerlink" title="早期"></a>早期</h2><blockquote>
-<p>早期的無線電系統只靠天線拮取到的能量來產生訊號。後來發明了像真空管及電晶體等電子設備，可以將微弱的訊號放大，因此無線電就更為普及。無線電的應用包括無線對講機、兒童的玩具、到無人行星探測任務先鋒計劃的控制，也包括廣播及其他的應用。<br>無線電接收機從天線中接收訊號，利用電子濾波器從天線接收到的訊號中分離出想要的訊號，再利用放大器將訊號放大到適合後續處理的準位，最後將訊號轉換為使用者需要的形式，例如聲音、影像、數位資料、量測值及導航的位置等。 </p>
-</blockquote>
-<h2 id="廣播"><a href="#廣播" class="headerlink" title="廣播"></a>廣播</h2><blockquote>
-<p>聲音廣播的最早形式是航海無線電報。它採用開關控制連續波的發射與否，由此在接收機產生斷續的聲音訊號，即摩斯電碼。 </p>
-</blockquote>
-<h2 id="調整接收頻段"><a href="#調整接收頻段" class="headerlink" title="調整接收頻段"></a>調整接收頻段</h2><blockquote>
-<p>調幅廣播可以傳播音樂和聲音。調幅廣播採用振幅調變技術，即話筒處接受的音量越大則電台發射的能量也越大。 這樣的訊號容易受到諸如閃電或其他干擾源的干擾。<br>調頻廣播可以比調幅廣播更高的保真度傳播音樂和聲音。對頻率調製而言，話筒處接受的音量越大對應發射訊號的頻率越高。調頻廣播工作於甚高頻段(Very High Frequency, VHF)。頻段越高，其所擁有的頻率帶寬(頻帶寬度)也越大，因而可以容納更多的電台。同時，波長越短的無線電波的傳播也越接近於光波直線傳播的特性。 </p>
-</blockquote>
-<h2 id="雷達"><a href="#雷達" class="headerlink" title="雷達"></a>雷達</h2><blockquote>
-<p>雷達通過測量反射無線電波的延遲來推算目標的距離。並通過反射波的偏振和頻率感應目標的表面類型。 </p>
-</blockquote>
-<h2 id="導航類型"><a href="#導航類型" class="headerlink" title="導航類型"></a>導航類型</h2><blockquote>
-<p>導航雷達使用超短波掃描目標區域。一般掃描頻率為每分鐘兩到四次，通過反射波確定地形。這種技術通常應用在商船和長距離商用飛機上。<br>多用途雷達通常使用導航雷達的頻段。不過，其所發射的脈波經過調變和偏振化以便確定反射體的表面類型。優良的多用途雷達可以辨別暴雨、陸地、車輛等等。 </p>
-</blockquote>
-<h2 id="搜索偵查類型"><a href="#搜索偵查類型" class="headerlink" title="搜索偵查類型"></a>搜索偵查類型</h2><blockquote>
-<p>搜索雷達運用短波脈波掃描目標區域，通常每分鐘2－4次。有些搜索雷達應用都卜勒效應可以將移動物體同背景中區分開來 </p>
-</blockquote>
-<h2 id="氣象類型"><a href="#氣象類型" class="headerlink" title="氣象類型"></a>氣象類型</h2><blockquote>
-<p>氣象雷達與搜索雷達類似，但使用圓偏振波以及水滴易於反射的波長。風廓線雷達利用都卜勒效應測量風速，都卜勒雷達利用都卜勒效應檢測災害性天氣。 </p>
-</blockquote>
-<h2 id="資訊來源"><a href="#資訊來源" class="headerlink" title="資訊來源"></a>資訊來源</h2><p><a href="https://zh.wikipedia.org/wiki/File:Dipole_xmting_antenna_animation_4_408x318x150ms.gif">https://zh.wikipedia.org/wiki/File:Dipole_xmting_antenna_animation_4_408x318x150ms.gif</a> </p>
-<p><a href="https://zh.wikipedia.org/wiki/File:Amfm3-en-de.gif">https://zh.wikipedia.org/wiki/File:Amfm3-en-de.gif</a> </p>
-<p><a href="https://zh.wikipedia.org/wiki/File:Crystal_radio_receiver.PNG">https://zh.wikipedia.org/wiki/File:Crystal_radio_receiver.PNG</a> </p>
-<h2 id="圖片來源"><a href="#圖片來源" class="headerlink" title="圖片來源"></a>圖片來源</h2><p><a href="https://infolaw.iias.sinica.edu.tw/wp-content/uploads/2019/09/%E5%82%B3%E6%92%AD%E8%87%AA%E7%94%B1%E4%B9%8B%E6%86%B2%E6%B3%95%E4%BF%9D%E9%9A%9C%E8%88%87%E7%84%A1%E7%B7%9A%E9%9B%BB%E6%B3%A2%E9%A0%BB%E7%8E%87%E4%BD%BF%E7%94%A8%E4%B9%8B%E9%99%90%E5%88%B6%E2%94%80%E9%87%8B%E5%AD%97%E7%AC%AC%E5%85%AD%E4%B8%83%E5%85%AB%E8%99%9F%E8%A7%A3%E9%87%8B.jpg">https://infolaw.iias.sinica.edu.tw/wp-content/uploads/2019/09/%E5%82%B3%E6%92%AD%E8%87%AA%E7%94%B1%E4%B9%8B%E6%86%B2%E6%B3%95%E4%BF%9D%E9%9A%9C%E8%88%87%E7%84%A1%E7%B7%9A%E9%9B%BB%E6%B3%A2%E9%A0%BB%E7%8E%87%E4%BD%BF%E7%94%A8%E4%B9%8B%E9%99%90%E5%88%B6%E2%94%80%E9%87%8B%E5%AD%97%E7%AC%AC%E5%85%AD%E4%B8%83%E5%85%AB%E8%99%9F%E8%A7%A3%E9%87%8B.jpg</a></p>
-<p><strong>文章作者:TPEC小編三弦</strong></p>
-]]></content>
-      <categories>
-        <category>每週文章</category>
-      </categories>
-      <tags>
-        <tag>Electronic technology</tag>
-      </tags>
   </entry>
 </search>
