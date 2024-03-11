@@ -6,7 +6,7 @@
   <link href="https://larryeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://larryeng.github.io/"/>
-  <updated>2024-03-11T06:52:07.585Z</updated>
+  <updated>2024-03-11T07:07:31.321Z</updated>
   <id>https://larryeng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://larryeng.github.io/2024/03/11/%E5%93%88%E5%9B%89/"/>
     <id>https://larryeng.github.io/2024/03/11/%E5%93%88%E5%9B%89/</id>
     <published>2024-03-11T06:38:30.000Z</published>
-    <updated>2024-03-11T06:52:07.585Z</updated>
+    <updated>2024-03-11T07:07:31.321Z</updated>
     
     <content type="html"><![CDATA[<h2 id="a001-哈囉"><a href="https://zerojudge.tw/ShowProblem?problemid=a001">a001. 哈囉</a></h2><div class="note success no-icon flat"><p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world</p></div><h3 id="c-解法">C++解法</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="python解法">Python解法</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure><table><thead><tr><th>範例輸入</th><th style="text-align:left">範例輸出</th></tr></thead><tbody><tr><td>C++</td><td style="text-align:left">hello, C++</td></tr><tr><td>Taiwan</td><td style="text-align:left">hello, Taiwan</td></tr><tr><td>world</td><td style="text-align:left">hello, world</td></tr></tbody></table>]]></content>
     
@@ -37,9 +37,13 @@
     <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    
     <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
     
     <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    
+    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
     
   </entry>
   
@@ -140,7 +144,7 @@
     <link href="https://larryeng.github.io/2024/02/12/vscode%E5%AE%89%E8%A3%9Dc++%E6%8C%87%E5%8D%97/"/>
     <id>https://larryeng.github.io/2024/02/12/vscode%E5%AE%89%E8%A3%9Dc++%E6%8C%87%E5%8D%97/</id>
     <published>2024-02-12T10:08:49.192Z</published>
-    <updated>2024-02-14T17:36:47.729Z</updated>
+    <updated>2024-03-11T07:09:29.519Z</updated>
     
     <content type="html"><![CDATA[<h1>環境安裝</h1><h2 id="超好用vs套件">超好用VS套件</h2><ul><li><a href="https://youtu.be/pfgFU2JKnI8?si=BQYg3sr6bomqiad4">GitLens</a></li></ul><h2 id="c">c++</h2><p>1.<strong>去Google查詢Mingw</strong></p><ul><li><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z/download">Mingw下載連結</a></li></ul><p>2.<strong>下載VS code</strong></p><ul><li><p><a href="https://code.visualstudio.com/Download">VS code下載連結</a></p><ul><li><strong>方法</strong><br><strong>1.下載VS code</strong><br><img src="https://hackmd.io/_uploads/r16-Keovp.png" alt="image"></li></ul><p><img src="https://hackmd.io/_uploads/ByeE5xovp.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/S1VrqgsDa.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/HkP85ljv6.png" alt="image"></p><blockquote><p><strong>之後打開VScode，並照著只是安裝下面這幾個東西</strong></p></blockquote><p><img src="https://hackmd.io/_uploads/ByPwsloPp.png" alt="image"></p>  <div class="note warning flat"><p><strong>注意</strong> 安裝完中文套件後記得<strong>重啟VS code</strong>通常右下角會顯示</p></div><p><img src="https://hackmd.io/_uploads/BJbpigowT.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/SJPAolsDa.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/Hk413xoDa.png" alt="image"></p><p><strong>將Mingw加入系統路徑中</strong></p><p><strong>2.打開剛剛下載的Mingw(<strong>記得解壓縮</strong>通常應該有</strong>7-zip<strong>可以用如果沒有去載一個)</strong></p>  <div class="note danger flat"><p><strong>注意</strong> 此步驟<strong>極為重要</strong>攸關到能不能在VS code成功運行c++</p></div><blockquote><p><strong>將解壓縮中的Mingw64資料夾移至C槽program file裡，並打開Mingw64的資料夾找到bin並將路徑複製到Path(在下面3.有教學)</strong></p></blockquote><p><img src="https://hackmd.io/_uploads/r11rgfoPp.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/HJeaeGovT.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/BJEClzjwa.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/rygkWMsw6.png" alt="image"></p><p><strong>3.打開設定</strong></p><blockquote><p><strong>系統&gt;系統資訊&gt;進階系統設定</strong></p></blockquote><p><img src="https://hackmd.io/_uploads/r18PlZswT.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/H1tXbZjDT.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/HyXSWWoDT.png" alt="image"></p><p><img src="https://hackmd.io/_uploads/r1VI-GsP6.png" alt="image"></p><blockquote><p>在<strong>圖中2.的部分將路徑新增上去並按下確定</strong>，如圖下所示<br><img src="https://hackmd.io/_uploads/HyciZGjPp.png" alt="image"></p></blockquote><blockquote><p><strong>此時我們路徑就已建置完成，接下來就是檢查路徑</strong><br><strong>1.按Win+R叫出命令提示字元打出<br>gcc --version 會出現版本號，如圖</strong><br><img src="https://hackmd.io/_uploads/Byslczswa.png" alt="image"></p></blockquote></li></ul><h3 id="此時我們前置作業就差不多了這時候開啟vscode開始vs環境建立">此時我們前置作業就差不多了這時候開啟VScode開始VS環境建立</h3><blockquote><p><strong>安裝完第三點所述的Code Runner後，如圖打開擴充設定</strong></p></blockquote><p><img src="https://hackmd.io/_uploads/BkGMoMjvT.png" alt="image"></p><p><strong>往下滑找到這兩個選項將其打勾</strong></p><p><img src="https://hackmd.io/_uploads/Hk25ofsva.png" alt="image"></p><p><strong>之後到搜尋打c++照著剛才那樣打開擴充設定</strong></p><p><img src="https://hackmd.io/_uploads/HyOgg7sDp.png" alt="image"></p><p>點開</p><p><img src="https://hackmd.io/_uploads/HkyHxQjv6.png" alt="image"></p><p><strong>上面那個是要改執行路徑的，此時打開資料夾回到Mingw64的資料夾找到bin資料夾並點開來然後找到g++.exe然後複製路徑貼到我說要改執行路徑的地方</strong></p><div class="note warning flat"><p><strong>注意 複製的路徑跟VScode規定的格式不同請更改，如下所示</strong><br><strong>&quot;C:\Program Files\mingw64\bin\g++.exe&quot;</strong><br>改成 <strong>&quot;C:/Program Files/mingw64/bin/g++.exe&quot;</strong></p></div><p><img src="https://hackmd.io/_uploads/rJMOZ7jvT.png" alt="螢幕擷取畫面 2023-12-29 002442"></p><p><img src="https://hackmd.io/_uploads/SJtdbmsDT.png" alt="螢幕擷取畫面 2023-12-29 002452"></p><p><strong>之後回到c++擴充設定裡面找到&quot;C_Cpp › Default: Include Path&quot;接著按新增內容</strong></p><p><img src="https://hackmd.io/_uploads/BJRb7msPT.png" alt="螢幕擷取畫面 2023-12-29 002958"></p><p><strong>繼續回到Mingw64的資料夾找到lib資料夾並將其路徑複製下來一樣放到新增內容裡面如圖</strong></p><p><img src="https://hackmd.io/_uploads/rJOKXmjPT.png" alt="螢幕擷取畫面 2023-12-29 003325"></p><p><img src="https://hackmd.io/_uploads/BkTYXQjPa.png" alt="螢幕擷取畫面 2023-12-29 003336"></p><p><strong>最後最後回到c++擴充設定找到&quot;C_Cpp › Default: Intelli Sense Mode&quot;並將其設定成 windows-gcc-x64</strong></p><p><img src="https://hackmd.io/_uploads/Bkp2VQiPp.png" alt="螢幕擷取畫面 2023-12-29 003908"></p><p><strong>恭喜恭喜大功告成</strong></p><h3 id="測試">測試</h3><blockquote><p>[給你影片](<a href="https://drive.google.com/file/d/1qHxhkUMMbCozsfEC6W3akKaNO">https://drive.google.com/file/d/1qHxhkUMMbCozsfEC6W3akKaNO</a></p></blockquote><h2 id="c-visual-studio-完整ide版">c++ (visual studio 完整IDE版)</h2><h2 id="c">c</h2><div class="note warning flat"><p>編譯器已在C++安裝時順便設置好了</p></div><h3 id="學習資源">學習資源</h3><ul><li><a href="https://www.geeksforgeeks.org/decision-making-c-cpp/?ref=lbp">c語言</a></li><li>基本的位元運算符號：  <details class="toggle" ><summary class="toggle-button" style="">点击以打开</summary><div class="toggle-content"><p>AND（&amp;）運算符號：<br>表示為 &amp;。<br>這個運算符號將兩個二進位數的對應位進行 AND 運算。結果是當且僅當兩個位都是 1 時，結果位才是 1；否則為 0。<br>OR（|）運算符號：<br>表示為 |。<br>這個運算符號將兩個二進位數的對應位進行 OR 運算。結果是當且僅當至少一個位是 1 時，結果位才是 1；否則為 0。<br>XOR（^）運算符號：<br>表示為 ^。<br>這個運算符號將兩個二進位數的對應位進行 XOR（互斥或）運算。結果是當且僅當兩個位不相同時，結果位才是 1；否則為 0。<br>NOT（~）運算符號：<br>表示為 ~。<br>這個運算符號對一個二進位數進行 NOT（取反）運算。結果是將每個位的 0 變為 1，將每個位的 1 變為 0。<br>位元運算的應用：<br>位元運算常用於：<br>資料壓縮<br>運算效能優化<br>加密和解密<br>驗證和錯誤檢測<br>範例：<br>假設有以下二進位數：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">a</span> = <span class="number">1010</span></span><br><span class="line"><span class="selector-tag">b</span> = <span class="number">1100</span></span><br></pre></td></tr></table></figure><p>a &amp; b 的結果是 1000，因為只有第二位相同。<br>a | b 的結果是 1110，因為至少有一個位是 1。<br>a ^ b 的結果是 0110，因為只有第一位和第四位不同。<br>~a 的結果是 0101，因為每個位取反。<br>這些是基本的位元運算概念。在實際應用中，位元運算可以更複雜，但這些基本概念是進行進一步學習和了解的基礎。</p></div></details></li></ul>]]></content>
     
@@ -157,10 +161,12 @@
     
     
     
-    <category term="C++" scheme="https://larryeng.github.io/categories/C/"/>
+    <category term="環境配置" scheme="https://larryeng.github.io/categories/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
     
     <category term="環境配置" scheme="https://larryeng.github.io/tags/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
     
   </entry>
   
