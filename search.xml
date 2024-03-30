@@ -1,178 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/post/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<!-- <div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  stateDiagram-v2
-    [*] --&gt; 2&#x2F;10完成網站架設
-    2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
-    2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
-    2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
-  </pre></div> -->
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo>∑</mo><msup><mrow><mo fence="true">(</mo><mi>y</mi><mo>−</mo><mi>y</mi><mi>h</mi><mo fence="true">)</mo></mrow><mn>2</mn></msup><mo lspace="0em" rspace="0em">÷</mo><mrow><mo fence="true">(</mo><mi>l</mi><mi>e</mi><mi>n</mi><mrow><mo fence="true">(</mo><mi>y</mi><mo fence="true">)</mo></mrow><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">\sum \left (  y-yh \right )^{2}  {\div} \left ( len\left (  y \right )  \right ) 
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.6em;vertical-align:-0.55em;"></span><span class="mop op-symbol large-op" style="position:relative;top:0em;">∑</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mord mathnormal">h</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord">÷</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">e</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span></span></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<h1>歡迎來到本站</h1>
-<p>此站主要是分享</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>vscode安裝c++指南</title>
-    <url>/post/vscode%E5%AE%89%E8%A3%9Dc-%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<h1>環境安裝</h1>
-<h2 id="超好用vs套件">超好用VS套件</h2>
-<ul>
-<li><a href="https://youtu.be/pfgFU2JKnI8?si=BQYg3sr6bomqiad4">GitLens</a></li>
-</ul>
-<h2 id="c">c++</h2>
-<p>1.<strong>去Google查詢Mingw</strong></p>
-<ul>
-<li><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z/download">Mingw下載連結</a></li>
-</ul>
-<p>2.<strong>下載VS code</strong></p>
-<ul>
-<li>
-<p><a href="https://code.visualstudio.com/Download">VS code下載連結</a></p>
-<ul>
-<li><strong>方法</strong><br>
-<strong>1.下載VS code</strong><br>
-<img src="https://hackmd.io/_uploads/r16-Keovp.png" alt="image"></li>
-</ul>
-<p><img src="https://hackmd.io/_uploads/ByeE5xovp.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/S1VrqgsDa.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/HkP85ljv6.png" alt="image"></p>
+    <title>Quantum computer</title>
+    <url>/post/quantum-computer/</url>
+    <content><![CDATA[<h2 id="what-is-quantum-computing">What is quantum computing?</h2>
 <blockquote>
-<p><strong>之後打開VScode，並照著只是安裝下面這幾個東西</strong></p>
+<p>Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>
+IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>
+All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>
 </blockquote>
-<p><img src="https://hackmd.io/_uploads/ByPwsloPp.png" alt="image"></p>
-  <div class="note warning flat"><p><strong>注意</strong> 安裝完中文套件後記得<strong>重啟VS code</strong>通常右下角會顯示</p>
+<h2 id="why-do-we-need-quantum-computers">Why do we need quantum computers?</h2>
+<blockquote>
+<p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>
+If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>
+Complex problems are problems with lots of variables interacting in complicated ways. Modeling the behavior of individual atoms in a molecule is a complex problem, because of all the different electrons interacting with one another. Identifying subtle patterns of fraud in financial transactions or new physics in a supercollider are also complex problems. There are some complex problems that we do not know how to solve with classical computers at any scale.<br>
+The real world runs on quantum physics. Computers that make calculations using the quantum states of quantum bits should in many situations be our best tools for understanding it.</p>
+</blockquote>
+<div class="note primary no-icon flat"><p>Using word:</p>
 </div>
-<p><img src="https://hackmd.io/_uploads/BJbpigowT.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/SJPAolsDa.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/Hk413xoDa.png" alt="image"></p>
-<p><strong>將Mingw加入系統路徑中</strong></p>
-<p><strong>2.打開剛剛下載的Mingw(<strong>記得解壓縮</strong>通常應該有</strong>7-zip<strong>可以用如果沒有去載一個)</strong></p>
-  <div class="note danger flat"><p><strong>注意</strong> 此步驟<strong>極為重要</strong>攸關到能不能在VS code成功運行c++</p>
-</div>
-<blockquote>
-<p><strong>將解壓縮中的Mingw64資料夾移至C槽program file裡，並打開Mingw64的資料夾找到bin並將路徑複製到Path(在下面3.有教學)</strong></p>
-</blockquote>
-<p><img src="https://hackmd.io/_uploads/r11rgfoPp.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/HJeaeGovT.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/BJEClzjwa.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/rygkWMsw6.png" alt="image"></p>
-<p><strong>3.打開設定</strong></p>
-<blockquote>
-<p><strong>系統&gt;系統資訊&gt;進階系統設定</strong></p>
-</blockquote>
-<p><img src="https://hackmd.io/_uploads/r18PlZswT.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/H1tXbZjDT.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/HyXSWWoDT.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/r1VI-GsP6.png" alt="image"></p>
-<blockquote>
-<p>在<strong>圖中2.的部分將路徑新增上去並按下確定</strong>，如圖下所示<br>
-<img src="https://hackmd.io/_uploads/HyciZGjPp.png" alt="image"></p>
-</blockquote>
-<blockquote>
-<p><strong>此時我們路徑就已建置完成，接下來就是檢查路徑</strong><br>
-<strong>1.按Win+R叫出命令提示字元打出<br>
-gcc --version 會出現版本號，如圖</strong><br>
-<img src="https://hackmd.io/_uploads/Byslczswa.png" alt="image"></p>
-</blockquote>
-</li>
-</ul>
-<h3 id="此時我們前置作業就差不多了這時候開啟vscode開始vs環境建立">此時我們前置作業就差不多了這時候開啟VScode開始VS環境建立</h3>
-<blockquote>
-<p><strong>安裝完第三點所述的Code Runner後，如圖打開擴充設定</strong></p>
-</blockquote>
-<p><img src="https://hackmd.io/_uploads/BkGMoMjvT.png" alt="image"></p>
-<p><strong>往下滑找到這兩個選項將其打勾</strong></p>
-<p><img src="https://hackmd.io/_uploads/Hk25ofsva.png" alt="image"></p>
-<p><strong>之後到搜尋打c++照著剛才那樣打開擴充設定</strong></p>
-<p><img src="https://hackmd.io/_uploads/HyOgg7sDp.png" alt="image"></p>
-<p>點開</p>
-<p><img src="https://hackmd.io/_uploads/HkyHxQjv6.png" alt="image"></p>
-<p><strong>上面那個是要改執行路徑的，此時打開資料夾回到Mingw64的資料夾找到bin資料夾並點開來然後找到g++.exe然後複製路徑貼到我說要改執行路徑的地方</strong></p>
-<div class="note warning flat"><p><strong>注意 複製的路徑跟VScode規定的格式不同請更改，如下所示</strong><br>
-<strong>&quot;C:\Program Files\mingw64\bin\g++.exe&quot;</strong><br>
-改成 <strong>&quot;C:/Program Files/mingw64/bin/g++.exe&quot;</strong></p>
-</div>
-<p><img src="https://hackmd.io/_uploads/rJMOZ7jvT.png" alt="螢幕擷取畫面 2023-12-29 002442"></p>
-<p><img src="https://hackmd.io/_uploads/SJtdbmsDT.png" alt="螢幕擷取畫面 2023-12-29 002452"></p>
-<p><strong>之後回到c++擴充設定裡面找到&quot;C_Cpp › Default: Include Path&quot;接著按新增內容</strong></p>
-<p><img src="https://hackmd.io/_uploads/BJRb7msPT.png" alt="螢幕擷取畫面 2023-12-29 002958"></p>
-<p><strong>繼續回到Mingw64的資料夾找到lib資料夾並將其路徑複製下來一樣放到新增內容裡面如圖</strong></p>
-<p><img src="https://hackmd.io/_uploads/rJOKXmjPT.png" alt="螢幕擷取畫面 2023-12-29 003325"></p>
-<p><img src="https://hackmd.io/_uploads/BkTYXQjPa.png" alt="螢幕擷取畫面 2023-12-29 003336"></p>
-<p><strong>最後最後回到c++擴充設定找到&quot;C_Cpp › Default: Intelli Sense Mode&quot;並將其設定成 windows-gcc-x64</strong></p>
-<p><img src="https://hackmd.io/_uploads/Bkp2VQiPp.png" alt="螢幕擷取畫面 2023-12-29 003908"></p>
-<p><strong>恭喜恭喜大功告成</strong></p>
-<h3 id="測試">測試</h3>
-<blockquote>
-<p>[給你影片](<a href="https://drive.google.com/file/d/1qHxhkUMMbCozsfEC6W3akKaNO">https://drive.google.com/file/d/1qHxhkUMMbCozsfEC6W3akKaNO</a></p>
-</blockquote>
-<h2 id="c-visual-studio-完整ide版">c++ (visual studio 完整IDE版)</h2>
-<h2 id="c">c</h2>
-<div class="note warning flat"><p>編譯器已在C++安裝時順便設置好了</p>
-</div>
-<h3 id="學習資源">學習資源</h3>
-<ul>
-<li><a href="https://www.geeksforgeeks.org/decision-making-c-cpp/?ref=lbp">c語言</a></li>
-<li>基本的位元運算符號：  <details class="toggle" ><summary class="toggle-button" style="">点击以打开</summary><div class="toggle-content"><p>AND（&amp;）運算符號：<br>
-表示為 &amp;。<br>
-這個運算符號將兩個二進位數的對應位進行 AND 運算。結果是當且僅當兩個位都是 1 時，結果位才是 1；否則為 0。<br>
-OR（|）運算符號：<br>
-表示為 |。<br>
-這個運算符號將兩個二進位數的對應位進行 OR 運算。結果是當且僅當至少一個位是 1 時，結果位才是 1；否則為 0。<br>
-XOR（^）運算符號：<br>
-表示為 ^。<br>
-這個運算符號將兩個二進位數的對應位進行 XOR（互斥或）運算。結果是當且僅當兩個位不相同時，結果位才是 1；否則為 0。<br>
-NOT（~）運算符號：<br>
-表示為 ~。<br>
-這個運算符號對一個二進位數進行 NOT（取反）運算。結果是將每個位的 0 變為 1，將每個位的 1 變為 0。<br>
-位元運算的應用：<br>
-位元運算常用於：<br>
-資料壓縮<br>
-運算效能優化<br>
-加密和解密<br>
-驗證和錯誤檢測<br>
-範例：<br>
-假設有以下二進位數：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">a</span> = <span class="number">1010</span></span><br><span class="line"><span class="selector-tag">b</span> = <span class="number">1100</span></span><br></pre></td></tr></table></figure>
-<p>a &amp; b 的結果是 1000，因為只有第二位相同。<br>
-a | b 的結果是 1110，因為至少有一個位是 1。<br>
-a ^ b 的結果是 0110，因為只有第一位和第四位不同。<br>
-~a 的結果是 0101，因為每個位取反。<br>
-這些是基本的位元運算概念。在實際應用中，位元運算可以更複雜，但這些基本概念是進行進一步學習和了解的基礎。</p>
+<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Quantum computing(n.) =&gt;量子計算<br>
+Computing(V.) =&gt;計算<br>
+Computer(n.) =&gt;電腦<br>
+Revolutionary(a.) =&gt;革命性的<br>
+Classical(a.) =&gt;古典的、傳統的<br>
+basic unit(n.) =&gt;基本單位<br>
+qubits(n.) =&gt;量子位元<br>
+exist(v.) =&gt;存在<br>
+multiple(a.) =&gt;多個<br>
+phenomenon(n.) =&gt;跡象<br>
+superposition(N.) =&gt;重合、重疊、疊加<br>
+parallel(N.) =&gt;並行</p>
 </div></details>
-</li>
-</ul>
-]]></content>
+<div class="note primary no-icon flat"><p>Using phrase[/frez/]</p>
+</div>
+<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Field of =&gt;~的領域<br>
+principles of =&gt; ~的原理</p>
+</div></details>]]></content>
       <categories>
-        <category>環境配置</category>
+        <category>每週文章</category>
       </categories>
       <tags>
-        <tag>環境配置</tag>
-        <tag>C++</tag>
+        <tag>Electronic technology</tag>
       </tags>
   </entry>
   <entry>
@@ -214,54 +82,39 @@ a ^ b 的結果是 0110，因為只有第一位和第四位不同。<br>
         <category>zerojudge題解</category>
       </categories>
       <tags>
-        <tag>C++</tag>
         <tag>zerojudge</tag>
         <tag>題解</tag>
+        <tag>C++</tag>
         <tag>python</tag>
       </tags>
   </entry>
   <entry>
-    <title>Quantum computer</title>
-    <url>/post/quantum-computer/</url>
-    <content><![CDATA[<h2 id="What-is-quantum-computing">What is quantum computing?</h2>
-<blockquote>
-<p>Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>
-IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>
-All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>
-</blockquote>
-<h2 id="Why-do-we-need-quantum-computers">Why do we need quantum computers?</h2>
-<blockquote>
-<p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>
-If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>
-Complex problems are problems with lots of variables interacting in complicated ways. Modeling the behavior of individual atoms in a molecule is a complex problem, because of all the different electrons interacting with one another. Identifying subtle patterns of fraud in financial transactions or new physics in a supercollider are also complex problems. There are some complex problems that we do not know how to solve with classical computers at any scale.<br>
-The real world runs on quantum physics. Computers that make calculations using the quantum states of quantum bits should in many situations be our best tools for understanding it.</p>
-</blockquote>
-<div class="note primary no-icon flat"><p>Using word:</p>
-</div>
-<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Quantum computing(n.) =&gt;量子計算<br>
-Computing(V.) =&gt;計算<br>
-Computer(n.) =&gt;電腦<br>
-Revolutionary(a.) =&gt;革命性的<br>
-Classical(a.) =&gt;古典的、傳統的<br>
-basic unit(n.) =&gt;基本單位<br>
-qubits(n.) =&gt;量子位元<br>
-exist(v.) =&gt;存在<br>
-multiple(a.) =&gt;多個<br>
-phenomenon(n.) =&gt;跡象<br>
-superposition(N.) =&gt;重合、重疊、疊加<br>
-parallel(N.) =&gt;並行</p>
-</div></details>
-<div class="note primary no-icon flat"><p>Using phrase[/frez/]</p>
-</div>
-<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Field of =&gt;~的領域<br>
-principles of =&gt; ~的原理</p>
-</div></details>]]></content>
-      <categories>
-        <category>每週文章</category>
-      </categories>
-      <tags>
-        <tag>Electronic technology</tag>
-      </tags>
+    <title>Hello World</title>
+    <url>/post/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<!-- <div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  stateDiagram-v2
+    [*] --&gt; 2&#x2F;10完成網站架設
+    2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
+    2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
+    2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
+  </pre></div> -->
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo>∑</mo><msup><mrow><mo fence="true">(</mo><mi>y</mi><mo>−</mo><mi>y</mi><mi>h</mi><mo fence="true">)</mo></mrow><mn>2</mn></msup><mo lspace="0em" rspace="0em">÷</mo><mrow><mo fence="true">(</mo><mi>l</mi><mi>e</mi><mi>n</mi><mrow><mo fence="true">(</mo><mi>y</mi><mo fence="true">)</mo></mrow><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">\sum \left (  y-yh \right )^{2}  {\div} \left ( len\left (  y \right )  \right ) 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.6em;vertical-align:-0.55em;"></span><span class="mop op-symbol large-op" style="position:relative;top:0em;">∑</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mord mathnormal">h</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord">÷</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">e</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span></span></p>
+]]></content>
   </entry>
   <entry>
     <title>電腦科學之父_艾倫·圖靈</title>
@@ -400,5 +253,161 @@ principles of =&gt; ~的原理</p>
       <tags>
         <tag>Electronic technology</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>vscode安裝c++指南</title>
+    <url>/post/vscode%E5%AE%89%E8%A3%9Dc-%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<h1>環境安裝</h1>
+<h2 id="超好用vs套件">超好用VS套件</h2>
+<ul>
+<li><a href="https://youtu.be/pfgFU2JKnI8?si=BQYg3sr6bomqiad4">GitLens</a></li>
+</ul>
+<h2 id="c">c++</h2>
+<p>1.<strong>去Google查詢Mingw</strong></p>
+<ul>
+<li><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z/download">Mingw下載連結</a></li>
+</ul>
+<p>2.<strong>下載VS code</strong></p>
+<ul>
+<li>
+<p><a href="https://code.visualstudio.com/Download">VS code下載連結</a></p>
+<ul>
+<li><strong>方法</strong><br>
+<strong>1.下載VS code</strong><br>
+<img src="https://hackmd.io/_uploads/r16-Keovp.png" alt="image"></li>
+</ul>
+<p><img src="https://hackmd.io/_uploads/ByeE5xovp.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/S1VrqgsDa.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/HkP85ljv6.png" alt="image"></p>
+<blockquote>
+<p><strong>之後打開VScode，並照著只是安裝下面這幾個東西</strong></p>
+</blockquote>
+<p><img src="https://hackmd.io/_uploads/ByPwsloPp.png" alt="image"></p>
+  <div class="note warning flat"><p><strong>注意</strong> 安裝完中文套件後記得<strong>重啟VS code</strong>通常右下角會顯示</p>
+</div>
+<p><img src="https://hackmd.io/_uploads/BJbpigowT.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/SJPAolsDa.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/Hk413xoDa.png" alt="image"></p>
+<p><strong>將Mingw加入系統路徑中</strong></p>
+<p><strong>2.打開剛剛下載的Mingw(<strong>記得解壓縮</strong>通常應該有</strong>7-zip<strong>可以用如果沒有去載一個)</strong></p>
+  <div class="note danger flat"><p><strong>注意</strong> 此步驟<strong>極為重要</strong>攸關到能不能在VS code成功運行c++</p>
+</div>
+<blockquote>
+<p><strong>將解壓縮中的Mingw64資料夾移至C槽program file裡，並打開Mingw64的資料夾找到bin並將路徑複製到Path(在下面3.有教學)</strong></p>
+</blockquote>
+<p><img src="https://hackmd.io/_uploads/r11rgfoPp.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/HJeaeGovT.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/BJEClzjwa.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/rygkWMsw6.png" alt="image"></p>
+<p><strong>3.打開設定</strong></p>
+<blockquote>
+<p><strong>系統&gt;系統資訊&gt;進階系統設定</strong></p>
+</blockquote>
+<p><img src="https://hackmd.io/_uploads/r18PlZswT.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/H1tXbZjDT.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/HyXSWWoDT.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/r1VI-GsP6.png" alt="image"></p>
+<blockquote>
+<p>在<strong>圖中2.的部分將路徑新增上去並按下確定</strong>，如圖下所示<br>
+<img src="https://hackmd.io/_uploads/HyciZGjPp.png" alt="image"></p>
+</blockquote>
+<blockquote>
+<p><strong>此時我們路徑就已建置完成，接下來就是檢查路徑</strong><br>
+<strong>1.按Win+R叫出命令提示字元打出<br>
+gcc --version 會出現版本號，如圖</strong><br>
+<img src="https://hackmd.io/_uploads/Byslczswa.png" alt="image"></p>
+</blockquote>
+</li>
+</ul>
+<h3 id="此時我們前置作業就差不多了這時候開啟vscode開始vs環境建立">此時我們前置作業就差不多了這時候開啟VScode開始VS環境建立</h3>
+<blockquote>
+<p><strong>安裝完第三點所述的Code Runner後，如圖打開擴充設定</strong></p>
+</blockquote>
+<p><img src="https://hackmd.io/_uploads/BkGMoMjvT.png" alt="image"></p>
+<p><strong>往下滑找到這兩個選項將其打勾</strong></p>
+<p><img src="https://hackmd.io/_uploads/Hk25ofsva.png" alt="image"></p>
+<p><strong>之後到搜尋打c++照著剛才那樣打開擴充設定</strong></p>
+<p><img src="https://hackmd.io/_uploads/HyOgg7sDp.png" alt="image"></p>
+<p>點開</p>
+<p><img src="https://hackmd.io/_uploads/HkyHxQjv6.png" alt="image"></p>
+<p><strong>上面那個是要改執行路徑的，此時打開資料夾回到Mingw64的資料夾找到bin資料夾並點開來然後找到g++.exe然後複製路徑貼到我說要改執行路徑的地方</strong></p>
+<div class="note warning flat"><p><strong>注意 複製的路徑跟VScode規定的格式不同請更改，如下所示</strong><br>
+<strong>&quot;C:\Program Files\mingw64\bin\g++.exe&quot;</strong><br>
+改成 <strong>&quot;C:/Program Files/mingw64/bin/g++.exe&quot;</strong></p>
+</div>
+<p><img src="https://hackmd.io/_uploads/rJMOZ7jvT.png" alt="螢幕擷取畫面 2023-12-29 002442"></p>
+<p><img src="https://hackmd.io/_uploads/SJtdbmsDT.png" alt="螢幕擷取畫面 2023-12-29 002452"></p>
+<p><strong>之後回到c++擴充設定裡面找到&quot;C_Cpp › Default: Include Path&quot;接著按新增內容</strong></p>
+<p><img src="https://hackmd.io/_uploads/BJRb7msPT.png" alt="螢幕擷取畫面 2023-12-29 002958"></p>
+<p><strong>繼續回到Mingw64的資料夾找到lib資料夾並將其路徑複製下來一樣放到新增內容裡面如圖</strong></p>
+<p><img src="https://hackmd.io/_uploads/rJOKXmjPT.png" alt="螢幕擷取畫面 2023-12-29 003325"></p>
+<p><img src="https://hackmd.io/_uploads/BkTYXQjPa.png" alt="螢幕擷取畫面 2023-12-29 003336"></p>
+<p><strong>最後最後回到c++擴充設定找到&quot;C_Cpp › Default: Intelli Sense Mode&quot;並將其設定成 windows-gcc-x64</strong></p>
+<p><img src="https://hackmd.io/_uploads/Bkp2VQiPp.png" alt="螢幕擷取畫面 2023-12-29 003908"></p>
+<p><strong>恭喜恭喜大功告成</strong></p>
+<h3 id="測試">測試</h3>
+<blockquote>
+<p>[給你影片](<a href="https://drive.google.com/file/d/1qHxhkUMMbCozsfEC6W3akKaNO">https://drive.google.com/file/d/1qHxhkUMMbCozsfEC6W3akKaNO</a></p>
+</blockquote>
+<h2 id="c-visual-studio-完整ide版">c++ (visual studio 完整IDE版)</h2>
+<h2 id="c">c</h2>
+<div class="note warning flat"><p>編譯器已在C++安裝時順便設置好了</p>
+</div>
+<h3 id="學習資源">學習資源</h3>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/decision-making-c-cpp/?ref=lbp">c語言</a></li>
+<li>基本的位元運算符號：  <details class="toggle" ><summary class="toggle-button" style="">点击以打开</summary><div class="toggle-content"><p>AND（&amp;）運算符號：<br>
+表示為 &amp;。<br>
+這個運算符號將兩個二進位數的對應位進行 AND 運算。結果是當且僅當兩個位都是 1 時，結果位才是 1；否則為 0。<br>
+OR（|）運算符號：<br>
+表示為 |。<br>
+這個運算符號將兩個二進位數的對應位進行 OR 運算。結果是當且僅當至少一個位是 1 時，結果位才是 1；否則為 0。<br>
+XOR（^）運算符號：<br>
+表示為 ^。<br>
+這個運算符號將兩個二進位數的對應位進行 XOR（互斥或）運算。結果是當且僅當兩個位不相同時，結果位才是 1；否則為 0。<br>
+NOT（~）運算符號：<br>
+表示為 ~。<br>
+這個運算符號對一個二進位數進行 NOT（取反）運算。結果是將每個位的 0 變為 1，將每個位的 1 變為 0。<br>
+位元運算的應用：<br>
+位元運算常用於：<br>
+資料壓縮<br>
+運算效能優化<br>
+加密和解密<br>
+驗證和錯誤檢測<br>
+範例：<br>
+假設有以下二進位數：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">a</span> = <span class="number">1010</span></span><br><span class="line"><span class="selector-tag">b</span> = <span class="number">1100</span></span><br></pre></td></tr></table></figure>
+<p>a &amp; b 的結果是 1000，因為只有第二位相同。<br>
+a | b 的結果是 1110，因為至少有一個位是 1。<br>
+a ^ b 的結果是 0110，因為只有第一位和第四位不同。<br>
+~a 的結果是 0101，因為每個位取反。<br>
+這些是基本的位元運算概念。在實際應用中，位元運算可以更複雜，但這些基本概念是進行進一步學習和了解的基礎。</p>
+</div></details>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>環境配置</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>環境配置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1>歡迎來到本站</h1>
+<div class="note info simple"><h2 id="此站主要是分享">此站主要是分享</h2>
+<ul>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a href="https://discord.gg/TjEyXARQ">傳送門</a>)</li>
+</ul>
+</div>]]></content>
   </entry>
 </search>
