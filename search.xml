@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/post/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<!-- <div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  stateDiagram-v2
-    [*] --&gt; 2&#x2F;10完成網站架設
-    2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
-    2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
-    2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
-  </pre></div> -->
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo>∑</mo><msup><mrow><mo fence="true">(</mo><mi>y</mi><mo>−</mo><mi>y</mi><mi>h</mi><mo fence="true">)</mo></mrow><mn>2</mn></msup><mo lspace="0em" rspace="0em">÷</mo><mrow><mo fence="true">(</mo><mi>l</mi><mi>e</mi><mi>n</mi><mrow><mo fence="true">(</mo><mi>y</mi><mo fence="true">)</mo></mrow><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">\sum \left (  y-yh \right )^{2}  {\div} \left ( len\left (  y \right )  \right ) 
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.6em;vertical-align:-0.55em;"></span><span class="mop op-symbol large-op" style="position:relative;top:0em;">∑</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mord mathnormal">h</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord">÷</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">e</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span></span></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Quantum computer</title>
     <url>/post/quantum-computer/</url>
     <content><![CDATA[<h2 id="what-is-quantum-computing">What is quantum computing?</h2>
@@ -70,6 +42,34 @@ principles of =&gt; ~的原理</p>
       <tags>
         <tag>Electronic technology</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/post/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<!-- <div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  stateDiagram-v2
+    [*] --&gt; 2&#x2F;10完成網站架設
+    2&#x2F;10完成網站架設 --&gt; 2&#x2F;11 加入留言板、背景圖等等
+    2&#x2F;11 加入留言板、背景圖等等 --&gt; 2&#x2F;12加入星空背景以及一些圖片等等
+    2&#x2F;12加入星空背景以及一些圖片等等 --&gt; [*]
+  </pre></div> -->
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo>∑</mo><msup><mrow><mo fence="true">(</mo><mi>y</mi><mo>−</mo><mi>y</mi><mi>h</mi><mo fence="true">)</mo></mrow><mn>2</mn></msup><mo lspace="0em" rspace="0em">÷</mo><mrow><mo fence="true">(</mo><mi>l</mi><mi>e</mi><mi>n</mi><mrow><mo fence="true">(</mo><mi>y</mi><mo fence="true">)</mo></mrow><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">\sum \left (  y-yh \right )^{2}  {\div} \left ( len\left (  y \right )  \right ) 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.6em;vertical-align:-0.55em;"></span><span class="mop op-symbol large-op" style="position:relative;top:0em;">∑</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mord mathnormal">h</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord">÷</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">e</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span></span></p>
+]]></content>
   </entry>
   <entry>
     <title>【題解】a001. 哈囉</title>
@@ -115,23 +115,6 @@ principles of =&gt; ~的原理</p>
         <tag>C++</tag>
         <tag>python</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<h1>歡迎來到我夢想的起點</h1>
-<h2 id="此站主要是分享">此站主要是分享</h2>
-<ul>
-<li>吉他學習紀錄</li>
-<li>實用讀書小技巧</li>
-<li>一些基本軟體配置技巧(親測有效🥳)</li>
-<li>個人生涯學習紀錄</li>
-<li>程式語言學習</li>
-<li>程式小技巧分享</li>
-<li>軟體配置分享</li>
-<li>以及我新開設的學習互助社群TPEC (<a href="https://discord.gg/TjEyXARQ">傳送門</a>)</li>
-</ul>
-]]></content>
   </entry>
   <entry>
     <title>無線電原理</title>
@@ -230,6 +213,23 @@ principles of =&gt; ~的原理</p>
       <tags>
         <tag>Electronic technology</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1>歡迎來到我夢想的起點</h1>
+<h2 id="此站主要是分享">此站主要是分享</h2>
+<ul>
+<li>吉他學習紀錄</li>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a href="https://discord.gg/TjEyXARQ">傳送門</a>)</li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>電腦科學之父_艾倫·圖靈</title>
@@ -372,46 +372,6 @@ principles of =&gt; ~的原理</p>
       </tags>
   </entry>
   <entry>
-    <title>【題解】a003, 兩光法師占卜術</title>
-    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
-    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="https://zerojudge.tw/ShowProblem?problemid=a003">a003, 兩光法師占卜術</a></h2>
-<div class="note success no-icon flat"><p><strong>題解:</strong><br>
-此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
-</div>
-<h3 id="c-解法">C++解法</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="python解法">Python解法</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th style="text-align:left">範例輸出</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 1</td>
-<td style="text-align:left">普通</td>
-</tr>
-<tr>
-<td>1 2</td>
-<td style="text-align:left">吉</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【題解】a002. 簡易加法</title>
     <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
     <content><![CDATA[<h2 id="a002-簡易加法"><a href="(https://zerojudge.tw/ShowProblem?problemid=a002)">a002. 簡易加法</a></h2>
@@ -437,6 +397,46 @@ principles of =&gt; ~的原理</p>
 <tr>
 <td>5 10</td>
 <td style="text-align:left">15</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a003, 兩光法師占卜術</title>
+    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
+    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="https://zerojudge.tw/ShowProblem?problemid=a003">a003, 兩光法師占卜術</a></h2>
+<div class="note success no-icon flat"><p><strong>題解:</strong><br>
+此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
+</div>
+<h3 id="c-解法">C++解法</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="python解法">Python解法</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th style="text-align:left">範例輸出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 1</td>
+<td style="text-align:left">普通</td>
+</tr>
+<tr>
+<td>1 2</td>
+<td style="text-align:left">吉</td>
 </tr>
 </tbody>
 </table>
