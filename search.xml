@@ -18,6 +18,62 @@
 ]]></content>
   </entry>
   <entry>
+    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
+    <url>/post/Numbers/</url>
+    <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers</a></h2>
+<div class="note success no-icon flat"><p><strong>題解:</strong><br>
+🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>
+這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>
+題目所給予的n是同一列有多少個奇數，此時奇數有一種特性就是當使用(n+1)/2時可以表示這些奇數是在第幾列。</p>
+<blockquote>
+<p>ex:我設定n=3 則使用(n+1)/2得知這三個奇數位在第二列。之後我們可以觀察期規律如下<br>
+N = 3 時，在第 2 列，此時已經寫了 4 個奇數，且第 4 個奇數為 7 ( 此數亦為該列最後一個數字 )<br>
+N = 5 時，在第 3 列，此時已經寫了 9 個奇數，且第 9 個奇數為 17<br>
+N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數為 31</p>
+</blockquote>
+<p>所以我們可以使用 ( ( N+1 ) / 2 ) ^2 來表示到了地(n+1)/2列時總共有多少個奇數。再來我們需要算出此列末三項的總和所以我們可以在觀察到其實總和奇數-1就是末項，之後再減二可以得到等差中項此時*3就是末三項的總和了。</p>
+</div>
+<ul>
+<li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
+</ul>
+<h3 id="C-解法">C++解法</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    &#123;</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Python解法">Python解法</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">&quot;EOF&quot;</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th style="text-align:left">範例輸出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td style="text-align:left">15</td>
+</tr>
+<tr>
+<td>5</td>
+<td style="text-align:left">45</td>
+</tr>
+<tr>
+<td>7</td>
+<td style="text-align:left">87</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【題解】a006. 一元二次方程式</title>
     <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
     <content><![CDATA[<h2 id="a006-一元二次方程式"><a href="https://zerojudge.tw/ShowProblem?problemid=a006">a006. 一元二次方程式</a></h2>
