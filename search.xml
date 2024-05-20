@@ -1,300 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<h1>歡迎來到我夢想的起點</h1>
-<h2 id="此站主要是分享">此站主要是分享</h2>
-<ul>
-<li>吉他學習紀錄</li>
-<li>實用讀書小技巧</li>
-<li>一些基本軟體配置技巧(親測有效🥳)</li>
-<li>個人生涯學習紀錄</li>
-<li>程式語言學習</li>
-<li>程式小技巧分享</li>
-<li>軟體配置分享</li>
-<li>以及我新開設的學習互助社群TPEC (<a href="https://discord.gg/TjEyXARQ">傳送門</a>)</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
-    <url>/post/Numbers/</url>
-    <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers</a></h2>
-<div class="note success no-icon flat"><p><strong>題解:</strong><br>
-🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>
-這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>
-題目所給予的n是同一列有多少個奇數，此時奇數有一種特性就是當使用(n+1)/2時可以表示這些奇數是在第幾列。</p>
+    <title>Quantum computer</title>
+    <url>/post/quantum-computer/</url>
+    <content><![CDATA[<h2 id="what-is-quantum-computing">What is quantum computing?</h2>
 <blockquote>
-<p>ex:我設定n=3 則使用(n+1)/2得知這三個奇數位在第二列。之後我們可以觀察期規律如下<br>
-N = 3 時，在第 2 列，此時已經寫了 4 個奇數，且第 4 個奇數為 7 ( 此數亦為該列最後一個數字 )<br>
-N = 5 時，在第 3 列，此時已經寫了 9 個奇數，且第 9 個奇數為 17<br>
-N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數為 31</p>
+<p>Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>
+IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>
+All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>
 </blockquote>
-<p>所以我們可以使用 ( ( N+1 ) / 2 ) ^2 來表示到了地(n+1)/2列時總共有多少個奇數。再來我們需要算出此列末三項的總和所以我們可以在觀察到其實總和奇數-1就是末項，之後再減二可以得到等差中項此時*3就是末三項的總和了。</p>
+<h2 id="why-do-we-need-quantum-computers">Why do we need quantum computers?</h2>
+<blockquote>
+<p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>
+If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>
+Complex problems are problems with lots of variables interacting in complicated ways. Modeling the behavior of individual atoms in a molecule is a complex problem, because of all the different electrons interacting with one another. Identifying subtle patterns of fraud in financial transactions or new physics in a supercollider are also complex problems. There are some complex problems that we do not know how to solve with classical computers at any scale.<br>
+The real world runs on quantum physics. Computers that make calculations using the quantum states of quantum bits should in many situations be our best tools for understanding it.</p>
+</blockquote>
+<div class="note primary no-icon flat"><p>Using word:</p>
 </div>
-<ul>
-<li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
-</ul>
-<h3 id="C-解法">C++解法</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    &#123;</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Python解法">Python解法</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">&quot;EOF&quot;</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th style="text-align:left">範例輸出</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td style="text-align:left">15</td>
-</tr>
-<tr>
-<td>5</td>
-<td style="text-align:left">45</td>
-</tr>
-<tr>
-<td>7</td>
-<td style="text-align:left">87</td>
-</tr>
-</tbody>
-</table>
-]]></content>
+<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Quantum computing(n.) =&gt;量子計算<br>
+Computing(V.) =&gt;計算<br>
+Computer(n.) =&gt;電腦<br>
+Revolutionary(a.) =&gt;革命性的<br>
+Classical(a.) =&gt;古典的、傳統的<br>
+basic unit(n.) =&gt;基本單位<br>
+qubits(n.) =&gt;量子位元<br>
+exist(v.) =&gt;存在<br>
+multiple(a.) =&gt;多個<br>
+phenomenon(n.) =&gt;跡象<br>
+superposition(N.) =&gt;重合、重疊、疊加<br>
+parallel(N.) =&gt;並行</p>
+</div></details>
+<div class="note primary no-icon flat"><p>Using phrase[/frez/]</p>
+</div>
+<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Field of =&gt;~的領域<br>
+principles of =&gt; ~的原理</p>
+</div></details>]]></content>
       <categories>
-        <category>zerojudge題解</category>
+        <category>每週文章</category>
       </categories>
       <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a006. 一元二次方程式</title>
-    <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<h2 id="a006-一元二次方程式"><a href="https://zerojudge.tw/ShowProblem?problemid=a006">a006. 一元二次方程式</a></h2>
-<div class="note success no-icon flat"><p><strong>題解:</strong><br>
-這裡要具備的基本知識為國中一元二次方程式的判別式用法，以及要注意開根號的用法為sqrt()，了解這個之後只需要注意在寫算是時要注意()的位置以及要分正跟負=&gt;因為公式解有兩解。</p>
-</div>
-<h3 id="C-解法">C++解法</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c, d;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    d = b * b - <span class="number">4</span> * a * c;</span><br><span class="line">    <span class="type">int</span> x1 = (-b + <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*正的*/</span></span><br><span class="line">    <span class="type">int</span> x2 = (-b - <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*負的*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (d &gt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two different roots &quot;</span>;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x1=&quot;</span> &lt;&lt; x1 &lt;&lt; <span class="string">&quot; ,&quot;</span></span><br><span class="line">             &lt;&lt; <span class="string">&quot; x2=&quot;</span> &lt;&lt; x2;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (d == <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two same roots &quot;</span>;</span><br><span class="line">        <span class="type">int</span> x = x1 = x2;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x=&quot;</span> &lt;&lt; x;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;No real root&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Python解法">Python解法</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">a,b,c=<span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())</span><br><span class="line">d = b * b - <span class="number">4</span> * a * c</span><br><span class="line"><span class="keyword">if</span> (d &gt; <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    x2 = <span class="built_in">int</span>((-b - math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two different roots x1=<span class="subst">&#123;x1&#125;</span> , x2=<span class="subst">&#123;x2&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> (d == <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two same roots x=<span class="subst">&#123;x1&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;No real root&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th style="text-align:left">範例輸出</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 0 0</td>
-<td style="text-align:left">Two same roots x=0</td>
-</tr>
-<tr>
-<td>1 3 -10</td>
-<td style="text-align:left">Two different roots x1=2 , x2=-5</td>
-</tr>
-<tr>
-<td>1 1 1</td>
-<td style="text-align:left">No real root</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a003, 兩光法師占卜術</title>
-    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
-    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="https://zerojudge.tw/ShowProblem?problemid=a003">a003, 兩光法師占卜術</a></h2>
-<div class="note success no-icon flat"><p><strong>題解:</strong><br>
-此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
-</div>
-<h3 id="C-解法">C++解法</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Python解法">Python解法</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th style="text-align:left">範例輸出</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 1</td>
-<td style="text-align:left">普通</td>
-</tr>
-<tr>
-<td>1 2</td>
-<td style="text-align:left">吉</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a002. 簡易加法</title>
-    <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="a002-簡易加法"><a href="(https://zerojudge.tw/ShowProblem?problemid=a002)">a002. 簡易加法</a></h2>
-<div class="note success no-icon flat"><p><strong>題解:</strong><br>
-注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
-</div>
-<h3 id="C-解法">C++解法</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Python解法">Python解法</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th style="text-align:left">範例輸出</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 2</td>
-<td style="text-align:left">3</td>
-</tr>
-<tr>
-<td>5 10</td>
-<td style="text-align:left">15</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vscode安裝c++指南(可debug版)</title>
-    <url>/post/c-vscode%E5%AE%89%E8%A3%9D/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>之前安裝了用MinGW下載的方式但是我發現這個方法有一些缺點，一來是版本舊，二來網路上安裝的方式太多元了導致許多人東學學西學學把自己的環應都搞爛了，所以我在這裡提供一個發法讓操作更簡單。<br>
-我是在網路上看到一篇教學教的非常好:<br>
-<a href="https://blog.yangjerry.tw/2021/09/26/vscode-cpp-2021-part2/#%E8%A8%AD%E5%AE%9A-Build-%E5%B7%A5%E4%BD%9C">https://blog.yangjerry.tw/2021/09/26/vscode-cpp-2021-part2/#設定-Build-工作</a><br>
-<a href="https://blog.yangjerry.tw/2021/09/24/vscode-cpp-2021-part1/#%E5%89%8D%E8%A8%80">https://blog.yangjerry.tw/2021/09/24/vscode-cpp-2021-part1/#前言</a><br>
-這篇是我精簡後的版本</p>
-<h2 id="操作">操作</h2>
-<h3 id="1-首先先下載VScode-官網傳送門">1.首先先下載VScode <a href="https://code.visualstudio.com/download">官網傳送門</a></h3>
-<p><img src="https://hackmd.io/_uploads/r16-Keovp.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/ByeE5xovp.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/S1VrqgsDa.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/HkP85ljv6.png" alt="image"></p>
-<p><strong>之後打開VScode，並照著只是安裝下面這幾個東西</strong></p>
-<p><img src="https://hackmd.io/_uploads/ByPwsloPp.png" alt="image"></p>
-<div class="note warning flat"><p><strong>注意</strong> 安裝完中文套件後記得<strong>重啟VS code</strong>通常右下角會顯示</p>
-</div>
-<p><img src="https://hackmd.io/_uploads/BJbpigowT.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/SJPAolsDa.png" alt="image"></p>
-<p><img src="https://hackmd.io/_uploads/Hk413xoDa.png" alt="image"></p>
-<h3 id="2-安裝TDM-GCC-官網傳送門">2.安裝TDM-GCC <a href="https://jmeubank.github.io/tdm-gcc/download/">官網傳送門</a></h3>
-<p><img src="1.png" alt="螢幕擷取畫面 2024-03-31 220302"></p>
-<p>安裝後打開它會有Creat(新增)、Manage(管理)、Remove(移除)，按新增</p>
-<div class="note warning flat"><p>如果以後要移除很方便直接Remove結束</p>
-</div>
-<p><img src="2.png" alt="螢幕擷取畫面 2024-03-31 221016"></p>
-<p>選擇下面那個</p>
-<p><img src="3.png" alt="螢幕擷取畫面 2024-03-31 221345"></p>
-<p>持續下一步，然後install</p>
-<p><img src="4.png" alt="螢幕擷取畫面 2024-03-31 221556"></p>
-<p>Win+R打上cmd開啟命令提示字元視窗，打上(gcc -v)如果出現以下字符代表安裝成功了。</p>
-<p><img src="5.png" alt="螢幕擷取畫面 2024-03-31 221802"></p>
-<p>因為我們要加上debugger所以要在<strong>C曹</strong>或是<strong>無中文路</strong>徑的地方開一個資料夾給C++存放偵錯json檔。</p>
-<div class="note warning flat"><p>一定要無中文的路徑喔要不然之後執行GDB會報錯</p>
-</div>
-<h3 id="3-開始Vscode設定">3.開始Vscode設定</h3>
-<p>打開Vscode</p>
-<p><img src="6.png" alt="螢幕擷取畫面 2024-03-31 222421"></p>
-<p>開啟你設立的資料夾</p>
-<p><img src="7.png" alt="螢幕擷取畫面 2024-03-31 222630"></p>
-<p>開啟後按下control+shift+P載上方輸入(c/c++ Edit)按編輯組態</p>
-<p><img src="8.png" alt="螢幕擷取畫面 2024-03-31 222844"></p>
-<p>照著圖片操作</p>
-<p><img src="9.png" alt="螢幕擷取畫面 2024-03-31 223151"></p>
-<p>之後往下滑找到IntelliSense 模式改成windows-msvc-x64</p>
-<p><img src="10.png" alt="螢幕擷取畫面 2024-03-31 223437"></p>
-<p>往下滑這裡照圖片改</p>
-<p><img src="11.png" alt="螢幕擷取畫面 2024-03-31 223610"></p>
-<p><img src="12.png" alt="螢幕擷取畫面 2024-03-31 223735"></p>
-<p>之後新增一個檔案，檔名settings.json之後在裡面打上</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;code-runner.ignoreSelection&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.executorMap&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;cpp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cd $dir &amp; g++ -Wall -Wextra -O2 -std=c++14 \&quot;$fileName\&quot; -o \&quot;$fileNameWithoutExt\&quot; &amp; $dir\&quot;$fileNameWithoutExt\&quot;&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.preserveFocus&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.clearPreviousOutput&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.runInTerminal&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.saveFileBeforeRun&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;terminal.integrated.defaultProfile.windows&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Command Prompt&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-<p><img src="16.png" alt="螢幕擷取畫面 2024-03-31 224411"></p>
-<p>寫一個C++程式並執行產生一個執行檔</p>
-<p><img src="18.png" alt="螢幕擷取畫面 2024-03-31 224933"></p>
-<div class="note success flat"><p>如果執行不能輸入或結果跑到(輸出區)先做以下動作</p>
-<p><img src="https://hackmd.io/_uploads/BkGMoMjvT.png" alt="image"></p>
-<p><strong>往下滑找到這兩個選項將其打勾就可以載終端機執行了</strong></p>
-<p><img src="https://hackmd.io/_uploads/Hk25ofsva.png" alt="image"></p>
-</div>
-<h3 id="4-可以執行後開始設定debugger">4.可以執行後開始設定debugger</h3>
-<p>照著下面步驟執行會產生出一個task.json</p>
-<p><img src="19.png" alt="螢幕擷取畫面 2024-03-31 225328"></p>
-<p><img src="20.png" alt="螢幕擷取畫面 2024-03-31 225635"></p>
-<p><img src="21.png" alt="螢幕擷取畫面 2024-03-31 225924"></p>
-<p>繼續完成以下步驟產生launch.json</p>
-<p><img src="22.png" alt="螢幕擷取畫面 2024-03-31 230054"></p>
-<p>出現下圖圖示狀態點GDB</p>
-<p><img src="23.png" alt="螢幕擷取畫面 2024-03-31 230317"></p>
-<p>我的很奇怪開啟是空的但有些人打開會有東西</p>
-<p><img src="24.png" alt="螢幕擷取畫面 2024-03-31 230317"></p>
-<p>請輸入我提供的程式碼</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="comment">// 使用 IntelliSense 以得知可用的屬性。</span></span><br><span class="line">    <span class="comment">// 暫留以檢視現有屬性的描述。</span></span><br><span class="line">    <span class="comment">// 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;0.2.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;configurations&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">            <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;g++.exe - 建置及偵錯使用中的檔案&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cppdbg&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;request&quot;</span><span class="punctuation">:</span> <span class="string">&quot;launch&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;program&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;stopAtEntry&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;cwd&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:/TDM-GCC-64/bin&quot;</span><span class="punctuation">,</span> <span class="comment">//bin的位置(路徑應該跟我一樣)     </span></span><br><span class="line">            <span class="attr">&quot;environment&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;externalConsole&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;MIMode&quot;</span><span class="punctuation">:</span> <span class="string">&quot;gdb&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;miDebuggerPath&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:\\TDM-GCC-64\\gdb64\\bin\\gdb.exe&quot;</span><span class="punctuation">,</span> <span class="comment">//Gdb位置(路徑應該跟我一樣)     </span></span><br><span class="line">            <span class="attr">&quot;setupCommands&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="punctuation">&#123;</span></span><br><span class="line">                    <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;啟用 gdb 的美化顯示&quot;</span><span class="punctuation">,</span></span><br><span class="line">                    <span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;-enable-pretty-printing&quot;</span><span class="punctuation">,</span></span><br><span class="line">                    <span class="attr">&quot;ignoreFailures&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">                <span class="punctuation">&#125;</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;preLaunchTask&quot;</span><span class="punctuation">:</span> <span class="string">&quot;g++.exe - 建置及偵錯使用中的檔案&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-<p>![螢幕擷取畫面 2024-03-31 231013](螢幕擷取畫面 2024-04-01 003509.png)</p>
-<p>開除錯</p>
-<p><img src="25.png" alt="螢幕擷取畫面 2024-03-31 231013"></p>
-<p>按C/C++: g++.exe 建置使用中檔案</p>
-<p><img src="28.png" alt="螢幕擷取畫面 2024-03-31 231755"></p>
-<p>按剛剛建的c++檔案</p>
-<p><img src="29.png" alt="螢幕擷取畫面 2024-03-31 231919"></p>
-<p>在第七行先增段點</p>
-<p><img src="35.png" alt="螢幕擷取畫面 2024-03-31 232633"></p>
-<p>按F5或是圖片上的偵錯紐</p>
-<p><img src="31.png" alt="image"></p>
-<p>如果出現了一堆字你看不懂就重開<br>
-如果出現以下畫面就成功</p>
-<p><img src="33.png" alt="image"></p>
-<p>中間上面第三個按鈕可以逐步執行</p>
-<p><img src="34.png" alt="image"></p>
-<h3 id="5-恭喜成功了">5.恭喜成功了</h3>
-]]></content>
-      <categories>
-        <category>環境配置</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>環境配置</tag>
+        <tag>Electronic technology</tag>
       </tags>
   </entry>
   <entry>
@@ -305,9 +51,9 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 此題是程式小白最一開始接觸的題目也就是Hello world<br>
 注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
 </div>
-<h3 id="C-解法">C++解法</h3>
+<h3 id="c-解法">C++解法</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Python解法">Python解法</h3>
+<h3 id="python解法">Python解法</h3>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure>
 <table>
 <thead>
@@ -444,7 +190,7 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
     <title>電腦科學之父_艾倫·圖靈</title>
     <url>/post/%E8%89%BE%E5%80%AB%E5%9C%96%E9%9D%88/</url>
     <content><![CDATA[<h1>電腦科學之父_艾倫·圖靈</h1>
-<h2 id="艾倫·圖靈求學階段">艾倫·圖靈求學階段</h2>
+<h2 id="艾倫-圖靈求學階段">艾倫·圖靈求學階段</h2>
 <blockquote>
 <p>艾倫·圖靈小的時候隊自然科學以及數學有著極高的興趣，到了大學更以數學最為出色，所以畢業後在劍橋大學擔任數學教授，到了二戰時，圖靈被英國皇家海軍招聘並在英國軍情六處的監督下從事對德國機密軍事密碼 [Enigma] 進行破譯工作，於是第一台運算機器「圖靈機」出現了。</p>
 </blockquote>
@@ -481,46 +227,300 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
       </tags>
   </entry>
   <entry>
-    <title>Quantum computer</title>
-    <url>/post/quantum-computer/</url>
-    <content><![CDATA[<h2 id="What-is-quantum-computing">What is quantum computing?</h2>
-<blockquote>
-<p>Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>
-IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>
-All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>
-</blockquote>
-<h2 id="Why-do-we-need-quantum-computers">Why do we need quantum computers?</h2>
-<blockquote>
-<p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>
-If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>
-Complex problems are problems with lots of variables interacting in complicated ways. Modeling the behavior of individual atoms in a molecule is a complex problem, because of all the different electrons interacting with one another. Identifying subtle patterns of fraud in financial transactions or new physics in a supercollider are also complex problems. There are some complex problems that we do not know how to solve with classical computers at any scale.<br>
-The real world runs on quantum physics. Computers that make calculations using the quantum states of quantum bits should in many situations be our best tools for understanding it.</p>
-</blockquote>
-<div class="note primary no-icon flat"><p>Using word:</p>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1>歡迎來到我夢想的起點</h1>
+<h2 id="此站主要是分享">此站主要是分享</h2>
+<ul>
+<li>吉他學習紀錄</li>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a href="https://discord.gg/TjEyXARQ">傳送門</a>)</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>vscode安裝c++指南(可debug版)</title>
+    <url>/post/c-vscode%E5%AE%89%E8%A3%9D/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>之前安裝了用MinGW下載的方式但是我發現這個方法有一些缺點，一來是版本舊，二來網路上安裝的方式太多元了導致許多人東學學西學學把自己的環應都搞爛了，所以我在這裡提供一個發法讓操作更簡單。<br>
+我是在網路上看到一篇教學教的非常好:<br>
+<a href="https://blog.yangjerry.tw/2021/09/26/vscode-cpp-2021-part2/#%E8%A8%AD%E5%AE%9A-Build-%E5%B7%A5%E4%BD%9C">https://blog.yangjerry.tw/2021/09/26/vscode-cpp-2021-part2/#設定-Build-工作</a><br>
+<a href="https://blog.yangjerry.tw/2021/09/24/vscode-cpp-2021-part1/#%E5%89%8D%E8%A8%80">https://blog.yangjerry.tw/2021/09/24/vscode-cpp-2021-part1/#前言</a><br>
+這篇是我精簡後的版本</p>
+<h2 id="操作">操作</h2>
+<h3 id="1-首先先下載vscode-官網傳送門">1.首先先下載VScode <a href="https://code.visualstudio.com/download">官網傳送門</a></h3>
+<p><img src="https://hackmd.io/_uploads/r16-Keovp.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/ByeE5xovp.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/S1VrqgsDa.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/HkP85ljv6.png" alt="image"></p>
+<p><strong>之後打開VScode，並照著只是安裝下面這幾個東西</strong></p>
+<p><img src="https://hackmd.io/_uploads/ByPwsloPp.png" alt="image"></p>
+<div class="note warning flat"><p><strong>注意</strong> 安裝完中文套件後記得<strong>重啟VS code</strong>通常右下角會顯示</p>
 </div>
-<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Quantum computing(n.) =&gt;量子計算<br>
-Computing(V.) =&gt;計算<br>
-Computer(n.) =&gt;電腦<br>
-Revolutionary(a.) =&gt;革命性的<br>
-Classical(a.) =&gt;古典的、傳統的<br>
-basic unit(n.) =&gt;基本單位<br>
-qubits(n.) =&gt;量子位元<br>
-exist(v.) =&gt;存在<br>
-multiple(a.) =&gt;多個<br>
-phenomenon(n.) =&gt;跡象<br>
-superposition(N.) =&gt;重合、重疊、疊加<br>
-parallel(N.) =&gt;並行</p>
-</div></details>
-<div class="note primary no-icon flat"><p>Using phrase[/frez/]</p>
+<p><img src="https://hackmd.io/_uploads/BJbpigowT.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/SJPAolsDa.png" alt="image"></p>
+<p><img src="https://hackmd.io/_uploads/Hk413xoDa.png" alt="image"></p>
+<h3 id="2-安裝tdm-gcc-官網傳送門">2.安裝TDM-GCC <a href="https://jmeubank.github.io/tdm-gcc/download/">官網傳送門</a></h3>
+<p><img src="1.png" alt="螢幕擷取畫面 2024-03-31 220302"></p>
+<p>安裝後打開它會有Creat(新增)、Manage(管理)、Remove(移除)，按新增</p>
+<div class="note warning flat"><p>如果以後要移除很方便直接Remove結束</p>
 </div>
-<details class="toggle" ><summary class="toggle-button" style="">點擊以打开</summary><div class="toggle-content"><p>Field of =&gt;~的領域<br>
-principles of =&gt; ~的原理</p>
-</div></details>]]></content>
+<p><img src="2.png" alt="螢幕擷取畫面 2024-03-31 221016"></p>
+<p>選擇下面那個</p>
+<p><img src="3.png" alt="螢幕擷取畫面 2024-03-31 221345"></p>
+<p>持續下一步，然後install</p>
+<p><img src="4.png" alt="螢幕擷取畫面 2024-03-31 221556"></p>
+<p>Win+R打上cmd開啟命令提示字元視窗，打上(gcc -v)如果出現以下字符代表安裝成功了。</p>
+<p><img src="5.png" alt="螢幕擷取畫面 2024-03-31 221802"></p>
+<p>因為我們要加上debugger所以要在<strong>C曹</strong>或是<strong>無中文路</strong>徑的地方開一個資料夾給C++存放偵錯json檔。</p>
+<div class="note warning flat"><p>一定要無中文的路徑喔要不然之後執行GDB會報錯</p>
+</div>
+<h3 id="3-開始vscode設定">3.開始Vscode設定</h3>
+<p>打開Vscode</p>
+<p><img src="6.png" alt="螢幕擷取畫面 2024-03-31 222421"></p>
+<p>開啟你設立的資料夾</p>
+<p><img src="7.png" alt="螢幕擷取畫面 2024-03-31 222630"></p>
+<p>開啟後按下control+shift+P載上方輸入(c/c++ Edit)按編輯組態</p>
+<p><img src="8.png" alt="螢幕擷取畫面 2024-03-31 222844"></p>
+<p>照著圖片操作</p>
+<p><img src="9.png" alt="螢幕擷取畫面 2024-03-31 223151"></p>
+<p>之後往下滑找到IntelliSense 模式改成windows-msvc-x64</p>
+<p><img src="10.png" alt="螢幕擷取畫面 2024-03-31 223437"></p>
+<p>往下滑這裡照圖片改</p>
+<p><img src="11.png" alt="螢幕擷取畫面 2024-03-31 223610"></p>
+<p><img src="12.png" alt="螢幕擷取畫面 2024-03-31 223735"></p>
+<p>之後新增一個檔案，檔名settings.json之後在裡面打上</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;code-runner.ignoreSelection&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.executorMap&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;cpp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cd $dir &amp; g++ -Wall -Wextra -O2 -std=c++14 \&quot;$fileName\&quot; -o \&quot;$fileNameWithoutExt\&quot; &amp; $dir\&quot;$fileNameWithoutExt\&quot;&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.preserveFocus&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.clearPreviousOutput&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.runInTerminal&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.saveFileBeforeRun&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;terminal.integrated.defaultProfile.windows&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Command Prompt&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<p><img src="16.png" alt="螢幕擷取畫面 2024-03-31 224411"></p>
+<p>寫一個C++程式並執行產生一個執行檔</p>
+<p><img src="18.png" alt="螢幕擷取畫面 2024-03-31 224933"></p>
+<div class="note success flat"><p>如果執行不能輸入或結果跑到(輸出區)先做以下動作</p>
+<p><img src="https://hackmd.io/_uploads/BkGMoMjvT.png" alt="image"></p>
+<p><strong>往下滑找到這兩個選項將其打勾就可以載終端機執行了</strong></p>
+<p><img src="https://hackmd.io/_uploads/Hk25ofsva.png" alt="image"></p>
+</div>
+<h3 id="4-可以執行後開始設定debugger">4.可以執行後開始設定debugger</h3>
+<p>照著下面步驟執行會產生出一個task.json</p>
+<p><img src="19.png" alt="螢幕擷取畫面 2024-03-31 225328"></p>
+<p><img src="20.png" alt="螢幕擷取畫面 2024-03-31 225635"></p>
+<p><img src="21.png" alt="螢幕擷取畫面 2024-03-31 225924"></p>
+<p>繼續完成以下步驟產生launch.json</p>
+<p><img src="22.png" alt="螢幕擷取畫面 2024-03-31 230054"></p>
+<p>出現下圖圖示狀態點GDB</p>
+<p><img src="23.png" alt="螢幕擷取畫面 2024-03-31 230317"></p>
+<p>我的很奇怪開啟是空的但有些人打開會有東西</p>
+<p><img src="24.png" alt="螢幕擷取畫面 2024-03-31 230317"></p>
+<p>請輸入我提供的程式碼</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="comment">// 使用 IntelliSense 以得知可用的屬性。</span></span><br><span class="line">    <span class="comment">// 暫留以檢視現有屬性的描述。</span></span><br><span class="line">    <span class="comment">// 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;0.2.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;configurations&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">            <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;g++.exe - 建置及偵錯使用中的檔案&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cppdbg&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;request&quot;</span><span class="punctuation">:</span> <span class="string">&quot;launch&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;program&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;stopAtEntry&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;cwd&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:/TDM-GCC-64/bin&quot;</span><span class="punctuation">,</span> <span class="comment">//bin的位置(路徑應該跟我一樣)     </span></span><br><span class="line">            <span class="attr">&quot;environment&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;externalConsole&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;MIMode&quot;</span><span class="punctuation">:</span> <span class="string">&quot;gdb&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;miDebuggerPath&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:\\TDM-GCC-64\\gdb64\\bin\\gdb.exe&quot;</span><span class="punctuation">,</span> <span class="comment">//Gdb位置(路徑應該跟我一樣)     </span></span><br><span class="line">            <span class="attr">&quot;setupCommands&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="punctuation">&#123;</span></span><br><span class="line">                    <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;啟用 gdb 的美化顯示&quot;</span><span class="punctuation">,</span></span><br><span class="line">                    <span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;-enable-pretty-printing&quot;</span><span class="punctuation">,</span></span><br><span class="line">                    <span class="attr">&quot;ignoreFailures&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">                <span class="punctuation">&#125;</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;preLaunchTask&quot;</span><span class="punctuation">:</span> <span class="string">&quot;g++.exe - 建置及偵錯使用中的檔案&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<p>![螢幕擷取畫面 2024-03-31 231013](螢幕擷取畫面 2024-04-01 003509.png)</p>
+<p>開除錯</p>
+<p><img src="25.png" alt="螢幕擷取畫面 2024-03-31 231013"></p>
+<p>按C/C++: g++.exe 建置使用中檔案</p>
+<p><img src="28.png" alt="螢幕擷取畫面 2024-03-31 231755"></p>
+<p>按剛剛建的c++檔案</p>
+<p><img src="29.png" alt="螢幕擷取畫面 2024-03-31 231919"></p>
+<p>在第七行先增段點</p>
+<p><img src="35.png" alt="螢幕擷取畫面 2024-03-31 232633"></p>
+<p>按F5或是圖片上的偵錯紐</p>
+<p><img src="31.png" alt="image"></p>
+<p>如果出現了一堆字你看不懂就重開<br>
+如果出現以下畫面就成功</p>
+<p><img src="33.png" alt="image"></p>
+<p>中間上面第三個按鈕可以逐步執行</p>
+<p><img src="34.png" alt="image"></p>
+<h3 id="5-恭喜成功了">5.恭喜成功了</h3>
+]]></content>
       <categories>
-        <category>每週文章</category>
+        <category>環境配置</category>
       </categories>
       <tags>
-        <tag>Electronic technology</tag>
+        <tag>C++</tag>
+        <tag>環境配置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
+    <url>/post/Numbers/</url>
+    <content><![CDATA[<h2 id="d096-00913-joana-and-the-odd-numbers"><a href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers</a></h2>
+<div class="note success no-icon flat"><p><strong>題解:</strong><br>
+🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>
+這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>
+題目所給予的n是同一列有多少個奇數，此時奇數有一種特性就是當使用(n+1)/2時可以表示這些奇數是在第幾列。</p>
+<blockquote>
+<p>ex:我設定n=3 則使用(n+1)/2得知這三個奇數位在第二列。之後我們可以觀察期規律如下<br>
+N = 3 時，在第 2 列，此時已經寫了 4 個奇數，且第 4 個奇數為 7 ( 此數亦為該列最後一個數字 )<br>
+N = 5 時，在第 3 列，此時已經寫了 9 個奇數，且第 9 個奇數為 17<br>
+N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數為 31</p>
+</blockquote>
+<p>所以我們可以使用 ( ( N+1 ) / 2 ) ^2 來表示到了地(n+1)/2列時總共有多少個奇數。再來我們需要算出此列末三項的總和所以我們可以在觀察到其實總和奇數-1就是末項，之後再減二可以得到等差中項此時*3就是末三項的總和了。</p>
+</div>
+<ul>
+<li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
+</ul>
+<h3 id="c-解法">C++解法</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    &#123;</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="python解法">Python解法</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">&quot;EOF&quot;</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th style="text-align:left">範例輸出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td style="text-align:left">15</td>
+</tr>
+<tr>
+<td>5</td>
+<td style="text-align:left">45</td>
+</tr>
+<tr>
+<td>7</td>
+<td style="text-align:left">87</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a002. 簡易加法</title>
+    <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="a002-簡易加法"><a href="(https://zerojudge.tw/ShowProblem?problemid=a002)">a002. 簡易加法</a></h2>
+<div class="note success no-icon flat"><p><strong>題解:</strong><br>
+注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
+</div>
+<h3 id="c-解法">C++解法</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="python解法">Python解法</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th style="text-align:left">範例輸出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 2</td>
+<td style="text-align:left">3</td>
+</tr>
+<tr>
+<td>5 10</td>
+<td style="text-align:left">15</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a003, 兩光法師占卜術</title>
+    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
+    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="https://zerojudge.tw/ShowProblem?problemid=a003">a003, 兩光法師占卜術</a></h2>
+<div class="note success no-icon flat"><p><strong>題解:</strong><br>
+此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
+</div>
+<h3 id="c-解法">C++解法</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="python解法">Python解法</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th style="text-align:left">範例輸出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 1</td>
+<td style="text-align:left">普通</td>
+</tr>
+<tr>
+<td>1 2</td>
+<td style="text-align:left">吉</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a006. 一元二次方程式</title>
+    <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<h2 id="a006-一元二次方程式"><a href="https://zerojudge.tw/ShowProblem?problemid=a006">a006. 一元二次方程式</a></h2>
+<div class="note success no-icon flat"><p><strong>題解:</strong><br>
+這裡要具備的基本知識為國中一元二次方程式的判別式用法，以及要注意開根號的用法為sqrt()，了解這個之後只需要注意在寫算是時要注意()的位置以及要分正跟負=&gt;因為公式解有兩解。</p>
+</div>
+<h3 id="c-解法">C++解法</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c, d;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    d = b * b - <span class="number">4</span> * a * c;</span><br><span class="line">    <span class="type">int</span> x1 = (-b + <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*正的*/</span></span><br><span class="line">    <span class="type">int</span> x2 = (-b - <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*負的*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (d &gt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two different roots &quot;</span>;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x1=&quot;</span> &lt;&lt; x1 &lt;&lt; <span class="string">&quot; ,&quot;</span></span><br><span class="line">             &lt;&lt; <span class="string">&quot; x2=&quot;</span> &lt;&lt; x2;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (d == <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two same roots &quot;</span>;</span><br><span class="line">        <span class="type">int</span> x = x1 = x2;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x=&quot;</span> &lt;&lt; x;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;No real root&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="python解法">Python解法</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">a,b,c=<span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())</span><br><span class="line">d = b * b - <span class="number">4</span> * a * c</span><br><span class="line"><span class="keyword">if</span> (d &gt; <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    x2 = <span class="built_in">int</span>((-b - math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two different roots x1=<span class="subst">&#123;x1&#125;</span> , x2=<span class="subst">&#123;x2&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> (d == <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two same roots x=<span class="subst">&#123;x1&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;No real root&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th style="text-align:left">範例輸出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 0 0</td>
+<td style="text-align:left">Two same roots x=0</td>
+</tr>
+<tr>
+<td>1 3 -10</td>
+<td style="text-align:left">Two different roots x1=2 , x2=-5</td>
+</tr>
+<tr>
+<td>1 1 1</td>
+<td style="text-align:left">No real root</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
       </tags>
   </entry>
 </search>
