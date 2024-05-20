@@ -20,7 +20,7 @@
   <entry>
     <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
     <url>/post/Numbers/</url>
-    <content><![CDATA[<h2 id="d096-00913-joana-and-the-odd-numbers"><a href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers</a></h2>
+    <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers</a></h2>
 <div class="note success no-icon flat"><p><strong>題解:</strong><br>
 🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>
 這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>
@@ -36,9 +36,9 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 <ul>
 <li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
 </ul>
-<h3 id="c-解法">C++解法</h3>
+<h3 id="C-解法">C++解法</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    &#123;</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="python解法">Python解法</h3>
+<h3 id="Python解法">Python解法</h3>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">&quot;EOF&quot;</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure>
 <table>
 <thead>
@@ -80,9 +80,9 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 <div class="note success no-icon flat"><p><strong>題解:</strong><br>
 這裡要具備的基本知識為國中一元二次方程式的判別式用法，以及要注意開根號的用法為sqrt()，了解這個之後只需要注意在寫算是時要注意()的位置以及要分正跟負=&gt;因為公式解有兩解。</p>
 </div>
-<h3 id="c-解法">C++解法</h3>
+<h3 id="C-解法">C++解法</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c, d;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    d = b * b - <span class="number">4</span> * a * c;</span><br><span class="line">    <span class="type">int</span> x1 = (-b + <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*正的*/</span></span><br><span class="line">    <span class="type">int</span> x2 = (-b - <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*負的*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (d &gt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two different roots &quot;</span>;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x1=&quot;</span> &lt;&lt; x1 &lt;&lt; <span class="string">&quot; ,&quot;</span></span><br><span class="line">             &lt;&lt; <span class="string">&quot; x2=&quot;</span> &lt;&lt; x2;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (d == <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two same roots &quot;</span>;</span><br><span class="line">        <span class="type">int</span> x = x1 = x2;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x=&quot;</span> &lt;&lt; x;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;No real root&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="python解法">Python解法</h3>
+<h3 id="Python解法">Python解法</h3>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">a,b,c=<span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())</span><br><span class="line">d = b * b - <span class="number">4</span> * a * c</span><br><span class="line"><span class="keyword">if</span> (d &gt; <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    x2 = <span class="built_in">int</span>((-b - math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two different roots x1=<span class="subst">&#123;x1&#125;</span> , x2=<span class="subst">&#123;x2&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> (d == <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two same roots x=<span class="subst">&#123;x1&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;No real root&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <table>
 <thead>
@@ -124,9 +124,9 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 <div class="note success no-icon flat"><p><strong>題解:</strong><br>
 此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
 </div>
-<h3 id="c-解法">C++解法</h3>
+<h3 id="C-解法">C++解法</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="python解法">Python解法</h3>
+<h3 id="Python解法">Python解法</h3>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure>
 <table>
 <thead>
@@ -164,9 +164,9 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 <div class="note success no-icon flat"><p><strong>題解:</strong><br>
 注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
 </div>
-<h3 id="c-解法">C++解法</h3>
+<h3 id="C-解法">C++解法</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="python解法">Python解法</h3>
+<h3 id="Python解法">Python解法</h3>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure>
 <table>
 <thead>
@@ -207,7 +207,7 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 <a href="https://blog.yangjerry.tw/2021/09/24/vscode-cpp-2021-part1/#%E5%89%8D%E8%A8%80">https://blog.yangjerry.tw/2021/09/24/vscode-cpp-2021-part1/#前言</a><br>
 這篇是我精簡後的版本</p>
 <h2 id="操作">操作</h2>
-<h3 id="1-首先先下載vscode-官網傳送門">1.首先先下載VScode <a href="https://code.visualstudio.com/download">官網傳送門</a></h3>
+<h3 id="1-首先先下載VScode-官網傳送門">1.首先先下載VScode <a href="https://code.visualstudio.com/download">官網傳送門</a></h3>
 <p><img src="https://hackmd.io/_uploads/r16-Keovp.png" alt="image"></p>
 <p><img src="https://hackmd.io/_uploads/ByeE5xovp.png" alt="image"></p>
 <p><img src="https://hackmd.io/_uploads/S1VrqgsDa.png" alt="image"></p>
@@ -219,7 +219,7 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 <p><img src="https://hackmd.io/_uploads/BJbpigowT.png" alt="image"></p>
 <p><img src="https://hackmd.io/_uploads/SJPAolsDa.png" alt="image"></p>
 <p><img src="https://hackmd.io/_uploads/Hk413xoDa.png" alt="image"></p>
-<h3 id="2-安裝tdm-gcc-官網傳送門">2.安裝TDM-GCC <a href="https://jmeubank.github.io/tdm-gcc/download/">官網傳送門</a></h3>
+<h3 id="2-安裝TDM-GCC-官網傳送門">2.安裝TDM-GCC <a href="https://jmeubank.github.io/tdm-gcc/download/">官網傳送門</a></h3>
 <p><img src="1.png" alt="螢幕擷取畫面 2024-03-31 220302"></p>
 <p>安裝後打開它會有Creat(新增)、Manage(管理)、Remove(移除)，按新增</p>
 <div class="note warning flat"><p>如果以後要移除很方便直接Remove結束</p>
@@ -234,7 +234,7 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 <p>因為我們要加上debugger所以要在<strong>C曹</strong>或是<strong>無中文路</strong>徑的地方開一個資料夾給C++存放偵錯json檔。</p>
 <div class="note warning flat"><p>一定要無中文的路徑喔要不然之後執行GDB會報錯</p>
 </div>
-<h3 id="3-開始vscode設定">3.開始Vscode設定</h3>
+<h3 id="3-開始Vscode設定">3.開始Vscode設定</h3>
 <p>打開Vscode</p>
 <p><img src="6.png" alt="螢幕擷取畫面 2024-03-31 222421"></p>
 <p>開啟你設立的資料夾</p>
@@ -305,9 +305,9 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
 此題是程式小白最一開始接觸的題目也就是Hello world<br>
 注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
 </div>
-<h3 id="c-解法">C++解法</h3>
+<h3 id="C-解法">C++解法</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="python解法">Python解法</h3>
+<h3 id="Python解法">Python解法</h3>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure>
 <table>
 <thead>
@@ -444,7 +444,7 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
     <title>電腦科學之父_艾倫·圖靈</title>
     <url>/post/%E8%89%BE%E5%80%AB%E5%9C%96%E9%9D%88/</url>
     <content><![CDATA[<h1>電腦科學之父_艾倫·圖靈</h1>
-<h2 id="艾倫-圖靈求學階段">艾倫·圖靈求學階段</h2>
+<h2 id="艾倫·圖靈求學階段">艾倫·圖靈求學階段</h2>
 <blockquote>
 <p>艾倫·圖靈小的時候隊自然科學以及數學有著極高的興趣，到了大學更以數學最為出色，所以畢業後在劍橋大學擔任數學教授，到了二戰時，圖靈被英國皇家海軍招聘並在英國軍情六處的監督下從事對德國機密軍事密碼 [Enigma] 進行破譯工作，於是第一台運算機器「圖靈機」出現了。</p>
 </blockquote>
@@ -483,13 +483,13 @@ N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數
   <entry>
     <title>Quantum computer</title>
     <url>/post/quantum-computer/</url>
-    <content><![CDATA[<h2 id="what-is-quantum-computing">What is quantum computing?</h2>
+    <content><![CDATA[<h2 id="What-is-quantum-computing">What is quantum computing?</h2>
 <blockquote>
 <p>Quantum computing is a revolutionary field of computing that leverages the principles of quantum mechanics to process and manipulate data. Unlike classical computers, which use bits as the basic unit of information (either 0 or 1), quantum computers use quantum bits or qubits. Qubits can exist in multiple states simultaneously due to a phenomenon called superposition, allowing quantum computers to perform calculations in parallel and potentially solve complex problems much faster than classical computers.<br>
 IBM Quantum is at the forefront of developing quantum hardware and software, making real quantum processors accessible to developers worldwide. Their efforts in advancing superconducting quantum processors and optimizing quantum-classical interactions pave the way for breakthroughs in various fields, from cryptography and optimization to material science and drug discovery.<br>
 All in all, quantum computing holds the promise of revolutionizing industries and solving problems that are currently beyond the capabilities of classical computing.</p>
 </blockquote>
-<h2 id="why-do-we-need-quantum-computers">Why do we need quantum computers?</h2>
+<h2 id="Why-do-we-need-quantum-computers">Why do we need quantum computers?</h2>
 <blockquote>
 <p>When scientists and engineers encounter difficult problems, they turn to supercomputers. These are very large classical computers, often with thousands of classical CPU and GPU cores capable of running very large calculations and advanced artificial intelligence. However, even supercomputers are binary code-based machines reliant on 20th-century transistor technology. They struggle to solve certain kinds of problems.<br>
 If a supercomputer gets stumped, that’s probably because the big classical machine was asked to solve a problem with a high degree of complexity. When classical computers fail, it’s often due to complexity.<br>
