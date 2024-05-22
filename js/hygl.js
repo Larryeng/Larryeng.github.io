@@ -1,3 +1,1 @@
-if (GLOBAL_CONFIG.Snackbar) {
-    btf.snackbarShow('歡迎蒞臨本站，建議使用電腦觀賞體驗較好喔❤️')
-}
+GLOBAL_CONFIG.Snackbar&&btf.snackbarShow("歡迎蒞臨本站，建議使用電腦觀賞體驗較好喔❤️");
