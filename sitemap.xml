@@ -128,20 +128,6 @@
 
   
   <url>
-    <loc>https://larryeng.github.io/tags/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2024-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://larryeng.github.io/tags/C/</loc>
-    <lastmod>2024-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://larryeng.github.io/tags/zerojudge/</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -156,7 +142,21 @@
   </url>
   
   <url>
+    <loc>https://larryeng.github.io/tags/C/</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://larryeng.github.io/tags/python/</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://larryeng.github.io/tags/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -165,14 +165,14 @@
 
   
   <url>
-    <loc>https://larryeng.github.io/categories/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/</loc>
+    <loc>https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/</loc>
+    <loc>https://larryeng.github.io/categories/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
