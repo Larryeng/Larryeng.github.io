@@ -1,24 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/post/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+    <title>【題解】a002. 簡易加法</title>
+    <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 2</td>
+<td align="left">3</td>
+</tr>
+<tr>
+<td>5 10</td>
+<td align="left">15</td>
+</tr>
+</tbody></table>
 ]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
       <tags>
-        <tag>123</tag>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a003, 兩光法師占卜術</title>
+    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
+    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="#a003-兩光法師占卜術" class="headerlink" title="a003, 兩光法師占卜術"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a003" >a003, 兩光法師占卜術 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 1</td>
+<td align="left">普通</td>
+</tr>
+<tr>
+<td>1 2</td>
+<td align="left">吉</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a006. 一元二次方程式</title>
+    <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<h2 id="a006-一元二次方程式"><a href="#a006-一元二次方程式" class="headerlink" title="a006. 一元二次方程式"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a006" >a006. 一元二次方程式 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>這裡要具備的基本知識為國中一元二次方程式的判別式用法，以及要注意開根號的用法為sqrt()，了解這個之後只需要注意在寫算是時要注意()的位置以及要分正跟負&#x3D;&gt;因為公式解有兩解。</p>
+
+  </div>
+
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c, d;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    d = b * b - <span class="number">4</span> * a * c;</span><br><span class="line">    <span class="type">int</span> x1 = (-b + <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*正的*/</span></span><br><span class="line">    <span class="type">int</span> x2 = (-b - <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*負的*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (d &gt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two different roots &quot;</span>;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x1=&quot;</span> &lt;&lt; x1 &lt;&lt; <span class="string">&quot; ,&quot;</span></span><br><span class="line">             &lt;&lt; <span class="string">&quot; x2=&quot;</span> &lt;&lt; x2;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (d == <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two same roots &quot;</span>;</span><br><span class="line">        <span class="type">int</span> x = x1 = x2;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x=&quot;</span> &lt;&lt; x;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;No real root&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">a,b,c=<span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())</span><br><span class="line">d = b * b - <span class="number">4</span> * a * c</span><br><span class="line"><span class="keyword">if</span> (d &gt; <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    x2 = <span class="built_in">int</span>((-b - math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two different roots x1=<span class="subst">&#123;x1&#125;</span> , x2=<span class="subst">&#123;x2&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> (d == <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two same roots x=<span class="subst">&#123;x1&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;No real root&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 0 0</td>
+<td align="left">Two same roots x&#x3D;0</td>
+</tr>
+<tr>
+<td>1 3 -10</td>
+<td align="left">Two different roots x1&#x3D;2 , x2&#x3D;-5</td>
+</tr>
+<tr>
+<td>1 1 1</td>
+<td align="left">No real root</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -70,6 +170,27 @@
         <tag>題解</tag>
         <tag>C++</tag>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/post/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <tags>
+        <tag>123</tag>
       </tags>
   </entry>
   <entry>
@@ -360,127 +481,6 @@
       <tags>
         <tag>C++</tag>
         <tag>環境配置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a002. 簡易加法</title>
-    <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1 2</td>
-<td align="left">3</td>
-</tr>
-<tr>
-<td>5 10</td>
-<td align="left">15</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a006. 一元二次方程式</title>
-    <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<h2 id="a006-一元二次方程式"><a href="#a006-一元二次方程式" class="headerlink" title="a006. 一元二次方程式"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a006" >a006. 一元二次方程式 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>這裡要具備的基本知識為國中一元二次方程式的判別式用法，以及要注意開根號的用法為sqrt()，了解這個之後只需要注意在寫算是時要注意()的位置以及要分正跟負&#x3D;&gt;因為公式解有兩解。</p>
-
-  </div>
-
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c, d;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    d = b * b - <span class="number">4</span> * a * c;</span><br><span class="line">    <span class="type">int</span> x1 = (-b + <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*正的*/</span></span><br><span class="line">    <span class="type">int</span> x2 = (-b - <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*負的*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (d &gt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two different roots &quot;</span>;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x1=&quot;</span> &lt;&lt; x1 &lt;&lt; <span class="string">&quot; ,&quot;</span></span><br><span class="line">             &lt;&lt; <span class="string">&quot; x2=&quot;</span> &lt;&lt; x2;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (d == <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Two same roots &quot;</span>;</span><br><span class="line">        <span class="type">int</span> x = x1 = x2;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;x=&quot;</span> &lt;&lt; x;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;No real root&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">a,b,c=<span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())</span><br><span class="line">d = b * b - <span class="number">4</span> * a * c</span><br><span class="line"><span class="keyword">if</span> (d &gt; <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    x2 = <span class="built_in">int</span>((-b - math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two different roots x1=<span class="subst">&#123;x1&#125;</span> , x2=<span class="subst">&#123;x2&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> (d == <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;Two same roots x=<span class="subst">&#123;x1&#125;</span>&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;No real root&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1 0 0</td>
-<td align="left">Two same roots x&#x3D;0</td>
-</tr>
-<tr>
-<td>1 3 -10</td>
-<td align="left">Two different roots x1&#x3D;2 , x2&#x3D;-5</td>
-</tr>
-<tr>
-<td>1 1 1</td>
-<td align="left">No real root</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a003, 兩光法師占卜術</title>
-    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
-    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="#a003-兩光法師占卜術" class="headerlink" title="a003, 兩光法師占卜術"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a003" >a003, 兩光法師占卜術 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1 1</td>
-<td align="left">普通</td>
-</tr>
-<tr>
-<td>1 2</td>
-<td align="left">吉</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
       </tags>
   </entry>
 </search>
