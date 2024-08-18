@@ -6,7 +6,7 @@
   <link href="https://larryeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://larryeng.github.io/"/>
-  <updated>2024-08-18T19:37:37.476Z</updated>
+  <updated>2024-08-18T19:59:46.927Z</updated>
   <id>https://larryeng.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【題解】a001. 哈囉</title>
+    <link href="https://larryeng.github.io/post/%E5%93%88%E5%9B%89/"/>
+    <id>https://larryeng.github.io/post/%E5%93%88%E5%9B%89/</id>
+    <published>2024-08-18T19:53:55.000Z</published>
+    <updated>2024-08-18T19:59:46.927Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>  <div class="note p-4 mb-4 rounded-small success no-icon">    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>  </div><h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div><table><thead><tr><th>範例輸入</th><th align="left">範例輸出</th></tr></thead><tbody><tr><td>C++</td><td align="left">hello, C++</td></tr><tr><td>Taiwan</td><td align="left">hello, Taiwan</td></tr><tr><td>world</td><td align="left">hello, world</td></tr></tbody></table>]]></content>
+    
+    
+    <summary type="html">成為電神的第一步就是寫Hello World🛐</summary>
+    
+    
+    
+    <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
+    
+    
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    
+    <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
+    
+    <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    
+    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>介紹文</title>
+    <link href="https://larryeng.github.io/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"/>
+    <id>https://larryeng.github.io/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</id>
+    <published>2024-08-18T19:52:10.000Z</published>
+    <updated>2024-08-18T19:59:30.878Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul><li>吉他學習紀錄</li><li>實用讀書小技巧</li><li>一些基本軟體配置技巧(親測有效🥳)</li><li>個人生涯學習紀錄</li><li>程式語言學習</li><li>程式小技巧分享</li><li>軟體配置分享</li><li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;歡迎來到我夢想的起點&quot;&gt;&lt;a href=&quot;#歡迎來到我夢想的起點&quot; class=&quot;headerlink&quot; title=&quot;歡迎來到我夢想的起點&quot;&gt;&lt;/a&gt;歡迎來到我夢想的起點&lt;/h1&gt;&lt;h2 id=&quot;此站主要是分享&quot;&gt;&lt;a href=&quot;#此站主要是分享&quot; class</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>vscode安裝c++指南(可debug版)</title>
@@ -33,31 +80,9 @@
     <category term="環境配置" scheme="https://larryeng.github.io/categories/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
     
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
-    
     <category term="環境配置" scheme="https://larryeng.github.io/tags/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://larryeng.github.io/post/hello-world/"/>
-    <id>https://larryeng.github.io/post/hello-world/</id>
-    <published>2024-08-15T20:45:18.135Z</published>
-    <updated>2024-08-16T20:19:39.574Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo &lt;i class=&quot;fa-regular fa-arrow-up-right-from-square fa-sm&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is yo</summary>
-      
-    
-    
-    
-    
-    <category term="123" scheme="https://larryeng.github.io/tags/123/"/>
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
     
   </entry>
   
@@ -81,11 +106,11 @@
     <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    
     <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
     
     <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
-    
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
     
     <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
     
@@ -108,11 +133,11 @@
     <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    
     <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
     
     <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
-    
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
     
     <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
     
@@ -135,11 +160,11 @@
     <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    
     <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
     
     <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
-    
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
     
     <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
     
@@ -162,11 +187,11 @@
     <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    
     <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
     
     <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
-    
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
     
     <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
     
