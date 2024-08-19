@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
+    <url>/post/Numbers/</url>
+    <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="#d096-00913-Joana-and-the-Odd-Numbers" class="headerlink" title="d096. 00913 - Joana and the Odd Numbers"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=d096" >d096. 00913 - Joana and the Odd Numbers <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>題目所給予的n是同一列有多少個奇數，此時奇數有一種特性就是當使用(n+1)&#x2F;2時可以表示這些奇數是在第幾列。</p>
+<blockquote>
+<p>ex:我設定n&#x3D;3 則使用(n+1)&#x2F;2得知這三個奇數位在第二列。之後我們可以觀察期規律如下<br>N &#x3D; 3 時，在第 2 列，此時已經寫了 4 個奇數，且第 4 個奇數為 7 ( 此數亦為該列最後一個數字 )<br>N &#x3D; 5 時，在第 3 列，此時已經寫了 9 個奇數，且第 9 個奇數為 17<br>N &#x3D; 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數為 31</p>
+</blockquote>
+<p>所以我們可以使用 ( ( N+1 ) &#x2F; 2 ) ^2 來表示到了地(n+1)&#x2F;2列時總共有多少個奇數。再來我們需要算出此列末三項的總和所以我們可以在觀察到其實總和奇數-1就是末項，之後再減二可以得到等差中項此時*3就是末三項的總和了。</p>
+
+  </div>
+
+<ul>
+<li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
+</ul>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    &#123;</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">&quot;EOF&quot;</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>3</td>
+<td align="left">15</td>
+</tr>
+<tr>
+<td>5</td>
+<td align="left">45</td>
+</tr>
+<tr>
+<td>7</td>
+<td align="left">87</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【題解】a002. 簡易加法</title>
     <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
     <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
@@ -37,6 +88,21 @@
         <tag>C++</tag>
         <tag>python</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
+<li>吉他學習紀錄</li>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>【題解】a003, 兩光法師占卜術</title>
@@ -122,24 +188,15 @@
       </tags>
   </entry>
   <entry>
-    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
-    <url>/post/Numbers/</url>
-    <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="#d096-00913-Joana-and-the-Odd-Numbers" class="headerlink" title="d096. 00913 - Joana and the Odd Numbers"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=d096" >d096. 00913 - Joana and the Odd Numbers <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
+    <title>【題解】a001. 哈囉</title>
+    <url>/post/%E5%93%88%E5%9B%89/</url>
+    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
   <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>題目所給予的n是同一列有多少個奇數，此時奇數有一種特性就是當使用(n+1)&#x2F;2時可以表示這些奇數是在第幾列。</p>
-<blockquote>
-<p>ex:我設定n&#x3D;3 則使用(n+1)&#x2F;2得知這三個奇數位在第二列。之後我們可以觀察期規律如下<br>N &#x3D; 3 時，在第 2 列，此時已經寫了 4 個奇數，且第 4 個奇數為 7 ( 此數亦為該列最後一個數字 )<br>N &#x3D; 5 時，在第 3 列，此時已經寫了 9 個奇數，且第 9 個奇數為 17<br>N &#x3D; 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數為 31</p>
-</blockquote>
-<p>所以我們可以使用 ( ( N+1 ) &#x2F; 2 ) ^2 來表示到了地(n+1)&#x2F;2列時總共有多少個奇數。再來我們需要算出此列末三項的總和所以我們可以在觀察到其實總和奇數-1就是末項，之後再減二可以得到等差中項此時*3就是末三項的總和了。</p>
+    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
 
   </div>
-
-<ul>
-<li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
-</ul>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    &#123;</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">&quot;EOF&quot;</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure></div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
 
 <table>
 <thead>
@@ -149,16 +206,16 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>3</td>
-<td align="left">15</td>
+<td>C++</td>
+<td align="left">hello, C++</td>
 </tr>
 <tr>
-<td>5</td>
-<td align="left">45</td>
+<td>Taiwan</td>
+<td align="left">hello, Taiwan</td>
 </tr>
 <tr>
-<td>7</td>
-<td align="left">87</td>
+<td>world</td>
+<td align="left">hello, world</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -460,63 +517,6 @@
       <tags>
         <tag>C++</tag>
         <tag>環境配置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
-<li>吉他學習紀錄</li>
-<li>實用讀書小技巧</li>
-<li>一些基本軟體配置技巧(親測有效🥳)</li>
-<li>個人生涯學習紀錄</li>
-<li>程式語言學習</li>
-<li>程式小技巧分享</li>
-<li>軟體配置分享</li>
-<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>【題解】a001. 哈囉</title>
-    <url>/post/%E5%93%88%E5%9B%89/</url>
-    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>C++</td>
-<td align="left">hello, C++</td>
-</tr>
-<tr>
-<td>Taiwan</td>
-<td align="left">hello, Taiwan</td>
-</tr>
-<tr>
-<td>world</td>
-<td align="left">hello, world</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
       </tags>
   </entry>
 </search>
