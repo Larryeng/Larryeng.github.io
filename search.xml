@@ -125,21 +125,6 @@
       </tags>
   </entry>
   <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
-<li>吉他學習紀錄</li>
-<li>實用讀書小技巧</li>
-<li>一些基本軟體配置技巧(親測有效🥳)</li>
-<li>個人生涯學習紀錄</li>
-<li>程式語言學習</li>
-<li>程式小技巧分享</li>
-<li>軟體配置分享</li>
-<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
     <url>/post/Numbers/</url>
     <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="#d096-00913-Joana-and-the-Odd-Numbers" class="headerlink" title="d096. 00913 - Joana and the Odd Numbers"></a><a class="link" href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2>
@@ -525,6 +510,45 @@
         <tag>題解</tag>
         <tag>C++</tag>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
+<li>吉他學習紀錄</li>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>2024IONC心得</title>
+    <url>/post/2024IONC%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="75ec9e2fdc3ac9374ab859a71b13b976de78c9484fa25c4a56a35eab3b908f50">b448ccb956dee79e6334981d28b513cf18bdf0e2ab7b582b24e00d7f920cd762</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-swup-reload-script src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>營隊心得分享</category>
+      </categories>
+      <tags>
+        <tag>2024IONC</tag>
+        <tag>營隊心得</tag>
       </tags>
   </entry>
 </search>
