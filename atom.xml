@@ -6,7 +6,7 @@
   <link href="https://larryeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://larryeng.github.io/"/>
-  <updated>2024-09-01T08:48:59.229Z</updated>
+  <updated>2024-09-14T18:59:57.231Z</updated>
   <id>https://larryeng.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://larryeng.github.io/post/2024IONC%E5%BF%83%E5%BE%97/"/>
     <id>https://larryeng.github.io/post/2024IONC%E5%BF%83%E5%BE%97/</id>
     <published>2024-09-01T07:11:19.000Z</published>
-    <updated>2024-09-01T08:48:59.229Z</updated>
+    <updated>2024-09-14T18:59:57.231Z</updated>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="75ec9e2fdc3ac9374ab859a71b13b976de78c9484fa25c4a56a35eab3b908f50">b448ccb956dee79e6334981d28b513cf18bdf0e2ab7b582b24e00d7f920cd762</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-swup-reload-script src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="41adb8b2f4f4c273205796a0a6c4f26a9c8632c1ceae47ed8ab50d37fbcbd03c">b448ccb956dee79e6334981d28b513cfc889116a0d621def7227f86a307ed8726beea4cdd09426e222c4839924c98fda879d8da97483ddced05e9f56fa6c8fb3718f2ee8aa6bc280c6d50645ceb48860cdac760ed3b36d26841af9dcfaf4e76ffa6f4463c08f6cc93477b9d5281107dcbea4440cdbf0e2b7a06c9767fab5689a1337c34fefd3642bb8e039a8de27ee04</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-swup-reload-script src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
