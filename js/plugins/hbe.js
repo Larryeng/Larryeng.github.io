@@ -1,13 +1,12 @@
-import { main } from "../main.js";
-import { initTOC } from "../layouts/toc.js";
+(() => {
+  "use strict";
 
-export function initHBE() {
   const cryptoObj = window.crypto || window.msCrypto;
   const storage = window.localStorage;
 
   const storageName = "hexo-blog-encrypt:#" + window.location.pathname;
-  const keySalt = textToArray("too young too simple");
-  const ivSalt = textToArray("sometimes naive!");
+  const keySalt = textToArray("hexo-blog-encrypt的作者们都是大帅比!");
+  const ivSalt = textToArray("hexo-blog-encrypt是地表最强Hexo加密插件!");
 
   // As we can't detect the wrong password with AES-CBC,
   // so adding an empty div and check it when decrption.
@@ -236,9 +235,24 @@ export function initHBE() {
           }
         });
 
-        // // load Redefine Page components
-        main.refresh();
-        initTOC();
+        // support theme-next refresh
+        window.NexT &&
+          NexT.boot &&
+          typeof NexT.boot.refresh === "function" &&
+          NexT.boot.refresh();
+
+        // TOC part
+        var tocDiv = document.getElementById("toc-div");
+        if (tocDiv) {
+          tocDiv.style.display = "inline";
+        }
+
+        var tocDivs = document.getElementsByClassName("toc-div-class");
+        if (tocDivs && tocDivs.length > 0) {
+          for (var idx = 0; idx < tocDivs.length; idx++) {
+            tocDivs[idx].style.display = "inline";
+          }
+        }
 
         // trigger event
         var event = new Event("hexo-blog-decrypt");
@@ -330,6 +344,4 @@ export function initHBE() {
   }
 
   hbeLoader();
-}
-
-// initHBE();
+})();
