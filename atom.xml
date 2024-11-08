@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>鯊魚Y.Yの程長日記</title>
   
-  
+  <subtitle>紀錄鯊魚的成長過程</subtitle>
   <link href="https://larryeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://larryeng.github.io/"/>
