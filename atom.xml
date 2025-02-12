@@ -6,7 +6,7 @@
   <link href="https://larryeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://larryeng.github.io/"/>
-  <updated>2024-11-24T12:02:22.083Z</updated>
+  <updated>2025-02-12T17:10:54.821Z</updated>
   <id>https://larryeng.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【題解】a004. 文文的求婚</title>
+    <link href="https://larryeng.github.io/post/a004/"/>
+    <id>https://larryeng.github.io/post/a004/</id>
+    <published>2025-02-12T16:44:44.000Z</published>
+    <updated>2025-02-12T17:10:54.821Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="a004-文文的求婚"><a href="#a004-文文的求婚" class="headerlink" title="a004. 文文的求婚"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a004" >a004. 文文的求婚<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>  <div class="note p-4 mb-4 rounded-small success no-icon">    <p><strong>題解:</strong><br>等待屏中社長中鍾笙祥先生幫我撰寫</p>  </div><h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (cin&gt;&gt;n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ((n % <span class="number">4</span> == <span class="number">0</span>) &amp;&amp; (n % <span class="number">100</span> != <span class="number">0</span>) || n % <span class="number">400</span> == <span class="number">0</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;閏年&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;平年&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> stdin</span><br><span class="line"><span class="keyword">for</span> read <span class="keyword">in</span> stdin: </span><br><span class="line">    year=<span class="built_in">int</span>(read) </span><br><span class="line">    <span class="keyword">if</span> (year%<span class="number">4</span>==<span class="number">0</span> <span class="keyword">and</span> year%<span class="number">100</span>) <span class="keyword">or</span> year%<span class="number">400</span>==<span class="number">0</span>: <span class="built_in">print</span>(<span class="string">&#x27;閏年&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="built_in">print</span>(<span class="string">&#x27;平年&#x27;</span>)</span><br></pre></td></tr></table></figure></div><table><thead><tr><th>範例輸入</th><th align="left">範例輸出</th></tr></thead><tbody><tr><td>1977</td><td align="left">平年</td></tr><tr><td>1980</td><td align="left">閏年</td></tr></tbody></table>]]></content>
+    
+    
+    <summary type="html">有料</summary>
+    
+    
+    
+    <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
+    
+    
+    <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
+    
+    <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    
+    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    
+    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>2024 IONC心得</title>
