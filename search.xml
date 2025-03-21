@@ -1,6 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【題解】a003, 兩光法師占卜術</title>
+    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
+    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="#a003-兩光法師占卜術" class="headerlink" title="a003, 兩光法師占卜術"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a003" >a003, 兩光法師占卜術<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 1</td>
+<td align="left">普通</td>
+</tr>
+<tr>
+<td>1 2</td>
+<td align="left">吉</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a002. 簡易加法</title>
+    <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 2</td>
+<td align="left">3</td>
+</tr>
+<tr>
+<td>5 10</td>
+<td align="left">15</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
+<li>吉他學習紀錄</li>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)</li>
+</ul>
+<h1 id="本網域來自嘉義黃姓金主聯名贊助使用"><a href="#本網域來自嘉義黃姓金主聯名贊助使用" class="headerlink" title="本網域來自嘉義黃姓金主聯名贊助使用"></a>本網域來自嘉義黃姓金主聯名贊助使用</h1><h2 id="https-www-hyjdevelop-com"><a href="#https-www-hyjdevelop-com" class="headerlink" title="https://www.hyjdevelop.com/"></a><a class="link"   href="https://www.hyjdevelop.com/" >https://www.hyjdevelop.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>]]></content>
+  </entry>
+  <entry>
     <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
     <url>/post/Numbers/</url>
     <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="#d096-00913-Joana-and-the-Odd-Numbers" class="headerlink" title="d096. 00913 - Joana and the Odd Numbers"></a><a class="link" href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
@@ -52,16 +144,15 @@
       </tags>
   </entry>
   <entry>
-    <title>【題解】a003, 兩光法師占卜術</title>
-    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
-    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="#a003-兩光法師占卜術" class="headerlink" title="a003, 兩光法師占卜術"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a003" >a003, 兩光法師占卜術<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+    <title>【題解】a001. 哈囉</title>
+    <url>/post/%E5%93%88%E5%9B%89/</url>
+    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
   <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
+    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
 
   </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
 
 <table>
 <thead>
@@ -71,12 +162,316 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>1 1</td>
-<td align="left">普通</td>
+<td>C++</td>
+<td align="left">hello, C++</td>
 </tr>
 <tr>
-<td>1 2</td>
-<td align="left">吉</td>
+<td>Taiwan</td>
+<td align="left">hello, Taiwan</td>
+</tr>
+<tr>
+<td>world</td>
+<td align="left">hello, world</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a006. 一元二次方程式</title>
+    <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<h2 id="a006-一元二次方程式"><a href="#a006-一元二次方程式" class="headerlink" title="a006. 一元二次方程式"></a><a class="link" href="https://zerojudge.tw/ShowProblem?problemid=a006">a006. 一元二次方程式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>這裡要具備的基本知識為國中一元二次方程式的判別式用法，以及要注意開根號的用法為sqrt()，了解這個之後只需要注意在寫算是時要注意()的位置以及要分正跟負=&gt;因為公式解有兩解。</p>
+<blockquote>
+<p>兩解分別為<br><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -2.413ex;" xmlns="http://www.w3.org/2000/svg" width="25.769ex" height="5.957ex" role="img" focusable="false" viewBox="0 -1566.5 11389.9 2632.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo" transform="translate(0 -0.5)"><path data-c="7B" d="M618 -943L612 -949H582L568 -943Q472 -903 411 -841T332 -703Q327 -682 327 -653T325 -350Q324 -28 323 -18Q317 24 301 61T264 124T221 171T179 205T147 225T132 234Q130 238 130 250Q130 255 130 258T131 264T132 267T134 269T139 272T144 275Q207 308 256 367Q310 436 323 519Q324 529 325 851Q326 1124 326 1154T332 1205Q369 1358 566 1443L582 1450H612L618 1444V1429Q618 1413 616 1411L608 1406Q599 1402 585 1393T552 1372T515 1343T479 1305T449 1257T429 1200Q425 1180 425 1152T423 851Q422 579 422 549T416 498Q407 459 388 424T346 364T297 318T250 284T214 264T197 254L188 251L205 242Q290 200 345 138T416 3Q421 -18 421 -48T423 -349Q423 -397 423 -472Q424 -677 428 -694Q429 -697 429 -699Q434 -722 443 -743T465 -782T491 -816T519 -845T548 -868T574 -886T595 -899T610 -908L616 -910Q618 -912 618 -928V-943Z"></path></g><g data-mml-node="mtable" transform="translate(750,0)"><g data-mml-node="mtr" transform="translate(0,600)"><g data-mml-node="mtd"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mo" transform="translate(389,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mi" transform="translate(1167,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mo" transform="translate(1818.2,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msqrt" transform="translate(2818.4,0)"><g transform="translate(853,0)"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mn" transform="translate(462,289) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mo" transform="translate(1087.8,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(2088,0)"><path data-c="34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></g><g data-mml-node="mi" transform="translate(2588,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mi" transform="translate(3117,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g><g data-mml-node="mo" transform="translate(0,106.5)"><path data-c="221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path></g><rect width="3550" height="60" x="853" y="846.5"></rect></g><g data-mml-node="mo" transform="translate(7221.4,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(7832.7,0)"><path data-c="F7" d="M318 466Q318 500 339 518T386 537Q418 537 438 517T458 466Q458 438 440 417T388 396Q355 396 337 417T318 466ZM56 237T56 250T70 270H706Q721 262 721 250T706 230H70Q56 237 56 250ZM318 34Q318 68 339 86T386 105Q418 105 438 85T458 34Q458 6 440 -15T388 -36Q355 -36 337 -15T318 34Z"></path></g><g data-mml-node="mo" transform="translate(8832.9,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(9221.9,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(9721.9,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mo" transform="translate(10250.9,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g><g data-mml-node="mtr" transform="translate(0,-816.5)"><g data-mml-node="mtd"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mo" transform="translate(389,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mi" transform="translate(1167,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mo" transform="translate(1818.2,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="msqrt" transform="translate(2818.4,0)"><g transform="translate(853,0)"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mn" transform="translate(462,289) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mo" transform="translate(1087.8,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(2088,0)"><path data-c="34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></g><g data-mml-node="mi" transform="translate(2588,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mi" transform="translate(3117,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g><g data-mml-node="mo" transform="translate(0,106.5)"><path data-c="221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path></g><rect width="3550" height="60" x="853" y="846.5"></rect></g><g data-mml-node="mo" transform="translate(7221.4,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(7832.7,0)"><path data-c="F7" d="M318 466Q318 500 339 518T386 537Q418 537 438 517T458 466Q458 438 440 417T388 396Q355 396 337 417T318 466ZM56 237T56 250T70 270H706Q721 262 721 250T706 230H70Q56 237 56 250ZM318 34Q318 68 339 86T386 105Q418 105 438 85T458 34Q458 6 440 -15T388 -36Q355 -36 337 -15T318 34Z"></path></g><g data-mml-node="mo" transform="translate(8832.9,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(9221.9,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(9721.9,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mo" transform="translate(10250.9,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g></g><g data-mml-node="mo" transform="translate(11389.9,0) translate(0 250)"></g></g></g></g></svg></mjx-container></p>
+</blockquote>
+
+  </div>
+
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    <span class="type">int</span> a, b, c, d;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    d = b * b - <span class="number">4</span> * a * c;</span><br><span class="line">    <span class="type">int</span> x1 = (-b + <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*正的*/</span></span><br><span class="line">    <span class="type">int</span> x2 = (-b - <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*負的*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (d &gt; <span class="number">0</span>)</span><br><span class="line">    {</span><br><span class="line">        cout &lt;&lt; <span class="string">"Two different roots "</span>;</span><br><span class="line">        cout &lt;&lt; <span class="string">"x1="</span> &lt;&lt; x1 &lt;&lt; <span class="string">" ,"</span></span><br><span class="line">             &lt;&lt; <span class="string">" x2="</span> &lt;&lt; x2;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (d == <span class="number">0</span>)</span><br><span class="line">    {</span><br><span class="line">        cout &lt;&lt; <span class="string">"Two same roots "</span>;</span><br><span class="line">        <span class="type">int</span> x = x1 = x2;</span><br><span class="line">        cout &lt;&lt; <span class="string">"x="</span> &lt;&lt; x;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">"No real root"</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">a,b,c=<span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())</span><br><span class="line">d = b * b - <span class="number">4</span> * a * c</span><br><span class="line"><span class="keyword">if</span> (d &gt; <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    x2 = <span class="built_in">int</span>((-b - math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f"Two different roots x1=<span class="subst">{x1}</span> , x2=<span class="subst">{x2}</span>"</span>)</span><br><span class="line"><span class="keyword">elif</span> (d == <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f"Two same roots x=<span class="subst">{x1}</span>"</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"No real root"</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 0 0</td>
+<td align="left">Two same roots x=0</td>
+</tr>
+<tr>
+<td>1 3 -10</td>
+<td align="left">Two different roots x1=2 , x2=-5</td>
+</tr>
+<tr>
+<td>1 1 1</td>
+<td align="left">No real root</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024 IONC心得</title>
+    <url>/post/2024IONC%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><blockquote>
+<p>IONC是一個由清大資訊社所辦的程式集訓營，在五天的時間內，會將所有競程必備知識以及必備技巧一次教給你，所以對於新手來說這是一個非常硬的營隊。而我為什麼會想要參加這個非常硬的營隊呢?主要是從小我對於程式就有非常大的興趣，平常也有在自學程式語言，上了高中才接觸到競技程式。為了使自己的程式能力更加進步，所以我毅然決然報名了這個營隊。</p>
+</blockquote>
+<h2 id="營隊資訊"><a href="#營隊資訊" class="headerlink" title="營隊資訊"></a>營隊資訊</h2>
+  <div class="note p-4 mb-4 rounded-small warning flat">
+    <p>📍時間:每年暑假<br>📍地點:國立清華大學<br>📍費用:每年不定，(我是7000)<br>📍住宿:清華大學宿舍</p>
+
+  </div>
+<h2 id="課表"><a href="#課表" class="headerlink" title="課表"></a>課表</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/IONCcourse.png"
+                      alt="image"
+                ></p>
+<h2 id="Day-1"><a href="#Day-1" class="headerlink" title="Day-1"></a>Day-1</h2><blockquote>
+<p>第一天是中午報到，我跟我的朋友從嘉義搭高鐵到新竹之後，由學長帶領我們搭乘公車到清華大學報到。入營的第一天會拿到營隊衣服(那材質是真的好)，而今年的講義因為廠商的問題導致我們第四天才拿到講義(?。之後基本上就是開始教一些基本觀念，但…..我根本聽不懂，因為競程對我來說是一件非常新奇的東西，所以當我在上課時我常常處於一種迷茫的狀態，所以我在第一天就給了自己一些目標「不用聽懂但至少要半懂」。在未來幾天我都以這個目標邁進。</p>
+</blockquote>
+<ul>
+<li>感謝攝影師幫我拍的照片，這被我拿來當頭貼<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/me.png"
+                      alt="image"
+                ></li>
+</ul>
+<h3 id="Day-1上機練習"><a href="#Day-1上機練習" class="headerlink" title="Day-1上機練習"></a>Day-1上機練習</h3><blockquote>
+<p>到了晚上6:00我們移駕到電腦教室。IONC一直以來有一個傳統，今天上課的東西，晚上會辦一個上機練習賽來檢測你是否真的學進去了，但很顯然的我是不可能在地一天就把一些新知是完全吸收，所以第一天的上機賽我只拿了兩題而已。到了晚上10:00，做完上機練習賽之後會有一個題解時間(另稱宵夜時間)，營隊會準備一些宵夜讓我們邊聽題解邊吃宵夜。在整個弄完之後，回到宿舍就已經晚上11:30了。</p>
+</blockquote>
+<ul>
+<li><p>第一天練習賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test1.png"
+                      alt="test1"
+                ></p>
+</li>
+<li><p>認真聽賽後講解的人(此時已經快十點了)<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_1_test.jpg"
+                      alt="Day_1_test.JPG"
+                ></p>
+</li>
+<li><p>跟4yu老大一起討論題目(剛認識不到一天，超扯)<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_1_test_1.jpg"
+                      alt="Day_1_test_1.JPG"
+                ></p>
+</li>
+</ul>
+<h3 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>今天過得相當充實，不僅認識了許多新朋友（雖然目前還不算太熟），還學到了平常不會接觸到的競程技巧。讓我更開心的是，上機練習中成功解出了兩道題目，讓我覺得非常有成就感。(這成就感僅停在第一天)</p>
+</blockquote>
+<ul>
+<li>晚上跑去串門<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_1_night.jpg"
+                      alt="Day_1_night.jpg"
+                ></li>
+</ul>
+<h2 id="Day-2"><a href="#Day-2" class="headerlink" title="Day-2"></a>Day-2</h2><blockquote>
+<p>第二天早上我記得是7:30就被morning call了加上宿舍床版真的很硬所以完全很難入眠導致第一天有點睡不好。早上尚的是基礎資結，正巧這是我第一次正式尚資料結構的課，但是在睡眠不足的情況下要學習好資料結構真的是由有點難，而且光是什麼先進先出，什麼後進先出得那些東西聽的我都已經邏輯燒雞了，所以第二天的課程也算是半聽懂，而下午上的就是基礎動態規劃，這門客我覺得非常有趣，因為我覺得DP這東西超酷，你可以通過一個遞迴算式來依照每一步更新數據，既燒腦又有趣，所以再DP這門課我就比較認真聽了。</p>
+</blockquote>
+<h3 id="Day-2上機練習"><a href="#Day-2上機練習" class="headerlink" title="Day-2上機練習"></a>Day-2上機練習</h3><blockquote>
+<p>第二天的上機練習賽我只解出一題，主要是因為他出的DP題實在太猛了導致我根本不能再三個小時之內想出來，所以第二天的我有點挫折。一樣的，題解聽完回到宿舍就已經11:30了。</p>
+</blockquote>
+<ul>
+<li>第二天練習賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test2.png"
+                      alt="image"
+                ></li>
+</ul>
+<h3 id="總結-1"><a href="#總結-1" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>今天還是相當的充實，並且也跟新朋友認識的差不多了。第二天晚上開始就又去Chung的房間串門子，在裡面聽著他們複習著早上的課程以及重新刷著第一天及第二天上機練習的題目，那段時間真的非常快樂，因為在平常根本不會有人會聚在一起只為了打code這種感覺真的超棒，大概吃完了買回來的宵夜，我們就各自回到房裡休息了。</p>
+</blockquote>
+<ul>
+<li><p>Chung教授教解題⚡⚡<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_2_Chung.jpg"
+                      alt="Day_2_Chung.jpg"
+                ></p>
+</li>
+<li><p>超愛的解題氛圍<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_2_night.jpg"
+                      alt="Day_2_night.jpg"
+                ></p>
+</li>
+</ul>
+<h2 id="Day-3"><a href="#Day-3" class="headerlink" title="Day-3"></a>Day-3</h2><blockquote>
+<p>第三天早上聽了一整個上午的圖論，大燒雞，而且加上前一天熬夜精神更不好了，於是早上的圖論課幾乎三分之一的時間我都在睡覺，但到了課程的後半段我突然發覺，我是繳錢來上課而不是來睡覺的欸，於是我開始拿起昨天的資料結構講義開始複習，並且開始在ZJ or CF上面找一些基礎水題來做。到了下午教的內容是Greedy，這個對於菜雞的我來說還算可以所以下午的課我都有跟上，但是有些東西是有加上前幾天交的新東西，所以大概在Greedy課程的後面有稍微的燒雞一下下</p>
+</blockquote>
+<ul>
+<li>跟yok一起上課<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_3_class.jpg"
+                      alt="Day_3_class.JPG"
+                ></li>
+</ul>
+<h3 id="Day-3上機練習"><a href="#Day-3上機練習" class="headerlink" title="Day-3上機練習"></a>Day-3上機練習</h3><blockquote>
+<p>今天的上機練習比較特別，需要在營隊中找尋三個隊友並且合作一起完成之後幾天的上機練習以及最後一天的團體賽，剛下課的我正當不知道要去哪裡找對有時，突然有一位早上認識的朋友突然對我發出組隊邀請，並且他也找了他的室友「Blame」一起組隊，但我沒想到跟我一對的隊友竟然是CF青色的怪物，所以在之後幾天我處於想付出但有心有餘而力不足的狀態，因為他實在太強了，他只要看到題目馬上就知道要用什麼方法去解決他。所以第三天的的上機練習基本上都是Blame在輸出了(成功把團體賽變個人賽)，我們只能在旁邊默默複習前幾天教的內容而已。最終，在大電神的帶領之下我們在第三天拿到第十二名，他砍了262多分。</p>
+</blockquote>
+<ul>
+<li>第三天練習賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test3.png"
+                      alt="image"
+                ></li>
+</ul>
+<h3 id="總結-2"><a href="#總結-2" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>今日早上我覺得我的精神狀態沒有到很好，因為每天都是早出晚歸再加上我又熬夜，所以早上的課我一定會燒雞，到了下午我成功在廁所找到我的兩個隊友(?，之後我們就開始討論說我們是要打div2還是div1，但由於考量到我跟另一位隊友的實力，我們最終選擇的是打div2，委屈了原本能輕鬆秒div1題目的Blame。到了上機時間，基本上都是Blame帶飛我們，我們其他兩個人還在旁邊燒雞早上教的東西，而他已經撈了一大堆子題分數讓我們的排名往上飆，要不是Blame的幫忙，單靠我根本不可能拿到這麼多分然後排名這麼前面。晚上，我們大家一如既往得出現在chung房間，打完我們的娃娃排球後我們跑去吃我們買回來的宵夜，之後又是一波熬夜打code環節。而我呢!一如既往的在複習前面的課程，而其他電神呢則是在看動漫、virtual ABC以及打比賽。再那時候我才意識到，我的程式能力真的菜，在那些已經能打比賽的電神面前我就只是個小丑🤡。所以其實那天有點學到小崩潰，但其實那些電神學長人都很好，對於我的提問也不吝嗇回答，還大方提供給我他們之前參加活動所拿到的資源或是講義等等，此刻我是如此感動，暗暗下定決心無論如何都要把競程打起來。</p>
+</blockquote>
+<h2 id="Day-4"><a href="#Day-4" class="headerlink" title="Day-4"></a>Day-4</h2><blockquote>
+<p>又又又又是早起的一天，今天的我已經對於睡眠不足已經免疫了，吃完早餐後，我異常的有精神，早上講的是數論，這東西很棒，他講了一大堆我沒聽過的數學專有名詞像是模運算、埃氏篩法、費馬小定理等等…對於我來說，這是一門數學課，雖然前面的我聽的津津有味，但到了課程後期，眼神逐漸渙散，但還是學到了許多，像是我終於懂了$a \equiv b \pmod{m}$原來是「$a$ 同餘 $b$ 模 $m$」。這對於我在寫題目上面能更懂題目意思，這錢花的值得啊!!!到了下午，是另一位學長教學，聽說他是ICPC 2022桃園站金牌，聽起來就很⚡🛐，但是當我看到簡報目錄的時候我傻眼了，裡頭幾乎沒有我看過的東西，全部都是專有名詞，像是折半枚舉、啟發式合併、均攤分析、bitset 優化等等等的專有名詞，所以到了下午我就過的很痛苦，因為那是前幾天的知識加上艱難數學形成的演算法，所以我聽的很痛苦，那三個半小時，我幾乎都是皺著眉頭上完的。上完課後我猶如艾連剛從進擊的巨人背後爬起來一樣，全身猶如發燒搬燒著，攤坐在椅子上，我只能說這真的不是人能上的課。</p>
+</blockquote>
+<h3 id="Day-4上機練習"><a href="#Day-4上機練習" class="headerlink" title="Day-4上機練習"></a>Day-4上機練習</h3><blockquote>
+<p>晚上又是熟悉的上機練習時間，這次我們團隊終於不是只有一個人在付出而已，我跟另一位前幾天認識的好朋朋非常努力的在幹子題分，刷一刷我突然發硯pL好像可以用dp常用模板幹分，所以我就去網路上找dp的模板然後嘗試運用這幾天學到的演算法知識來解這一題的子題分數，第一次試0分，我心想:靠背，不可能啊，之後就是漫長的debug時間，我在紙上一次次模擬可能的情況，然後終於發現我的code有一些怪怪的地方，修改之後我重新上傳，但這次是17分。我又矇了🤯跟我心想的37分差距了一題子題，我又又又燒機了，一直翻著早上剛拿到的講義，思考該如何修正，加上在網路上查詢之後我又修正了我的解法，欸這次37分了，水~正如預期，我抱著開心的心情收工，但看著時間，在看看我的隊友，他們也在燒機，所以我不好意思收工了，開始去研究其他題的子題，但跟我的預期一樣，根本不會。看著鍵盤敲超快的南一中社長，我既羨慕又無能為力，我是多麼希望我也能和他一樣當個超強的電神。我又又又又又又又又暗自打算一定要努力向他前進。最終，我們拿到了div2.第八名。可以看一下下面那張圖，那個綠綠的都是南一中社長的功勞🫣。</p>
+</blockquote>
+<ul>
+<li>第四天練習賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test4.png"
+                      alt="image"
+                ></li>
+</ul>
+<h3 id="總結-3"><a href="#總結-3" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>總結這天，就是從精神很好變成快死掉的狀態，然後我很開心的是今天拿到的子題分數，是這四天最多的，因為前幾天我都只拿到了十幾分或是跟本沒拿到分數今天終於有一點點分數了，心裡還是很開心的，雖然說對我的隊友有點抱歉就是了，我總感覺我一直在拖累他們(我有去跟他們道歉)，但他們還是安慰我說:沒事慢慢來。心裡還是暖暖的。回到宿舍，我又又又又跟Chung他們待在一起了，我們這次是在交誼廳過夜，有些人再打code；有些人在聊天；有些人在看動漫，我們就這樣從晚上待到了隔天早上，然後到了早上我們才各自去洗澡，並且換上拿到的營服，上面印著IONC，看著看著自信就來了🤣🤣。洗完澡，剛好是清晨，我們發現清晨的清大特別漂亮，於是我們跑到樓梯間拍了一張風景照，而這張風景照，也成為了我的手機桌布。</p>
+</blockquote>
+<ul>
+<li><p>跟一大群認識不到一個禮拜的朋友拍照<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_4_night.jpg"
+                      alt="Day_4_night.jpg"
+                ></p>
+</li>
+<li><p>清大日出的樣子<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/SUN.jpg"
+                      alt="image"
+                ></p>
+</li>
+</ul>
+<h2 id="Day-5"><a href="#Day-5" class="headerlink" title="Day-5"></a>Day-5</h2><blockquote>
+<p>今天是營隊的做後一天，啊對，我又沒睡了，昨晚聽到今天下午要組隊比賽，根本沒心情睡覺，直接抄起傢伙熬夜苦讀，那群大電神也是如此，但我和他們不同的是，他們是再打比賽，virtual比賽等等，而我，還在研讀前幾天的知識，程度可說是截然不同。回歸正題，第五天的早上是TA時間，也就是俗稱的「Teaching Assistant」在這段時間，你可以對講師提出任何對課堂上有疑問的地方，所以整個上午，所有人都處在備戰狀態，都在為下午的比賽做準備，而我也就是在準備比賽而已，沒啥好講，喔對還是有一件事情對南一中社長很抱歉，就是我們真的太菜了，所以害他被迫選div2.屬實抱歉。</p>
+</blockquote>
+<h3 id="Day-5組隊競賽"><a href="#Day-5組隊競賽" class="headerlink" title="Day-5組隊競賽"></a>Day-5組隊競賽</h3><blockquote>
+<p>吃完午餐後，我們到外面拍了一張照片後，就轉移到電腦教室了，所有人都在為比賽備戰，而有些人因為昨天跟我們一起熬夜，所以趴在那邊聽著馬卡八卡睡著了。到了正式開始比賽，主辦方熱心的準備了大量食物及飲料在外面，供燒機選手補充能量用。接著是比賽時刻，今天的比賽有點特別，遵照了競程以往的傳統，提供了AC氣球，也就是說你AC一題，接著主辦方就會在當眾拿著一顆氣球給你，，而那時的榮譽感是絕無僅有的。當天，南一中社長手感特別好，啪啪寫了好幾題AC，我們其他隊員都嚇到，看著主辦方一直將氣球送進來，此刻的心情高昂到極點，努力的跟他一起做題。到了最後一小時封板，南一中社長也不演了，又寫了好幾題AC。最後，我們以一題想貪心又貪心到不到的貪心題做了整個比賽的結尾。最終開結果，我們竟然幹到div2. NO.1。我們其他人都嚇到了，因為沒人覺得我們是會第一名的那支隊伍。結果頒獎頒到最後，大家都因為趕車先走了，所以剩我一人在那裡領獎XD。</p>
+</blockquote>
+<ul>
+<li><p>第五天競賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test5.png"
+                      alt="image"
+                ></p>
+</li>
+<li><p>頒獎 - 南一中社長解出的大象題<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/elephant.JPG"
+                      alt="alt text"
+                ></p>
+</li>
+<li><p>頒獎 - 這個忘記了<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/DSC06278.jpg"
+                      alt="DSC06278.JPG"
+                ></p>
+</li>
+<li><p>頒獎 - 我自己領是因為他們都跑路了<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/DSC06276.jpg"
+                      alt="photo.jpg"
+                ></p>
+</li>
+</ul>
+<h3 id="總結-4"><a href="#總結-4" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>今天，大家都全力以赴，經過五天的魔鬼集訓，大家都疲憊不堪，但還是堅持下來了。(突然有點感傷)我只能說相較於其他大學的營隊，清大的程式集訓營是真的猛。想當初還在對比要去哪間大學的資工營比較好，但幸好，我選了最讓我不會後悔的營隊，也就是清大舉辦的程式集訓營。總之，我不後悔我當初所做的決定，因為我不想花家裡這麼多錢來參加活動，然後去了就只有在那邊一直玩一直玩而已。好拉回正題，總之，我很喜歡這個營對，這讓我認次到很多電神，也讓我的程式知識面有了拓展的機會。</p>
+</blockquote>
+<ul>
+<li>大家的氣球<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test5.png"
+                      alt="image"
+                ></li>
+</ul>
+<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><blockquote>
+<p>這個營隊讓我認識到很多人，最大得功臣是yok，要不是他，我完全不會有跟Chung、4yu、Youdong、Youtong、布丁、Winliu認識的機會。想想第一天去的時候，我完全不知道他們是誰，但後來yok帶了我去跟他們一起吃午餐之後，我開始運用E人的特質去認識每一個人，去了解他們是誰，有什麼專長等等的，而在後面幾天，也跟他們想處得很好，我們不僅會一起討論題目該如何撰寫，也會在晚上的時候一起在宿舍內玩著延長線架起來的排球遊戲，並且一起吃宵夜、一起熬夜等等的，那幾天的我們如同認識幾十年的好兄弟一樣熱絡，完全看不出來每個人都是來自不同地區、不同高中的。要我用一句話總結這個營隊，我會說:「IONC不只立意發掘程式人才，也讓不同地區但有相同興趣的人聚在一起。」推薦各位去參加。 </p>
+</blockquote>
+<h1 id="總結營隊收穫"><a href="#總結營隊收穫" class="headerlink" title="總結營隊收穫"></a>總結營隊收穫</h1><h2 id="競程知識提升"><a href="#競程知識提升" class="headerlink" title="競程知識提升"></a>競程知識提升</h2><h2 id="朋友圈擴展"><a href="#朋友圈擴展" class="headerlink" title="朋友圈擴展"></a>朋友圈擴展</h2><h2 id="對於自己目標有更明確的打算"><a href="#對於自己目標有更明確的打算" class="headerlink" title="對於自己目標有更明確的打算"></a>對於自己目標有更明確的打算</h2>]]></content>
+      <categories>
+        <category>營隊心得分享</category>
+      </categories>
+      <tags>
+        <tag>2024IONC</tag>
+        <tag>營隊心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a004. 文文的求婚</title>
+    <url>/post/a004/</url>
+    <content><![CDATA[<h2 id="a004-文文的求婚"><a href="#a004-文文的求婚" class="headerlink" title="a004. 文文的求婚"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a004" >a004. 文文的求婚<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>等待屏中社長中鍾笙祥先生幫我撰寫</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (cin&gt;&gt;n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ((n % <span class="number">4</span> == <span class="number">0</span>) &amp;&amp; (n % <span class="number">100</span> != <span class="number">0</span>) || n % <span class="number">400</span> == <span class="number">0</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;閏年&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;平年&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> stdin</span><br><span class="line"><span class="keyword">for</span> read <span class="keyword">in</span> stdin: </span><br><span class="line">    year=<span class="built_in">int</span>(read) </span><br><span class="line">    <span class="keyword">if</span> (year%<span class="number">4</span>==<span class="number">0</span> <span class="keyword">and</span> year%<span class="number">100</span>) <span class="keyword">or</span> year%<span class="number">400</span>==<span class="number">0</span>: <span class="built_in">print</span>(<span class="string">&#x27;閏年&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="built_in">print</span>(<span class="string">&#x27;平年&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1977</td>
+<td align="left">平年</td>
+</tr>
+<tr>
+<td>1980</td>
+<td align="left">閏年</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -383,216 +778,6 @@
       <tags>
         <tag>C++</tag>
         <tag>環境配置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a002. 簡易加法</title>
-    <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1 2</td>
-<td align="left">3</td>
-</tr>
-<tr>
-<td>5 10</td>
-<td align="left">15</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a001. 哈囉</title>
-    <url>/post/%E5%93%88%E5%9B%89/</url>
-    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>C++</td>
-<td align="left">hello, C++</td>
-</tr>
-<tr>
-<td>Taiwan</td>
-<td align="left">hello, Taiwan</td>
-</tr>
-<tr>
-<td>world</td>
-<td align="left">hello, world</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
-<li>吉他學習紀錄</li>
-<li>實用讀書小技巧</li>
-<li>一些基本軟體配置技巧(親測有效🥳)</li>
-<li>個人生涯學習紀錄</li>
-<li>程式語言學習</li>
-<li>程式小技巧分享</li>
-<li>軟體配置分享</li>
-<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)</li>
-</ul>
-<h1 id="本網域來自嘉義黃姓金主聯名贊助使用"><a href="#本網域來自嘉義黃姓金主聯名贊助使用" class="headerlink" title="本網域來自嘉義黃姓金主聯名贊助使用"></a>本網域來自嘉義黃姓金主聯名贊助使用</h1><h2 id="https-www-hyjdevelop-com"><a href="#https-www-hyjdevelop-com" class="headerlink" title="https://www.hyjdevelop.com/"></a><a class="link"   href="https://www.hyjdevelop.com/" >https://www.hyjdevelop.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>]]></content>
-  </entry>
-  <entry>
-    <title>【題解】a006. 一元二次方程式</title>
-    <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<h2 id="a006-一元二次方程式"><a href="#a006-一元二次方程式" class="headerlink" title="a006. 一元二次方程式"></a><a class="link" href="https://zerojudge.tw/ShowProblem?problemid=a006">a006. 一元二次方程式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>這裡要具備的基本知識為國中一元二次方程式的判別式用法，以及要注意開根號的用法為sqrt()，了解這個之後只需要注意在寫算是時要注意()的位置以及要分正跟負=&gt;因為公式解有兩解。</p>
-<blockquote>
-<p>兩解分別為<br><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -2.413ex;" xmlns="http://www.w3.org/2000/svg" width="25.769ex" height="5.957ex" role="img" focusable="false" viewBox="0 -1566.5 11389.9 2632.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo" transform="translate(0 -0.5)"><path data-c="7B" d="M618 -943L612 -949H582L568 -943Q472 -903 411 -841T332 -703Q327 -682 327 -653T325 -350Q324 -28 323 -18Q317 24 301 61T264 124T221 171T179 205T147 225T132 234Q130 238 130 250Q130 255 130 258T131 264T132 267T134 269T139 272T144 275Q207 308 256 367Q310 436 323 519Q324 529 325 851Q326 1124 326 1154T332 1205Q369 1358 566 1443L582 1450H612L618 1444V1429Q618 1413 616 1411L608 1406Q599 1402 585 1393T552 1372T515 1343T479 1305T449 1257T429 1200Q425 1180 425 1152T423 851Q422 579 422 549T416 498Q407 459 388 424T346 364T297 318T250 284T214 264T197 254L188 251L205 242Q290 200 345 138T416 3Q421 -18 421 -48T423 -349Q423 -397 423 -472Q424 -677 428 -694Q429 -697 429 -699Q434 -722 443 -743T465 -782T491 -816T519 -845T548 -868T574 -886T595 -899T610 -908L616 -910Q618 -912 618 -928V-943Z"></path></g><g data-mml-node="mtable" transform="translate(750,0)"><g data-mml-node="mtr" transform="translate(0,600)"><g data-mml-node="mtd"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mo" transform="translate(389,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mi" transform="translate(1167,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mo" transform="translate(1818.2,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msqrt" transform="translate(2818.4,0)"><g transform="translate(853,0)"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mn" transform="translate(462,289) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mo" transform="translate(1087.8,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(2088,0)"><path data-c="34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></g><g data-mml-node="mi" transform="translate(2588,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mi" transform="translate(3117,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g><g data-mml-node="mo" transform="translate(0,106.5)"><path data-c="221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path></g><rect width="3550" height="60" x="853" y="846.5"></rect></g><g data-mml-node="mo" transform="translate(7221.4,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(7832.7,0)"><path data-c="F7" d="M318 466Q318 500 339 518T386 537Q418 537 438 517T458 466Q458 438 440 417T388 396Q355 396 337 417T318 466ZM56 237T56 250T70 270H706Q721 262 721 250T706 230H70Q56 237 56 250ZM318 34Q318 68 339 86T386 105Q418 105 438 85T458 34Q458 6 440 -15T388 -36Q355 -36 337 -15T318 34Z"></path></g><g data-mml-node="mo" transform="translate(8832.9,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(9221.9,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(9721.9,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mo" transform="translate(10250.9,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g><g data-mml-node="mtr" transform="translate(0,-816.5)"><g data-mml-node="mtd"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mo" transform="translate(389,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mi" transform="translate(1167,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mo" transform="translate(1818.2,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="msqrt" transform="translate(2818.4,0)"><g transform="translate(853,0)"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mn" transform="translate(462,289) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mo" transform="translate(1087.8,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(2088,0)"><path data-c="34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></g><g data-mml-node="mi" transform="translate(2588,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mi" transform="translate(3117,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g><g data-mml-node="mo" transform="translate(0,106.5)"><path data-c="221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path></g><rect width="3550" height="60" x="853" y="846.5"></rect></g><g data-mml-node="mo" transform="translate(7221.4,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(7832.7,0)"><path data-c="F7" d="M318 466Q318 500 339 518T386 537Q418 537 438 517T458 466Q458 438 440 417T388 396Q355 396 337 417T318 466ZM56 237T56 250T70 270H706Q721 262 721 250T706 230H70Q56 237 56 250ZM318 34Q318 68 339 86T386 105Q418 105 438 85T458 34Q458 6 440 -15T388 -36Q355 -36 337 -15T318 34Z"></path></g><g data-mml-node="mo" transform="translate(8832.9,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(9221.9,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(9721.9,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mo" transform="translate(10250.9,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g></g><g data-mml-node="mo" transform="translate(11389.9,0) translate(0 250)"></g></g></g></g></svg></mjx-container></p>
-</blockquote>
-
-  </div>
-
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    <span class="type">int</span> a, b, c, d;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    d = b * b - <span class="number">4</span> * a * c;</span><br><span class="line">    <span class="type">int</span> x1 = (-b + <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*正的*/</span></span><br><span class="line">    <span class="type">int</span> x2 = (-b - <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*負的*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (d &gt; <span class="number">0</span>)</span><br><span class="line">    {</span><br><span class="line">        cout &lt;&lt; <span class="string">"Two different roots "</span>;</span><br><span class="line">        cout &lt;&lt; <span class="string">"x1="</span> &lt;&lt; x1 &lt;&lt; <span class="string">" ,"</span></span><br><span class="line">             &lt;&lt; <span class="string">" x2="</span> &lt;&lt; x2;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (d == <span class="number">0</span>)</span><br><span class="line">    {</span><br><span class="line">        cout &lt;&lt; <span class="string">"Two same roots "</span>;</span><br><span class="line">        <span class="type">int</span> x = x1 = x2;</span><br><span class="line">        cout &lt;&lt; <span class="string">"x="</span> &lt;&lt; x;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">"No real root"</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">a,b,c=<span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())</span><br><span class="line">d = b * b - <span class="number">4</span> * a * c</span><br><span class="line"><span class="keyword">if</span> (d &gt; <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    x2 = <span class="built_in">int</span>((-b - math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f"Two different roots x1=<span class="subst">{x1}</span> , x2=<span class="subst">{x2}</span>"</span>)</span><br><span class="line"><span class="keyword">elif</span> (d == <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f"Two same roots x=<span class="subst">{x1}</span>"</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"No real root"</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1 0 0</td>
-<td align="left">Two same roots x=0</td>
-</tr>
-<tr>
-<td>1 3 -10</td>
-<td align="left">Two different roots x1=2 , x2=-5</td>
-</tr>
-<tr>
-<td>1 1 1</td>
-<td align="left">No real root</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a004. 文文的求婚</title>
-    <url>/post/a004/</url>
-    <content><![CDATA[<h2 id="a004-文文的求婚"><a href="#a004-文文的求婚" class="headerlink" title="a004. 文文的求婚"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a004" >a004. 文文的求婚<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>等待屏中社長中鍾笙祥先生幫我撰寫</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (cin&gt;&gt;n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ((n % <span class="number">4</span> == <span class="number">0</span>) &amp;&amp; (n % <span class="number">100</span> != <span class="number">0</span>) || n % <span class="number">400</span> == <span class="number">0</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;閏年&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;平年&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> stdin</span><br><span class="line"><span class="keyword">for</span> read <span class="keyword">in</span> stdin: </span><br><span class="line">    year=<span class="built_in">int</span>(read) </span><br><span class="line">    <span class="keyword">if</span> (year%<span class="number">4</span>==<span class="number">0</span> <span class="keyword">and</span> year%<span class="number">100</span>) <span class="keyword">or</span> year%<span class="number">400</span>==<span class="number">0</span>: <span class="built_in">print</span>(<span class="string">&#x27;閏年&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="built_in">print</span>(<span class="string">&#x27;平年&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1977</td>
-<td align="left">平年</td>
-</tr>
-<tr>
-<td>1980</td>
-<td align="left">閏年</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024 IONC心得</title>
-    <url>/post/2024IONC%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[
-<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="53397a60e0352198c06fa004a7ac33eeeba51fffffd3a660e5a30832e3c3bfac">55105b6c89b5ba770847e4bf080dbff8e05d11ecc222bad60a9c23db817d4ecfa71827637fe3a11eda8d6bd5a30f5e8426c17e495b0ffec28375225b368bad45b878be41e797010816f2da778d098d3cc7a2ad623a1390f12509d4a7ff09811e190e531eb8743f4c8abbb9e7619b8ca3e7adce3ffe56f8899b73e77b188f42c2eef5a77c82a5baded92465fbc21db5c3958cfad5723213c23c6d707aaba2130d26cb02b42a44b407ccde7f3d26cc9d3f8bcbdea999792647303c08953aa4f366f44ad0ff3f6cf8a6edd9a363749dae9adcbdbeb88bd1d31312c8e5678303e0c923859d07b6db2b76c0d952152d5e9c3c73aa01dc06b4ef449cae818e454382c781dc082c467920abe5ea0000d6b9ed99356fec7a491586ad84f521d7f8ed03c1d9d24ec68114da26fff480dc7ed4c8e94a1e16d07a5dd6e9986204f3858efc0f45e35399b0b160bb47e0b78046284561170e3234576893db655a3d5044d79f1c72e714fd68978079833f82b93277c04d02e18026ba2f9d537e9e434464cbb6eb8689307d4605112f80cf71fbad2aab1f45b7051634de2355572f35045abc207b98154d21b49d8a91e9e31eac6e1c0787cb199d296571bfc853c8f0b5eb645983d9110e49bc11e7d7db36f5f4481aaa8a74b5140d378663b0cfcd3be3555bc7b69c479e4aaaa7ae9272c1ca30875c5566906ba24c0a1daf6c6b1414b03f9833b4a6a7c4743d9af437d1f97d04fd2c57b0f20373db2c7edda4dcb965917c862edd78d308535ee3f5a7420fad6a5f652b7dae8429cd0ea2d6f398c32c6654e309d61f6bcb52c1d860c1991924eebfce686c985050ed710a4b99c60e6a233a07ca4ffae0d7c052a1bc3fa2d05a2edfbab9fec21b4a4674222978f12f52b205b89f0a5f81d881501f7052e2382a6a1e17c375cacf1d559e7337e409484f508642e81dbb5074221a75ca9813b8920bfb982c04cb0dbacf3de07606726230faa21243c6dd25283b8567bdaf87f76d4c9736d80952f3e1b3512a6eb958e7212d913167e2f09a41c49cfb673e8b7a20125f85702417e42d719e3b6e6b9b0fe0a7740a054cbfa2fe4d6bf068ebcbd49f8fdfe2f38ce77bdf0c6b8c772b4f5a21cc9e1c560cf1adb58adfda203bc6b4742fda5284fabaeee1ac9642e350f19036c855326563500f672fde3c0d64cf9b02067846c55fa1b56c1c24e60ba200e27d9425b43c630ac47ebfd6d61759bbc62037d02ee6aa84fdd4e142c02d2ac9b67d7de3dd726895b2fd2f89a9210b0f7ae9790647702a6640c443fe28a37525fd96d09c25ebf0cccacbc6e609027fa2208d4ed4a8dda5616267cc4e24e416121bd8b18c84690526c31785cde3ae7c0b2992983733590247c344fb7638a81819bfe4c47768669a8cc910361b406ed110f2b869358383185e7d156d7a47a3a8a2b6b49a0cfa382cf5e342bd0f6b279d24019bd897fa3fb320e65faaa256e59c6eda589eb354830a28e0e85281426e8df44c25d93124602661df92eef7a51acb47b95fff8264ad349e8c358a021a4729140349fe1d551e1aca1d87eff537163a377faf180a2b909ca3bf484c7aff5fe012a0dcbdd65f22ad5ee7e8564633c6a188040845d2a9b603c8542816a39275a7eaff89270656c16a06c1ff4ded431e4b9f1736cb301b07dc0a2f1edaedeeb363740507af82ed56629dc9cecdf54b844e7092e81369cc882db0a1d575249dbb84e2dbc485700edcbfac41a4436f0f776c8f474ce1b635cbd4922bc2edb3d480305f9b37b7d9b91864734788cc521500c36f00bd30ca36ef3c64d131002f7ff57822bdc3cd2d085cfc8d6f003f22c42316c74ec7b830366e818cebfc19addad6a03c50e749232afb7f258047bdf257e67cddf72a5d1bf515bf8cc9b3dfe30f84c59b2c04bc56ced49d6c8dd47ce40dabec46efdc7420269fae46fc20a333f86b5c81414545d60454998bf7a7833d1f44e60ebb9d30d8cd7c292c7ab277a3e075e5e1f2646ba0b5766cf2e4c0f4093f4f363b377ddccc95ad1b0cf1e841259d5e70068cce09933e5979f31f0c46837a25db57c9bdff863ffe0ef81d12270cf1660719d077c5c3fc81a5e6663ffca736e0e160123827dd712acfe069508382a1fd53185d261e1ad9e1aa90ce1388c08b1eba5519dd80871fff1c39a7c7b5381f7946a9edacf543c680173aedfbf0b0ae2dbb1e6e30e2dd21527f931beb378aad524237918ca3a45d2db5b4251345f73ad7d0033cedeb9dd0f9bc9675be6d9610a5313261457bc3a5315a4780621a02392c74a30ea7be2cb9950a39db87acaf69c0e954da7403496303e066a2d94f3bf88797a956893d6cdc1370999c780eedcc7161702a4f2b60b86b6e7cf7f66f29d9917ab2ae3cb6ed9a140750db2b3692e2b4bdd6086a9bfa6e249046bbcdc3b58b0bff38a197dc69c4bbc4771f0df018d432dacd5900cea4361ba7d3c60c6830293eee2dfee8e91d16ae23b08136f32e31c6082749025bf28fcae5b750559ae8327ba0538cc8f9785004ebfe701ac9c8e62149cc17d2dde4674d6c9bb165e2962e71cb20edd22588ae503635453e8bb6c014ce326ca1674b437514730681f6f4d5ba1c00626e86f9b6be77c05a0d7a7706ff38d1097379d57785a5070a3519ac908904c57f3de7b65c3d45e14659318feb4ad7d90ef53bf7bd945e3b6ddb475f0d93be4a3904b61d3a1850dfcd2c052d121cfc669027a5c42c93ae057fddb93cfa01d195808923fc93d6e37d9709b216144b63915417ae45b95dc396a81eb83ba1c7395280a986637a40655b1d784b22ffb6848176ba1bfbc75639bcc54b6af90a4d51d721186071451835c0efa91e3e5b9d5cb230d9a3507ae0c5c83f6bcbca34b44ba688b35521de707f258498fba1b358eb3f7ef85ea3b26e2ff9bea59985437789c8f7905c09558e90a5fce1f9555fc64d775b4a6eea47772361cf791e453f09061fe4ff44fdcdd866a4bef84eb3ef0e6f7583691d80bdbf1f78b87e10bf463aadad09464f3cee1250ee8f1b472beadbaf6d9e68596d37021b6f4b34de2ff14fe9eab7d488eaeffbb66dbdfa28ebb78ca8aeac71f86cc394493992ec0715747b2e08021b09bd5f5854bde22387b1db6197f4a43393da35835b6c85e3c0f02e12c13887442b3ced1c493a42d37221d0750c68949dbd349978ca39b95eb179ed4f1b9b325df2a98be7eee5caaea1677229c86e5129234a938b5b5ff0e43338c8a11a1aa3f8604f99c50a7e8a82688d8187d1620d2afc3c4462cba59453965d4dad0ce9a636cc52c4fb547c3bd235a1e5f31d0c9506ae33d1efc26c6971a390053f884247dff99bbaa2a8e0fded100a981c4602ee76873fdb83dbfc71feb9d69f6df2ca592e0c1f38c500336822f002ca31de6ecbe68cc467190b36d9340a6d97fd289e693e203506aa7cb613ca7771d4e8cf1f4bd4ee16a82b30e0d48450ffeb7248e99e58d223a1f75206220e3156288bb3885beeacd3555001b0caa2a685ccf042073342eadd2b50d41b0db1dbb2b20976a278b4c31b1c0ce9fc2477706d5ec07dec2374b25e4168deb32a93b38a110684a51c71378daf3b29fcad604bb5a995ea23c2b26d5f97c4017b9c3ac277d7c2111ecc3174d6f344f6abbbc7387d0c19ca3b87ad3d6abd4d74a0d71a564f2a141fe02c59915a5b536f1a4fd7185cac2fab4d912d8f66eadf4da03d42f7e4b78e7c04be085aa7aa0cd8ca2613116320f89bda35bf0279d86d49bd947e35d48f6b71c5d1ccaa53717462cfd79ca2ca1ac68bead5301ab6cb3105a122ccdb7e962890d23eccf59d4f1b48dc8372ce283b46fe2ac8f9b43445c167da745282e11935253b79e5a69af433c8ca501733944ba844682e20f456c475193240803cb8f81b59a8fd124e2b050a1cece43e1cacda85e1c18d9ce1c4813d4a4935a1cdbe3543cfdaabd1d58c50abfce96313efca683bc9bd189ee023fa7d408e8bad06a6a77232912a6e69fef604d84144c969109b067fad59dfecb1dd333d43c1317d05d0196c1a7c2d32bf293a7a8b8f43d17def80d9ebc9b521798afc9858efd6eaaf883dae99bbcb1e7801c9e76b62d7c9f0d8e7ba683ebf35eb86d6ea41f7b1049aa4f48eab6fef1e6f75d2eb4b2ece18726c5b7e1801a28876831246403011a95d2a510b2f28333cd2c2d56f42b63930dcb8ee815b6bb8f8a3af0e9fdae68e804de3022b3fd2bf9d1fec523e5423fe15aebe5f70165c5118d64735aec97599c3d85b90bccc4636ac85c7b9b420ff038b6f87ee6216f8e6ec5cb975e91515f715f4c1e188e7f4d56bfdeaa5e59c0c145b90e99e3eecf60ef745ce3186ebdadefef0ee9e53b408a12e815ebdd059efc5de79a1ab6ec39ac61035375ae9a67375fe06b71233b8d1290e1dc1f7bc6706ebf641bdb130810eb3eff38ddf0b179f8626b957833160bd987d724b74e6a37c2737c4f157616caa01c81b9bf0707b946bfa3b196d2593775b4ed8e5cda4034ae456c2c6aadd095ae502a6f611e443c57481cfdbad4cde8c134c07632f6fe9ee0ee1a7257456cbb352a5d7fa8b4f8f344969d89c13d395ba0edfeb86d6a3ff6e5d2a46ca157ee7e126e832a9a6f5a04c48674a71d15ec9aea02910b955ac7d02b132a66bb6492183e3a29c9bcbe7548132083871766d867e7325f1d33f87eb5e0cff17113f8f902a4a46206fe40f3ee0eee1d5d33ce26893f587a3079724e6ca43de2915168c2e3fa0fcde1a69b93e102d0f3ebae836eb50aff5a09c2f6583f399cfadccb38aba451834820a5489f1b6d5b58c5c9f6ebb8cea03664ba66e9c3a2e1d37242dd5fc81098d7ae98b64aa743330c2fc31a03fdc2ee9f3807c10354fd0441cd85afc0a74c9bd77c4cbee9b1f86208554e8020fd5a4a9d22b883c6de7f03fef06bcbef20bf0d0517fa6c8cf0a12913aa2742688a1a1329fb51f1e577e09270b24cc5c9dcd6f4e5ed017c3c3a4d7d690f62de5053946cc9490bebac0d5b0701ffc28c7f3e35971085d0110e11de39650c5ea58d79e50a2b4f49c4262a934613864c0fd6d67771d6588adddc735693692fb41684f60ffa881959f0f8a6bf3586722a0a22d0c752501171b5a3caf3c63b909794003772aa160945d45cc8edad62612c044c6dd3f59b0a70b57f7bb220bbda7d2d400a328dd7c859fb785b2c144c347a1d5eeb7997abb11b838b4abd948c9e22f19da1a8fd29689d69d77b447d24cde489229d1034dbe5d5454e039f77390ba64c4c6bfb861a93d47f33fa70842bc3959818495bcb4b64bdf78fb80e8826c6d7ca17cf0cb578f0b7385e04a8f94aa5af891f54b0d0fad7bda41cfa4ca57d234be542903845f1a52a874412a4b12b040e889edd71d836653d48e5e9e3ee325ebe1e667458b142c464fe4cd98573d071b5f4678e7d5b24c2c55e69e508569fc9b0b217e162786ff3508204263a850d6f992a945c32d88ab0cb07b00575e72b226c67d5c1e836165c44e4f2067a397c79a1b7706c43643389b98263e6152dda2ccd2c4c07c2d86df6c8c9f7bdf0f38b6b08d50a4ad840859e791891d72bb3ce51091d90cbc219120193c91e8a25bb75f48cc9b34f0ad44153ee6f3ce96692c5d79034faf32e8712447b45b5cc26295a31b0f0b3d588caba75040625d10a5b81bc8d62076cea32dcbf0e8b2ffea033321619da90e317613e43919dfcf128cda684f4a99a72273d8e7d99f150673b1a31fc1fcbad8efe5d208b3ce3b72644a314ec066fee88bb573300192316e3b3fbd00b998d50bd2d050d9b9d9dd88d2cf89bdd81992494f5d712a67a8d5c12bdaabe0438ee58a36d6e2572bb22aff98c79bf40f113a9c867029e4086edad2f866ac84de14ec6a266f68947590ec51b74b6cd072ad759b3e8ab23b24b7d69cda85465f005efca4a5156823b06873c00a9147edd1510c37b67e3972587f65af7153b8c4470e39f18c4517a23ec9b3a97bf6518ad8d8d15785178489c8e8ebf81cda7ee8dd7d2c92c901782e2f4e074c63c2e3205b6110030deadbfce35a9ff202a008f9220085ddfc7b420429485904227d92170e47b6e1e7cb111820f424dfe47729edbcc73aaa32e67d132ec00ad79e585921d950c8a6f04e86d049d06a2b45a041a61737e8c8867436949938ddd879ab29b1a6b1eaf8eb03ea4ed6ac36daa75ec51d58c40d6fddfd824eb1b7dfceb5decd88eb6288c77fbb5f9bb96edbca31db08571a168104311f951b107f4c4bcd8c70a1a1be3636af826fdbcc52719c13eb07cff0c9c9740bad777630a13a9a6a1d7fa35fc0169ab3cfe1d7c2631f64e01bbe8a3109f8cf34f815fce9acd9fb569063d6ff5efc2ca8cb047e54ba7a52b270f0bdb8a02a93be02dcc278123bc81b2843e1a744755d57dfaa40c9577cd0fc09f7d25963b15d402295f68f431e350307ec2113d72d52e9ea9f78850b7a1b4ae13d69c2e0c450fede2c16591faabfdd3c234f8487d02066ab05d48cdd3063a3727620e6d24531f5b438b9a61e1508f70cec788d98f41a91d377391a22b70dcdbdbd6830d56ace93547ee9c3663ce612042e018e0ad63e0a2d6c98a4830e983e214d36d254205310c53aa71b076a57a61ad299b545ea30718d7f37501b5d6b03ea939b575505c8f0cd1df9d5b21831ac8cb442bc4de5d5c68e4ab0d578a5cf9215be0a7e443af46070bb6a7ba2f0f9c661478653e8f2572884d48c474a07b8805ce1b5eec37f2c384a39f88e7080e4131d5b13aad6ff4f90d74f93a982e07cc7dbf5e2711fbbc353aa9abfd66f8e1967ae32b96ac2690027c0873aa3e81c1bac134ace0d04ca293248d9649de756833e50643d29ea4b5cd9c4bfc1f1dd2d9fcf1cfe79e075e8e21c254fdc003b3f0e9961cc005b0399ec74cbbc3e19310ec5a12488eb892cde49b4107ada021613b2ab670c19b36a40c145e1f1d9475953b79c8c31dea6a4b2c8f47ad8c360a47521f0a61975938e2cc03a12318659b8e2d69edc4dc89512db8c6e872938061d7c0fd0c67c27b2ee3b05d209575c3fd79538198f327bbb6e04990307250393419030744b4b8fd41b3348c835ac8a3cc295de2daf3bd4abe9f867bcb9cf198fc5ef1171ebbd99f34c0dbc7d263fcde4c7c9cc272870334951d8e05747a1ccac539d410ece402dd3837979fbf6e6640eda04464904ce4cce5cd7e68e47fcf56d44d0f527947b208446ae434c36861dec7b3fcaaab0190d11e818b0c8099c30c69f26eb2b20d527a84be3819b805b91c6ac6b5234dcadd70583c9cbed4f0cc00a161912ac9231d39bc8baa317d60e9b197a6653ccdc20a57875224f34fc9219932919dc109028591275b12cbcbf7baa9fbfcb740577fc2ff2052a63cc05db11909d3569c9389f704e7952ca0edf1470de634d848dbf539141f477fc3b29d610912eaf781f59654ab7e5abe3386350bca72e5deb5c9c6e00c5028bfc2cae25e1d85fe2c1fa0702d5bf9a26206435dc16e0f2d7018d390f11f40245b9160f001a9fffcbb72f3e232bd2bd6fd2eeb499c8984f8fa738c1fcdd2a345afc2dc7e82a3d89ed168b1c8656d9e29fe91788c1cd1710330565c4aae11d3e0f22743905ce665b42b51ff3d9e198c8fba20f831b9a23c265b9cc365e738865369799b636fa149d632aa67df63d1a37cb39a4e0c261f58ab49a231c9c5d3c553a2f687e0dc1598ac5e35e928461c7c7aa904289aa9863df5ca2931ca9977928779b177c371df03a2f506568890c03561a0c13e152b7f375f67870b59e545b15d77b0ebc98f4ce980fe68c65fd929a7c74899b96a9a0246d116e620add6acf9623a17d71eaa1df5711d17109ac7fff11123b015709a819bb2087687770dd9c6be2c841219baf94caf6dadf20ca882f95869c3c186a5a1fb36efb2e5bee36c6c64664c58505dbcbfb1b8820528d4928741a479c843048e490e85666180bde556d591156dd297d843a871946f758151fb9e0e86199bd2f400864c93793f1d41c4e7fc598c48ed39a4c7d80ca685b2bd23a9debd0f1a5124559fd874070f71461dbbe9b144b781abab498fe2df8a21299ba6b1c3b7f566bc6d2c079b617c72a1474916494ddae9e6aeb79ec7be4785ef17e7efc4c25b77399bc4e55914e11447770f2cbb3dd41d85b0404f5101cda97090abd4db0a29f5b42758f238505dfdf52577cf3656658b01851ae7a045a7490e85108598148f5412e54bd6932034d34534917268f2869cd9355e476b6b0c2d73ed6a18b176eacb40e4d7897728c93cb1cbfae3b78c957157cf42501c9dd29f321525cc2e99d9626501016f4c6471ae468f90429086b25bf66a3cf1a4f711858b83215a5d0defff6bed353b2869af9ef1bd912d2b7c169fc4f3d45e51ccbc4633666f2385afde50cf1c2b4c7571886d91d54b5eb13ebc349836075507bb892931540923eed12fc15ede0a21a8aee9178912741da26a45592b129d0c45441b2a0dcf983cf3e7a8428175336a9d1312350343e9f76855ee0ec4e3b6cfa6a25e1d9bd41430f4089d8b4e95d1391e4b1511d3d8aebb219e15b1cbaa0eb189bf1d2b3758d973355c756f2e03ad5c330c89ee40543c178171968b8057f101fb940caa60aff98009b63b717eaa549a187ceaff91a64b31faf9900e25ac1eec53658c516974b738ffa4089dd1b81d0d73496dcb4320cccd271d97caad486e08b8788db186fb26de68dc541c093f77d5d0372f5921402476faccfc1049af1995dc8264a5a6f6475424ea8f3db90ae9a45069da32d86489c619c3ab77e33219ba3d3fc9b99da8f0683e49fe58b5c87fee018acf8f073a2a2fdc54b36a54de519506aa68e6b0482cc903b7119d5246dd45340d8d12097e76b59da994e403877739e4196cf910ad445cd951ecd369aa3565bb6c92324826b545aa2fd4cb0d45a572ac2014fbdb841ba60432a29119c583116c798a1689893f300024e877530ed5a18946bc8e6bf288ba05138d409cfe9c57a8b5888cd3b4e631c8dac5650004be53c80ec1a57406e252bda79d9ca810bc7e76fec3e9cc48f46547bce36897896808eef7743083e995a537c5358ebda040e55c22277ef0bacfb9be759d2d91c4285914de4877a2412cdcae7428ff9542e980f302902b97c1fd144e1fcb2cff3aa3c1a072872560341f0cc7874f9eaae47bb6b4179e39c596e11838f394c3da11380c277a5f000e5642720715736c6f0acfd7aa8c0b1aa4686b849260f6204be658afd3477abc224f50a2d7e202ad74964ba0517bab08d759eaba37ba7816438520e6f1fdfd356a2b7e19e1a4d467c16bfc9b2808445a045b5407b5fc8ef7760fa8dfaa345aa7ba140a15824ef569fe992025f1755d6f5ee193f00100484f781692a0b6d086455fccf57d7b13ecba4d9d31f91b85c7a9447c7de29f53910453a882aaff641861781c4f7bfbdf4e09145ed868fdba86e13c2d9822a8329b9e381e4434066ba29ec82b1a805084f5495826c413ebf3c513b422c241270484eff85687b141ee625a963dca75de5155bb48d55e12145ecc2fb9fb13dca0089acb62be8daf0daf3e0822e8eac0ad3ee162453cb26f55a31683e63adf6abfd5524810acac2e5d2b94b187574a7a5fbd94b1ae7aea9ce9f2b3a3cf0fbf167fdced71f49c424afc07863e1fa026255b84cec771907646321d58b4008b0e9d1d7bddb9f86cf361f9336752967eb283c0105dc20183b70da8a249c92c29e03701d23c0c0566d17c49ed61bbe3c1489a85c7c4eb96cdc94afbf973fe0ae42c7ae04e9318cb79e9cd32c3dc05af22c199b1312e048286b3bf7f97eb27d42244d258deb5a2c847d2f98bfa8428ef20a7cac907720b8da1f120751f1e8bd57e705f075ee0dbf3ba1ab20faf781eea972de6e0a7dce1df0fab6f2188949ba3522ef06003104482540f6183274e05bc9cae2829df1d7f6e812c67e7d3082b7f4e341f5a073829fbf9384cf5cee2467814b650609b14473bed7d11c37b10c96d679170d22a3182be1c87b6e29def726d97d28795d3f003dc1ba2b8ea1b57a059e3100fa42aef067f94e38f38521a60996582eb822083fb26d9c3bde3d92186fed5f9641122c7865c25b40422621f5f7260cad565159dc7f56d1f7b4c68d27b1db6026e4ee5786c188c15f70a8ca89eeff1dff1da9b521e1292f6150a3908b3ba5173e66d321cdf70339e252af7eeee36b800fd5497793cdc42cb543eb4cedbd03fe6a7e2fd4baf0e70f1850c47a484160dc6a7d12a3b89dd8352ef0aec72ab01dee190bb413bfef7773d85972ca80ee37ca535065a04efb5cc7897943e08ff0c10c5fd8cf00a16affb42e48cd1c93088673210423742d36ab767292f79a6741e878a1f9dae722c2e10d3d26e22829fda09f21ab7d183dad9ecf5c73b94c2c400325be1d236c034f6d1b8b1c7a2499ff73a1a82c1cbf019d42044ef3514999b532f151bbe071ff28f5dc15f92d8e9673e2b99494732848b146e3999a9527cf0246071f52c839489394e8f41874bdd33140a5bc310595b2d61393f5d0d806b5e644eced778871db16ece8bd4b04d5b16bde4a709e0c1b76779fb708b252c2224a930355664d55ff45a006918f8c83f7a83a588df439a3e99917e7fa2c5c3f6ad4f89eab4d13624df5378550c934e64b61b40c9613d9ffa49d116152a3ea6495cddaab0702c38c400bd000ff10e3e0d27de44d80af070fec836e42ca04413153a023cac0c667d7d560f6f09eee0fed46d5f060d4918e8987a49fe4ad4137cb93bfc43261a57b8c478ad27cf89d619785eddae7dfd08d6168533a0f71d98c670af8b14081f150acd251f1a3e9fedb8feebbc3ea5724e67fad66ad5ca54f704427d5ef58dc033a099d648a4066df79653d3d613943d8946cb64207ee61e62514cc365b2765ae350e002dd97a6c437163fbcad7489681faae576b4e6d0418ffa703ead7e7d59928ed08d7f1f71f652af3118669bb64c4020a963f96e57a66e0f597e7714828d20b993e19d2d58aae5d28b92a71a9f7e807bc1af64ecc955a926c8e6e578d89235d9e5b6ff38ddf7c57c0ba956efa58ecf35bb478538b3e156a3b2722300d9cdc6b892a54751d5004659a9f918fc1c17feca1e27ebeef2558b1ae8c8e422228425d48b9c5ed50b281c8275325a5b3ecb25e967d0178e031c4c9c167ac3851ba10c9c4ae0caee344e77cf07a74d15af26de479d2f00670d85698f057042e874d33790097ee03cf0ff065fc47de9436059cf824a21b0f6ed732b653bca0e0aab8a1335c6ab2dd98e4bb72510621b7af366869bc67ca96b016abdd1a90f16aca7274edd8cfc726e2ecda57f6c38fe1e7463fe434553f401e8a5890dffcee325bcb75bf5733260d2b8168c73c26868c56e9b7d2ba8437192cee8c56f0a6e22d8f2e167c7478026de5713cd73d9782ae383681b69e6821bd0ddc838f81e5fdc1f71f9c96ed722d9f6ae194f1f592a5a9dc06ea563ca2ead5d067165465b796c1779d0e85ed5544e2597dcbd1fb6baabfff6a71c993ef87ac189e2f5dc22ad2114485a6b560d3c62133c908251359e9934107fb7dce00aeef51e38f02d822308d0a324f3d5ac22306ec458a31075b5ce162c3a0bba30628cc241c4c0f72c4287aeb99bd0e13fdb0bb3b45eb2d40a9a365b11952a2abc3e0a062991b42e42c30623350ef77f8edc9720f1934628332025424bb4a26bd10423543075b030381c9f656af18b10c2e0c9b7da368088dd5f5c5ead66425b825ba503236b5470aae4db28f82ff806080f3136ed5</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
-<script data-swup-reload-script type="module">
-import {initHBE} from "/js/plugins/hbe.js";
-  console.log("hexo-blog-encrypt: loaded.");
-    initHBE();
-</script>
-]]></content>
-      <categories>
-        <category>營隊心得分享</category>
-      </categories>
-      <tags>
-        <tag>2024IONC</tag>
-        <tag>營隊心得</tag>
       </tags>
   </entry>
 </search>
