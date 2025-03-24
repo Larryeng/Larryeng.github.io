@@ -3,11 +3,11 @@
   <title>鯊魚Y.Yの程長日記</title>
   
   <subtitle>紀錄鯊魚的成長過程</subtitle>
-  <link href="https://larryeng.github.io/atom.xml" rel="self"/>
+  <link href="https://sharkyy.netlify.app/atom.xml" rel="self"/>
   
-  <link href="https://larryeng.github.io/"/>
+  <link href="https://sharkyy.netlify.app/"/>
   <updated>2025-02-12T17:10:54.821Z</updated>
-  <id>https://larryeng.github.io/</id>
+  <id>https://sharkyy.netlify.app/</id>
   
   <author>
     <name>鯊魚Y.Y</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>【題解】a004. 文文的求婚</title>
-    <link href="https://larryeng.github.io/post/a004/"/>
-    <id>https://larryeng.github.io/post/a004/</id>
+    <link href="https://sharkyy.netlify.app/post/a004/"/>
+    <id>https://sharkyy.netlify.app/post/a004/</id>
     <published>2025-02-12T16:44:44.000Z</published>
     <updated>2025-02-12T17:10:54.821Z</updated>
     
@@ -30,23 +30,23 @@
     
     
     
-    <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
+    <category term="zerojudge題解" scheme="https://sharkyy.netlify.app/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
-    <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
+    <category term="zerojudge" scheme="https://sharkyy.netlify.app/tags/zerojudge/"/>
     
-    <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    <category term="題解" scheme="https://sharkyy.netlify.app/tags/%E9%A1%8C%E8%A7%A3/"/>
     
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    <category term="C++" scheme="https://sharkyy.netlify.app/tags/C/"/>
     
-    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
+    <category term="python" scheme="https://sharkyy.netlify.app/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>2024 IONC心得</title>
-    <link href="https://larryeng.github.io/post/2024IONC%E5%BF%83%E5%BE%97/"/>
-    <id>https://larryeng.github.io/post/2024IONC%E5%BF%83%E5%BE%97/</id>
+    <link href="https://sharkyy.netlify.app/post/2024IONC%E5%BF%83%E5%BE%97/"/>
+    <id>https://sharkyy.netlify.app/post/2024IONC%E5%BF%83%E5%BE%97/</id>
     <published>2024-09-01T07:11:19.000Z</published>
     <updated>2025-03-21T06:35:52.192Z</updated>
     
@@ -61,19 +61,19 @@
     
     
     
-    <category term="營隊心得分享" scheme="https://larryeng.github.io/categories/%E7%87%9F%E9%9A%8A%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB/"/>
+    <category term="營隊心得分享" scheme="https://sharkyy.netlify.app/categories/%E7%87%9F%E9%9A%8A%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="2024IONC" scheme="https://larryeng.github.io/tags/2024IONC/"/>
+    <category term="2024IONC" scheme="https://sharkyy.netlify.app/tags/2024IONC/"/>
     
-    <category term="營隊心得" scheme="https://larryeng.github.io/tags/%E7%87%9F%E9%9A%8A%E5%BF%83%E5%BE%97/"/>
+    <category term="營隊心得" scheme="https://sharkyy.netlify.app/tags/%E7%87%9F%E9%9A%8A%E5%BF%83%E5%BE%97/"/>
     
   </entry>
   
   <entry>
     <title>【題解】a001. 哈囉</title>
-    <link href="https://larryeng.github.io/post/%E5%93%88%E5%9B%89/"/>
-    <id>https://larryeng.github.io/post/%E5%93%88%E5%9B%89/</id>
+    <link href="https://sharkyy.netlify.app/post/%E5%93%88%E5%9B%89/"/>
+    <id>https://sharkyy.netlify.app/post/%E5%93%88%E5%9B%89/</id>
     <published>2024-08-18T19:53:55.000Z</published>
     <updated>2024-08-18T19:59:46.927Z</updated>
     
@@ -84,23 +84,23 @@
     
     
     
-    <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
+    <category term="zerojudge題解" scheme="https://sharkyy.netlify.app/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
-    <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
+    <category term="zerojudge" scheme="https://sharkyy.netlify.app/tags/zerojudge/"/>
     
-    <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    <category term="題解" scheme="https://sharkyy.netlify.app/tags/%E9%A1%8C%E8%A7%A3/"/>
     
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    <category term="C++" scheme="https://sharkyy.netlify.app/tags/C/"/>
     
-    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
+    <category term="python" scheme="https://sharkyy.netlify.app/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>介紹文</title>
-    <link href="https://larryeng.github.io/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"/>
-    <id>https://larryeng.github.io/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</id>
+    <link href="https://sharkyy.netlify.app/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"/>
+    <id>https://sharkyy.netlify.app/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</id>
     <published>2024-08-18T19:52:10.000Z</published>
     <updated>2025-03-21T05:54:17.449Z</updated>
     
@@ -119,8 +119,8 @@
   
   <entry>
     <title>vscode安裝c++指南(可debug版)</title>
-    <link href="https://larryeng.github.io/post/vscode%E5%AE%89%E8%A3%9D/"/>
-    <id>https://larryeng.github.io/post/vscode%E5%AE%89%E8%A3%9D/</id>
+    <link href="https://sharkyy.netlify.app/post/vscode%E5%AE%89%E8%A3%9D/"/>
+    <id>https://sharkyy.netlify.app/post/vscode%E5%AE%89%E8%A3%9D/</id>
     <published>2024-08-17T16:00:00.000Z</published>
     <updated>2024-08-20T18:28:09.849Z</updated>
     
@@ -131,19 +131,19 @@
     
     
     
-    <category term="環境配置" scheme="https://larryeng.github.io/categories/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="環境配置" scheme="https://sharkyy.netlify.app/categories/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
     
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    <category term="C++" scheme="https://sharkyy.netlify.app/tags/C/"/>
     
-    <category term="環境配置" scheme="https://larryeng.github.io/tags/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="環境配置" scheme="https://sharkyy.netlify.app/tags/%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
-    <link href="https://larryeng.github.io/post/Numbers/"/>
-    <id>https://larryeng.github.io/post/Numbers/</id>
+    <link href="https://sharkyy.netlify.app/post/Numbers/"/>
+    <id>https://sharkyy.netlify.app/post/Numbers/</id>
     <published>2024-04-26T16:06:06.000Z</published>
     <updated>2024-08-21T03:36:37.768Z</updated>
     
@@ -157,23 +157,23 @@
     
     
     
-    <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
+    <category term="zerojudge題解" scheme="https://sharkyy.netlify.app/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
-    <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
+    <category term="zerojudge" scheme="https://sharkyy.netlify.app/tags/zerojudge/"/>
     
-    <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    <category term="題解" scheme="https://sharkyy.netlify.app/tags/%E9%A1%8C%E8%A7%A3/"/>
     
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    <category term="C++" scheme="https://sharkyy.netlify.app/tags/C/"/>
     
-    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
+    <category term="python" scheme="https://sharkyy.netlify.app/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>【題解】a006. 一元二次方程式</title>
-    <link href="https://larryeng.github.io/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/"/>
-    <id>https://larryeng.github.io/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</id>
+    <link href="https://sharkyy.netlify.app/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/"/>
+    <id>https://sharkyy.netlify.app/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</id>
     <published>2024-04-14T05:57:29.000Z</published>
     <updated>2024-08-28T06:44:43.018Z</updated>
     
@@ -184,23 +184,23 @@
     
     
     
-    <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
+    <category term="zerojudge題解" scheme="https://sharkyy.netlify.app/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
-    <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
+    <category term="zerojudge" scheme="https://sharkyy.netlify.app/tags/zerojudge/"/>
     
-    <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    <category term="題解" scheme="https://sharkyy.netlify.app/tags/%E9%A1%8C%E8%A7%A3/"/>
     
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    <category term="C++" scheme="https://sharkyy.netlify.app/tags/C/"/>
     
-    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
+    <category term="python" scheme="https://sharkyy.netlify.app/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>【題解】a003, 兩光法師占卜術</title>
-    <link href="https://larryeng.github.io/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/"/>
-    <id>https://larryeng.github.io/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</id>
+    <link href="https://sharkyy.netlify.app/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/"/>
+    <id>https://sharkyy.netlify.app/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</id>
     <published>2024-04-12T18:02:18.000Z</published>
     <updated>2024-08-18T03:35:13.475Z</updated>
     
@@ -211,23 +211,23 @@
     
     
     
-    <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
+    <category term="zerojudge題解" scheme="https://sharkyy.netlify.app/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
-    <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
+    <category term="zerojudge" scheme="https://sharkyy.netlify.app/tags/zerojudge/"/>
     
-    <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    <category term="題解" scheme="https://sharkyy.netlify.app/tags/%E9%A1%8C%E8%A7%A3/"/>
     
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    <category term="C++" scheme="https://sharkyy.netlify.app/tags/C/"/>
     
-    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
+    <category term="python" scheme="https://sharkyy.netlify.app/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>【題解】a002. 簡易加法</title>
-    <link href="https://larryeng.github.io/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/"/>
-    <id>https://larryeng.github.io/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</id>
+    <link href="https://sharkyy.netlify.app/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/"/>
+    <id>https://sharkyy.netlify.app/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</id>
     <published>2024-04-12T17:40:27.000Z</published>
     <updated>2024-08-18T05:55:59.132Z</updated>
     
@@ -238,16 +238,16 @@
     
     
     
-    <category term="zerojudge題解" scheme="https://larryeng.github.io/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
+    <category term="zerojudge題解" scheme="https://sharkyy.netlify.app/categories/zerojudge%E9%A1%8C%E8%A7%A3/"/>
     
     
-    <category term="zerojudge" scheme="https://larryeng.github.io/tags/zerojudge/"/>
+    <category term="zerojudge" scheme="https://sharkyy.netlify.app/tags/zerojudge/"/>
     
-    <category term="題解" scheme="https://larryeng.github.io/tags/%E9%A1%8C%E8%A7%A3/"/>
+    <category term="題解" scheme="https://sharkyy.netlify.app/tags/%E9%A1%8C%E8%A7%A3/"/>
     
-    <category term="C++" scheme="https://larryeng.github.io/tags/C/"/>
+    <category term="C++" scheme="https://sharkyy.netlify.app/tags/C/"/>
     
-    <category term="python" scheme="https://larryeng.github.io/tags/python/"/>
+    <category term="python" scheme="https://sharkyy.netlify.app/tags/python/"/>
     
   </entry>
   
