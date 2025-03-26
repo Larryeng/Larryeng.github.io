@@ -3,31 +3,7 @@
   <entry>
     <title>【題解】a002. 簡易加法</title>
     <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1 2</td>
-<td align="left">3</td>
-</tr>
-<tr>
-<td>5 10</td>
-<td align="left">15</td>
-</tr>
-</tbody></table>
-]]></content>
+    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/"></head></html>]]></content>
       <categories>
         <category>zerojudge題解</category>
       </categories>
@@ -174,6 +150,21 @@
         <tag>C++</tag>
         <tag>python</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
+<li>吉他學習紀錄</li>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)</li>
+</ul>
+<h1 id="嘉義區新創公司"><a href="#嘉義區新創公司" class="headerlink" title="嘉義區新創公司"></a>嘉義區新創公司</h1><h2 id="https-www-hyjdevelop-com"><a href="#https-www-hyjdevelop-com" class="headerlink" title="https://www.hyjdevelop.com/"></a><a class="link"   href="https://www.hyjdevelop.com/" >https://www.hyjdevelop.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>]]></content>
   </entry>
   <entry>
     <title>vscode安裝c++指南(可debug版)</title>
@@ -471,15 +462,15 @@
       </tags>
   </entry>
   <entry>
-    <title>【題解】a001. 哈囉</title>
-    <url>/post/%E5%93%88%E5%9B%89/</url>
-    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+    <title>【題解】a004. 文文的求婚</title>
+    <url>/post/a004/</url>
+    <content><![CDATA[<h2 id="a004-文文的求婚"><a href="#a004-文文的求婚" class="headerlink" title="a004. 文文的求婚"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a004" >a004. 文文的求婚<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
   <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
+    <p><strong>題解:</strong><br>等待屏中社長中鍾笙祥先生幫我撰寫</p>
 
   </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (cin&gt;&gt;n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ((n % <span class="number">4</span> == <span class="number">0</span>) &amp;&amp; (n % <span class="number">100</span> != <span class="number">0</span>) || n % <span class="number">400</span> == <span class="number">0</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;閏年&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;平年&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> stdin</span><br><span class="line"><span class="keyword">for</span> read <span class="keyword">in</span> stdin: </span><br><span class="line">    year=<span class="built_in">int</span>(read) </span><br><span class="line">    <span class="keyword">if</span> (year%<span class="number">4</span>==<span class="number">0</span> <span class="keyword">and</span> year%<span class="number">100</span>) <span class="keyword">or</span> year%<span class="number">400</span>==<span class="number">0</span>: <span class="built_in">print</span>(<span class="string">&#x27;閏年&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="built_in">print</span>(<span class="string">&#x27;平年&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
 
 <table>
 <thead>
@@ -489,16 +480,12 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>C++</td>
-<td align="left">hello, C++</td>
+<td>1977</td>
+<td align="left">平年</td>
 </tr>
 <tr>
-<td>Taiwan</td>
-<td align="left">hello, Taiwan</td>
-</tr>
-<tr>
-<td>world</td>
-<td align="left">hello, world</td>
+<td>1980</td>
+<td align="left">閏年</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -728,30 +715,15 @@
       </tags>
   </entry>
   <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
-<li>吉他學習紀錄</li>
-<li>實用讀書小技巧</li>
-<li>一些基本軟體配置技巧(親測有效🥳)</li>
-<li>個人生涯學習紀錄</li>
-<li>程式語言學習</li>
-<li>程式小技巧分享</li>
-<li>軟體配置分享</li>
-<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)</li>
-</ul>
-<h1 id="嘉義區新創公司"><a href="#嘉義區新創公司" class="headerlink" title="嘉義區新創公司"></a>嘉義區新創公司</h1><h2 id="https-www-hyjdevelop-com"><a href="#https-www-hyjdevelop-com" class="headerlink" title="https://www.hyjdevelop.com/"></a><a class="link"   href="https://www.hyjdevelop.com/" >https://www.hyjdevelop.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>]]></content>
-  </entry>
-  <entry>
-    <title>【題解】a004. 文文的求婚</title>
-    <url>/post/a004/</url>
-    <content><![CDATA[<h2 id="a004-文文的求婚"><a href="#a004-文文的求婚" class="headerlink" title="a004. 文文的求婚"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a004" >a004. 文文的求婚<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+    <title>【題解】a001. 哈囉</title>
+    <url>/post/%E5%93%88%E5%9B%89/</url>
+    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
   <div class="note p-4 mb-4 rounded-small success no-icon">
-    <p><strong>題解:</strong><br>等待屏中社長中鍾笙祥先生幫我撰寫</p>
+    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
 
   </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (cin&gt;&gt;n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ((n % <span class="number">4</span> == <span class="number">0</span>) &amp;&amp; (n % <span class="number">100</span> != <span class="number">0</span>) || n % <span class="number">400</span> == <span class="number">0</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;閏年&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;平年&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> stdin</span><br><span class="line"><span class="keyword">for</span> read <span class="keyword">in</span> stdin: </span><br><span class="line">    year=<span class="built_in">int</span>(read) </span><br><span class="line">    <span class="keyword">if</span> (year%<span class="number">4</span>==<span class="number">0</span> <span class="keyword">and</span> year%<span class="number">100</span>) <span class="keyword">or</span> year%<span class="number">400</span>==<span class="number">0</span>: <span class="built_in">print</span>(<span class="string">&#x27;閏年&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="built_in">print</span>(<span class="string">&#x27;平年&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
 
 <table>
 <thead>
@@ -761,12 +733,16 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>1977</td>
-<td align="left">平年</td>
+<td>C++</td>
+<td align="left">hello, C++</td>
 </tr>
 <tr>
-<td>1980</td>
-<td align="left">閏年</td>
+<td>Taiwan</td>
+<td align="left">hello, Taiwan</td>
+</tr>
+<tr>
+<td>world</td>
+<td align="left">hello, world</td>
 </tr>
 </tbody></table>
 ]]></content>
