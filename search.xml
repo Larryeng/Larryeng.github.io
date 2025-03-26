@@ -3,21 +3,31 @@
   <entry>
     <title>【題解】a002. 簡易加法</title>
     <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/"></head></html>]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a006. 一元二次方程式</title>
-    <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/"></head></html>]]></content>
+    <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 2</td>
+<td align="left">3</td>
+</tr>
+<tr>
+<td>5 10</td>
+<td align="left">15</td>
+</tr>
+</tbody></table>
+]]></content>
       <categories>
         <category>zerojudge題解</category>
       </categories>
@@ -31,7 +41,130 @@
   <entry>
     <title>【題解】a003, 兩光法師占卜術</title>
     <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/"></head></html>]]></content>
+    <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="#a003-兩光法師占卜術" class="headerlink" title="a003, 兩光法師占卜術"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a003" >a003, 兩光法師占卜術<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>此題最要注意的是要記得將題目給的公式套用，之後用if條件式一定又要熟悉喔~其他的就照題目寫了。</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> M , D ,S;</span><br><span class="line">    cin &gt;&gt; M &gt;&gt; D;</span><br><span class="line">    S=(M*<span class="number">2</span>+D)%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">if</span> (S==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;普通&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (S==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;大吉&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">m,n=<span class="built_in">input</span>().split()</span><br><span class="line">s=(<span class="built_in">int</span>(m)*<span class="number">2</span>+<span class="built_in">int</span>(n))%<span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> s==<span class="number">0</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;普通&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">1</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;吉&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> s==<span class="number">2</span>:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;大吉&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 1</td>
+<td align="left">普通</td>
+</tr>
+<tr>
+<td>1 2</td>
+<td align="left">吉</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
+    <url>/post/Numbers/</url>
+    <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="#d096-00913-Joana-and-the-Odd-Numbers" class="headerlink" title="d096. 00913 - Joana and the Odd Numbers"></a><a class="link" href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>題目所給予的n是同一列有多少個奇數，此時奇數有一種特性就是當使用<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container>時可以表示這些奇數是在第幾列。</p>
+<blockquote>
+<p>ex:我設定n=3 則使用<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container>得知這三個奇數位在第二列。之後我們可以觀察期規律如下<br>N = 3 時，在第 2 列，此時已經寫了 4 個奇數，且第 4 個奇數為 7 ( 此數亦為該列最後一個數字 )<br>N = 5 時，在第 3 列，此時已經寫了 9 個奇數，且第 9 個奇數為 17<br>N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數為 31</p>
+</blockquote>
+<p>所以我們可以使用 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="8.453ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 3736.3 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mfrac" transform="translate(389,0)"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g><g data-mml-node="mo" transform="translate(1277,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(2055,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2555,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(1084.1,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2281.7" height="60" x="120" y="220"></rect></g><g data-mml-node="msup" transform="translate(2910.7,0)"><g data-mml-node="mo"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mn" transform="translate(422,363) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g></g></svg></mjx-container> 來表示到了第 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container> 列時總共有多少個奇數。再來我們需要算出此列末三項的總和所以我們可以在觀察到其實<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="32.933ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 14556.4 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">末</text></g><g data-mml-node="mi" transform="translate(1000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">項</text></g><g data-mml-node="mo" transform="translate(2277.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mo" transform="translate(3333.6,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(3722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">目</text></g><g data-mml-node="mi" transform="translate(4722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">前</text></g><g data-mml-node="mi" transform="translate(5722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">奇</text></g><g data-mml-node="mi" transform="translate(6722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">數</text></g><g data-mml-node="mi" transform="translate(7722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">總</text></g><g data-mml-node="mi" transform="translate(8722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">個</text></g><g data-mml-node="mi" transform="translate(9722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">數</text></g><g data-mml-node="mo" transform="translate(10944.8,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mn" transform="translate(11945,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mo" transform="translate(12445,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(13056.2,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(14056.4,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></svg></mjx-container>，之後再減二可以得到等差中項此時再<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="2.891ex" height="1.554ex" role="img" focusable="false" viewBox="0 -665 1278 687"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mn" transform="translate(778,0)"><path data-c="33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></g></g></g></svg></mjx-container>就是末三項的總和了。</p>
+
+  </div>
+
+<ul>
+<li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
+</ul>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    {</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">"EOF"</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>3</td>
+<td align="left">15</td>
+</tr>
+<tr>
+<td>5</td>
+<td align="left">45</td>
+</tr>
+<tr>
+<td>7</td>
+<td align="left">87</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a006. 一元二次方程式</title>
+    <url>/post/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<h2 id="a006-一元二次方程式"><a href="#a006-一元二次方程式" class="headerlink" title="a006. 一元二次方程式"></a><a class="link" href="https://zerojudge.tw/ShowProblem?problemid=a006">a006. 一元二次方程式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>這裡要具備的基本知識為國中一元二次方程式的判別式用法，以及要注意開根號的用法為sqrt()，了解這個之後只需要注意在寫算是時要注意()的位置以及要分正跟負=&gt;因為公式解有兩解。</p>
+<blockquote>
+<p>兩解分別為<br><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -2.413ex;" xmlns="http://www.w3.org/2000/svg" width="25.769ex" height="5.957ex" role="img" focusable="false" viewBox="0 -1566.5 11389.9 2632.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo" transform="translate(0 -0.5)"><path data-c="7B" d="M618 -943L612 -949H582L568 -943Q472 -903 411 -841T332 -703Q327 -682 327 -653T325 -350Q324 -28 323 -18Q317 24 301 61T264 124T221 171T179 205T147 225T132 234Q130 238 130 250Q130 255 130 258T131 264T132 267T134 269T139 272T144 275Q207 308 256 367Q310 436 323 519Q324 529 325 851Q326 1124 326 1154T332 1205Q369 1358 566 1443L582 1450H612L618 1444V1429Q618 1413 616 1411L608 1406Q599 1402 585 1393T552 1372T515 1343T479 1305T449 1257T429 1200Q425 1180 425 1152T423 851Q422 579 422 549T416 498Q407 459 388 424T346 364T297 318T250 284T214 264T197 254L188 251L205 242Q290 200 345 138T416 3Q421 -18 421 -48T423 -349Q423 -397 423 -472Q424 -677 428 -694Q429 -697 429 -699Q434 -722 443 -743T465 -782T491 -816T519 -845T548 -868T574 -886T595 -899T610 -908L616 -910Q618 -912 618 -928V-943Z"></path></g><g data-mml-node="mtable" transform="translate(750,0)"><g data-mml-node="mtr" transform="translate(0,600)"><g data-mml-node="mtd"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mo" transform="translate(389,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mi" transform="translate(1167,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mo" transform="translate(1818.2,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msqrt" transform="translate(2818.4,0)"><g transform="translate(853,0)"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mn" transform="translate(462,289) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mo" transform="translate(1087.8,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(2088,0)"><path data-c="34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></g><g data-mml-node="mi" transform="translate(2588,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mi" transform="translate(3117,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g><g data-mml-node="mo" transform="translate(0,106.5)"><path data-c="221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path></g><rect width="3550" height="60" x="853" y="846.5"></rect></g><g data-mml-node="mo" transform="translate(7221.4,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(7832.7,0)"><path data-c="F7" d="M318 466Q318 500 339 518T386 537Q418 537 438 517T458 466Q458 438 440 417T388 396Q355 396 337 417T318 466ZM56 237T56 250T70 270H706Q721 262 721 250T706 230H70Q56 237 56 250ZM318 34Q318 68 339 86T386 105Q418 105 438 85T458 34Q458 6 440 -15T388 -36Q355 -36 337 -15T318 34Z"></path></g><g data-mml-node="mo" transform="translate(8832.9,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(9221.9,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(9721.9,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mo" transform="translate(10250.9,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g><g data-mml-node="mtr" transform="translate(0,-816.5)"><g data-mml-node="mtd"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mo" transform="translate(389,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mi" transform="translate(1167,0)"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mo" transform="translate(1818.2,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="msqrt" transform="translate(2818.4,0)"><g transform="translate(853,0)"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path></g><g data-mml-node="mn" transform="translate(462,289) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mo" transform="translate(1087.8,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(2088,0)"><path data-c="34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></g><g data-mml-node="mi" transform="translate(2588,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mi" transform="translate(3117,0)"><path data-c="1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></g></g><g data-mml-node="mo" transform="translate(0,106.5)"><path data-c="221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path></g><rect width="3550" height="60" x="853" y="846.5"></rect></g><g data-mml-node="mo" transform="translate(7221.4,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(7832.7,0)"><path data-c="F7" d="M318 466Q318 500 339 518T386 537Q418 537 438 517T458 466Q458 438 440 417T388 396Q355 396 337 417T318 466ZM56 237T56 250T70 270H706Q721 262 721 250T706 230H70Q56 237 56 250ZM318 34Q318 68 339 86T386 105Q418 105 438 85T458 34Q458 6 440 -15T388 -36Q355 -36 337 -15T318 34Z"></path></g><g data-mml-node="mo" transform="translate(8832.9,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(9221.9,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(9721.9,0)"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="mo" transform="translate(10250.9,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g></g><g data-mml-node="mo" transform="translate(11389.9,0) translate(0 250)"></g></g></g></g></svg></mjx-container></p>
+</blockquote>
+
+  </div>
+
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    <span class="type">int</span> a, b, c, d;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    d = b * b - <span class="number">4</span> * a * c;</span><br><span class="line">    <span class="type">int</span> x1 = (-b + <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*正的*/</span></span><br><span class="line">    <span class="type">int</span> x2 = (-b - <span class="built_in">sqrt</span>(b * b - <span class="number">4</span> * a * c)) / (<span class="number">2</span> * a); <span class="comment">/*負的*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (d &gt; <span class="number">0</span>)</span><br><span class="line">    {</span><br><span class="line">        cout &lt;&lt; <span class="string">"Two different roots "</span>;</span><br><span class="line">        cout &lt;&lt; <span class="string">"x1="</span> &lt;&lt; x1 &lt;&lt; <span class="string">" ,"</span></span><br><span class="line">             &lt;&lt; <span class="string">" x2="</span> &lt;&lt; x2;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (d == <span class="number">0</span>)</span><br><span class="line">    {</span><br><span class="line">        cout &lt;&lt; <span class="string">"Two same roots "</span>;</span><br><span class="line">        <span class="type">int</span> x = x1 = x2;</span><br><span class="line">        cout &lt;&lt; <span class="string">"x="</span> &lt;&lt; x;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">"No real root"</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">a,b,c=<span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())</span><br><span class="line">d = b * b - <span class="number">4</span> * a * c</span><br><span class="line"><span class="keyword">if</span> (d &gt; <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    x2 = <span class="built_in">int</span>((-b - math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f"Two different roots x1=<span class="subst">{x1}</span> , x2=<span class="subst">{x2}</span>"</span>)</span><br><span class="line"><span class="keyword">elif</span> (d == <span class="number">0</span>):</span><br><span class="line">    x1 = <span class="built_in">int</span>((-b + math.sqrt(b * b - <span class="number">4</span> * a * c)) // (<span class="number">2</span> * a))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f"Two same roots x=<span class="subst">{x1}</span>"</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"No real root"</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 0 0</td>
+<td align="left">Two same roots x=0</td>
+</tr>
+<tr>
+<td>1 3 -10</td>
+<td align="left">Two different roots x1=2 , x2=-5</td>
+</tr>
+<tr>
+<td>1 1 1</td>
+<td align="left">No real root</td>
+</tr>
+</tbody></table>
+]]></content>
       <categories>
         <category>zerojudge題解</category>
       </categories>
@@ -45,7 +178,290 @@
   <entry>
     <title>vscode安裝c++指南(可debug版)</title>
     <url>/post/vscode%E5%AE%89%E8%A3%9D/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/vscode%E5%AE%89%E8%A3%9D/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/vscode%E5%AE%89%E8%A3%9D/"></head></html>]]></content>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前安裝了用MinGW下載的方式但是我發現這個方法有一些缺點，一來是版本舊，二來網路上安裝的方式太多元了導致許多人東學學西學學把自己的環應都搞爛了，所以我在這裡提供一個發法讓操作更簡單。<br>我是在網路上看到一篇教學教的非常好:<br><a class="link"   href="https://blog.yangjerry.tw/2021/09/26/vscode-cpp-2021-part2/#%E8%A8%AD%E5%AE%9A-Build-%E5%B7%A5%E4%BD%9C" >https://blog.yangjerry.tw/2021/09/26/vscode-cpp-2021-part2/#%E8%A8%AD%E5%AE%9A-Build-%E5%B7%A5%E4%BD%9C<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br><a class="link"   href="https://blog.yangjerry.tw/2021/09/24/vscode-cpp-2021-part1/#%E5%89%8D%E8%A8%80" >https://blog.yangjerry.tw/2021/09/24/vscode-cpp-2021-part1/#%E5%89%8D%E8%A8%80<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br>這篇是我精簡後的版本</p>
+<h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><h3 id="1-首先先下載VScode-官網傳送門"><a href="#1-首先先下載VScode-官網傳送門" class="headerlink" title="1.首先先下載VScode 官網傳送門"></a>1.首先先下載VScode <a class="link"   href="https://code.visualstudio.com/download" >官網傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/r16-Keovp.png"
+                      alt="image"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/ByeE5xovp.png"
+                      alt="image"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/S1VrqgsDa.png"
+                      alt="image"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/HkP85ljv6.png"
+                      alt="image"
+                ></p>
+<p><strong>之後打開VScode，並照著只是安裝下面這幾個東西</strong></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/ByPwsloPp.png"
+                      alt="image"
+                ></p>
+
+  <div class="note p-4 mb-4 rounded-small warning flat">
+    <p><strong>注意</strong> 安裝完中文套件後記得<strong>重啟VS code</strong>通常右下角會顯示</p>
+
+  </div>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/BJbpigowT.png"
+                      alt="image"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/SJPAolsDa.png"
+                      alt="image"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/Hk413xoDa.png"
+                      alt="image"
+                ></p>
+<h3 id="2-安裝TDM-GCC-官網傳送門"><a href="#2-安裝TDM-GCC-官網傳送門" class="headerlink" title="2.安裝TDM-GCC 官網傳送門"></a>2.安裝TDM-GCC <a class="link"   href="https://jmeubank.github.io/tdm-gcc/download/" >官網傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/1.png"
+                      alt="螢幕擷取畫面 2024-03-31 220302"
+                ></p>
+<p>安裝後打開它會有Creat(新增)、Manage(管理)、Remove(移除)，按新增</p>
+
+  <div class="note p-4 mb-4 rounded-small warning flat">
+    <p>如果以後要移除很方便直接Remove結束</p>
+
+  </div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/2.png"
+                      alt="螢幕擷取畫面 2024-03-31 221016"
+                ></p>
+<p>選擇下面那個</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/3.png"
+                      alt="螢幕擷取畫面 2024-03-31 221345"
+                ></p>
+<p>持續下一步，然後install</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/4.png"
+                      alt="螢幕擷取畫面 2024-03-31 221556"
+                ></p>
+<p>Win+R打上cmd開啟命令提示字元視窗，打上(gcc -v)如果出現以下字符代表安裝成功了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/5.png"
+                      alt="螢幕擷取畫面 2024-03-31 221802"
+                ></p>
+<p>因為我們要加上debugger所以要在<strong>C曹</strong>或是<strong>無中文路</strong>徑的地方開一個資料夾給C++存放偵錯json檔。</p>
+
+  <div class="note p-4 mb-4 rounded-small warning flat">
+    <p>一定要無中文的路徑喔要不然之後執行GDB會報錯</p>
+
+  </div>
+
+<h3 id="3-開始Vscode設定"><a href="#3-開始Vscode設定" class="headerlink" title="3.開始Vscode設定"></a>3.開始Vscode設定</h3><p>打開Vscode</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/6.png"
+                      alt="螢幕擷取畫面 2024-03-31 222421"
+                ></p>
+<p>開啟你設立的資料夾</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/7.png"
+                      alt="螢幕擷取畫面 2024-03-31 222630"
+                ></p>
+<p>開啟後按下control+shift+P載上方輸入(c&#x2F;c++ Edit)按編輯組態</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/8.png"
+                      alt="螢幕擷取畫面 2024-03-31 222844"
+                ></p>
+<p>照著圖片操作</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/9.png"
+                      alt="螢幕擷取畫面 2024-03-31 223151"
+                ></p>
+<p>之後往下滑找到IntelliSense 模式改成windows-msvc-x64</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/10.png"
+                      alt="螢幕擷取畫面 2024-03-31 223437"
+                ></p>
+<p>往下滑這裡照圖片改</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/11.png"
+                      alt="螢幕擷取畫面 2024-03-31 223610"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/12.png"
+                      alt="螢幕擷取畫面 2024-03-31 223735"
+                ></p>
+<p>之後新增一個檔案，檔名settings.json之後在裡面打上</p>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;code-runner.ignoreSelection&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.executorMap&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;cpp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cd $dir &amp; g++ -Wall -Wextra -O2 -std=c++14 \&quot;$fileName\&quot; -o \&quot;$fileNameWithoutExt\&quot; &amp; $dir\&quot;$fileNameWithoutExt\&quot;&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.preserveFocus&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.clearPreviousOutput&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.runInTerminal&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;code-runner.saveFileBeforeRun&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;terminal.integrated.defaultProfile.windows&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Command Prompt&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/16.png"
+                      alt="螢幕擷取畫面 2024-03-31 224411"
+                ></p>
+<p>寫一個C++程式並執行產生一個執行檔</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/18.png"
+                      alt="螢幕擷取畫面 2024-03-31 224933"
+                ></p>
+
+  <div class="note p-4 mb-4 rounded-small success flat">
+    <p>如果執行不能輸入或結果跑到(輸出區)先做以下動作</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/BkGMoMjvT.png"
+                      alt="image"
+                ></p>
+<p><strong>往下滑找到這兩個選項將其打勾就可以載終端機執行了</strong></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://hackmd.io/_uploads/Hk25ofsva.png"
+                      alt="image"
+                ></p>
+
+  </div>
+
+<h3 id="4-可以執行後開始設定debugger"><a href="#4-可以執行後開始設定debugger" class="headerlink" title="4.可以執行後開始設定debugger"></a>4.可以執行後開始設定debugger</h3><p>照著下面步驟執行會產生出一個task.json</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/19.png"
+                      alt="螢幕擷取畫面 2024-03-31 225328"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/20.png"
+                      alt="螢幕擷取畫面 2024-03-31 225635"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/21.png"
+                      alt="螢幕擷取畫面 2024-03-31 225924"
+                ></p>
+<p>繼續完成以下步驟產生launch.json</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/22.png"
+                      alt="螢幕擷取畫面 2024-03-31 230054"
+                ></p>
+<p>出現下圖圖示狀態點GDB</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/23.png"
+                      alt="螢幕擷取畫面 2024-03-31 230317"
+                ></p>
+<p>我的很奇怪開啟是空的但有些人打開會有東西</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/24.png"
+                      alt="螢幕擷取畫面 2024-03-31 230317"
+                ></p>
+<p>請輸入我提供的程式碼</p>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="comment">// 使用 IntelliSense 以得知可用的屬性。</span></span><br><span class="line">    <span class="comment">// 暫留以檢視現有屬性的描述。</span></span><br><span class="line">    <span class="comment">// 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;0.2.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;configurations&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">            <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;g++.exe - 建置及偵錯使用中的檔案&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cppdbg&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;request&quot;</span><span class="punctuation">:</span> <span class="string">&quot;launch&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;program&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;stopAtEntry&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;cwd&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:/TDM-GCC-64/bin&quot;</span><span class="punctuation">,</span> <span class="comment">//bin的位置(路徑應該跟我一樣)     </span></span><br><span class="line">            <span class="attr">&quot;environment&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;externalConsole&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;MIMode&quot;</span><span class="punctuation">:</span> <span class="string">&quot;gdb&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;miDebuggerPath&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:\\TDM-GCC-64\\gdb64\\bin\\gdb.exe&quot;</span><span class="punctuation">,</span> <span class="comment">//Gdb位置(路徑應該跟我一樣)     </span></span><br><span class="line">            <span class="attr">&quot;setupCommands&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="punctuation">&#123;</span></span><br><span class="line">                    <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;啟用 gdb 的美化顯示&quot;</span><span class="punctuation">,</span></span><br><span class="line">                    <span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;-enable-pretty-printing&quot;</span><span class="punctuation">,</span></span><br><span class="line">                    <span class="attr">&quot;ignoreFailures&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">                <span class="punctuation">&#125;</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;preLaunchTask&quot;</span><span class="punctuation">:</span> <span class="string">&quot;g++.exe - 建置及偵錯使用中的檔案&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/36.png"
+                      alt="螢幕擷取畫面 2024-03-31 231013"
+                ></p>
+<p>開除錯</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/25.png"
+                      alt="螢幕擷取畫面 2024-03-31 231013"
+                ></p>
+<p>按C&#x2F;C++: g++.exe 建置使用中檔案</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/28.png"
+                      alt="螢幕擷取畫面 2024-03-31 231755"
+                ></p>
+<p>按剛剛建的c++檔案</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/29.png"
+                      alt="螢幕擷取畫面 2024-03-31 231919"
+                ></p>
+<p>在第七行先增段點</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/35.png"
+                      alt="螢幕擷取畫面 2024-03-31 232633"
+                ></p>
+<p>按F5或是圖片上的偵錯紐</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/31.png"
+                      alt="image"
+                ></p>
+<p>如果出現了一堆字你看不懂就重開<br>如果出現以下畫面就成功</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/33.png"
+                      alt="image"
+                ></p>
+<p>中間上面第三個按鈕可以逐步執行</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/vscode%E5%AE%89%E8%A3%9D/34.png"
+                      alt="image"
+                ></p>
+<h3 id="5-恭喜成功了"><a href="#5-恭喜成功了" class="headerlink" title="5.恭喜成功了"></a>5.恭喜成功了</h3>]]></content>
       <categories>
         <category>環境配置</category>
       </categories>
@@ -55,28 +471,37 @@
       </tags>
   </entry>
   <entry>
-    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
-    <url>/post/Numbers/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/numbers/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/numbers/"></head></html>]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"></head></html>]]></content>
-  </entry>
-  <entry>
     <title>【題解】a001. 哈囉</title>
     <url>/post/%E5%93%88%E5%9B%89/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E5%93%88%E5%9B%89/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E5%93%88%E5%9B%89/"></head></html>]]></content>
+    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C++</td>
+<td align="left">hello, C++</td>
+</tr>
+<tr>
+<td>Taiwan</td>
+<td align="left">hello, Taiwan</td>
+</tr>
+<tr>
+<td>world</td>
+<td align="left">hello, world</td>
+</tr>
+</tbody></table>
+]]></content>
       <categories>
         <category>zerojudge題解</category>
       </categories>
@@ -90,7 +515,210 @@
   <entry>
     <title>2024 IONC心得</title>
     <url>/post/2024IONC%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/2024ionc%E5%BF%83%E5%BE%97/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/2024ionc%E5%BF%83%E5%BE%97/"></head></html>]]></content>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><blockquote>
+<p>IONC是一個由清大資訊社所辦的程式集訓營，在五天的時間內，會將所有競程必備知識以及必備技巧一次教給你，所以對於新手來說這是一個非常硬的營隊。而我為什麼會想要參加這個非常硬的營隊呢?主要是從小我對於程式就有非常大的興趣，平常也有在自學程式語言，上了高中才接觸到競技程式。為了使自己的程式能力更加進步，所以我毅然決然報名了這個營隊。</p>
+</blockquote>
+<h2 id="營隊資訊"><a href="#營隊資訊" class="headerlink" title="營隊資訊"></a>營隊資訊</h2>
+  <div class="note p-4 mb-4 rounded-small warning flat">
+    <p>📍時間:每年暑假<br>📍地點:國立清華大學<br>📍費用:每年不定，(我是7000)<br>📍住宿:清華大學宿舍</p>
+
+  </div>
+<h2 id="課表-建議切換成黑色主題，因為圖片是去背的"><a href="#課表-建議切換成黑色主題，因為圖片是去背的" class="headerlink" title="課表(建議切換成黑色主題，因為圖片是去背的)"></a>課表(建議切換成黑色主題，因為圖片是去背的)</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/IONCcourse.png"
+                      alt="image"
+                ></p>
+<h2 id="Day-1"><a href="#Day-1" class="headerlink" title="Day-1"></a>Day-1</h2><blockquote>
+<p>第一天是中午報到，我跟我的朋友從嘉義搭高鐵到新竹之後，由學長帶領我們搭乘公車到清華大學報到。入營的第一天會拿到營隊衣服(那材質是真的好)，而今年的講義因為廠商的問題導致我們第四天才拿到講義(?。之後基本上就是開始教一些基本觀念，但…..我根本聽不懂，因為競程對我來說是一件非常新奇的東西，所以當我在上課時我常常處於一種迷茫的狀態，所以我在第一天就給了自己一些目標「不用聽懂但至少要半懂」。在未來幾天我都以這個目標邁進。</p>
+</blockquote>
+<ul>
+<li>感謝攝影師幫我拍的照片，這被我拿來當頭貼<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/me.png"
+                      alt="image"
+                ></li>
+</ul>
+<h3 id="Day-1上機練習"><a href="#Day-1上機練習" class="headerlink" title="Day-1上機練習"></a>Day-1上機練習</h3><blockquote>
+<p>到了晚上6:00我們移駕到電腦教室。IONC一直以來有一個傳統，今天上課的東西，晚上會辦一個上機練習賽來檢測你是否真的學進去了，但很顯然的我是不可能在地一天就把一些新知是完全吸收，所以第一天的上機賽我只拿了兩題而已。到了晚上10:00，做完上機練習賽之後會有一個題解時間(另稱宵夜時間)，營隊會準備一些宵夜讓我們邊聽題解邊吃宵夜。在整個弄完之後，回到宿舍就已經晚上11:30了。</p>
+</blockquote>
+<ul>
+<li><p>第一天練習賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test1.png"
+                      alt="test1"
+                ></p>
+</li>
+<li><p>認真聽賽後講解的人(此時已經快十點了)<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_1_test.jpg"
+                      alt="Day_1_test.JPG"
+                ></p>
+</li>
+<li><p>跟4yu老大一起討論題目(剛認識不到一天，超扯)<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_1_test_1.jpg"
+                      alt="Day_1_test_1.JPG"
+                ></p>
+</li>
+</ul>
+<h3 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>今天過得相當充實，不僅認識了許多新朋友（雖然目前還不算太熟），還學到了平常不會接觸到的競程技巧。讓我更開心的是，上機練習中成功解出了兩道題目，讓我覺得非常有成就感。(這成就感僅停在第一天)</p>
+</blockquote>
+<ul>
+<li>晚上跑去串門<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_1_night.jpg"
+                      alt="Day_1_night.jpg"
+                ></li>
+</ul>
+<h2 id="Day-2"><a href="#Day-2" class="headerlink" title="Day-2"></a>Day-2</h2><blockquote>
+<p>第二天早上我記得是7:30就被morning call了加上宿舍床版真的很硬所以完全很難入眠導致第一天有點睡不好。早上尚的是基礎資結，正巧這是我第一次正式尚資料結構的課，但是在睡眠不足的情況下要學習好資料結構真的是由有點難，而且光是什麼先進先出，什麼後進先出得那些東西聽的我都已經邏輯燒雞了，所以第二天的課程也算是半聽懂，而下午上的就是基礎動態規劃，這門客我覺得非常有趣，因為我覺得DP這東西超酷，你可以通過一個遞迴算式來依照每一步更新數據，既燒腦又有趣，所以再DP這門課我就比較認真聽了。</p>
+</blockquote>
+<h3 id="Day-2上機練習"><a href="#Day-2上機練習" class="headerlink" title="Day-2上機練習"></a>Day-2上機練習</h3><blockquote>
+<p>第二天的上機練習賽我只解出一題，主要是因為他出的DP題實在太猛了導致我根本不能再三個小時之內想出來，所以第二天的我有點挫折。一樣的，題解聽完回到宿舍就已經11:30了。</p>
+</blockquote>
+<ul>
+<li>第二天練習賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test2.png"
+                      alt="image"
+                ></li>
+</ul>
+<h3 id="總結-1"><a href="#總結-1" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>今天還是相當的充實，並且也跟新朋友認識的差不多了。第二天晚上開始就又去Chung的房間串門子，在裡面聽著他們複習著早上的課程以及重新刷著第一天及第二天上機練習的題目，那段時間真的非常快樂，因為在平常根本不會有人會聚在一起只為了打code這種感覺真的超棒，大概吃完了買回來的宵夜，我們就各自回到房裡休息了。</p>
+</blockquote>
+<ul>
+<li><p>Chung教授教解題⚡⚡<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_2_Chung.jpg"
+                      alt="Day_2_Chung.jpg"
+                ></p>
+</li>
+<li><p>超愛的解題氛圍<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_2_night.jpg"
+                      alt="Day_2_night.jpg"
+                ></p>
+</li>
+</ul>
+<h2 id="Day-3"><a href="#Day-3" class="headerlink" title="Day-3"></a>Day-3</h2><blockquote>
+<p>第三天早上聽了一整個上午的圖論，大燒雞，而且加上前一天熬夜精神更不好了，於是早上的圖論課幾乎三分之一的時間我都在睡覺，但到了課程的後半段我突然發覺，我是繳錢來上課而不是來睡覺的欸，於是我開始拿起昨天的資料結構講義開始複習，並且開始在ZJ or CF上面找一些基礎水題來做。到了下午教的內容是Greedy，這個對於菜雞的我來說還算可以所以下午的課我都有跟上，但是有些東西是有加上前幾天交的新東西，所以大概在Greedy課程的後面有稍微的燒雞一下下</p>
+</blockquote>
+<ul>
+<li>跟yok一起上課<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_3_class.jpg"
+                      alt="Day_3_class.JPG"
+                ></li>
+</ul>
+<h3 id="Day-3上機練習"><a href="#Day-3上機練習" class="headerlink" title="Day-3上機練習"></a>Day-3上機練習</h3><blockquote>
+<p>今天的上機練習比較特別，需要在營隊中找尋三個隊友並且合作一起完成之後幾天的上機練習以及最後一天的團體賽，剛下課的我正當不知道要去哪裡找對有時，突然有一位早上認識的朋友突然對我發出組隊邀請，並且他也找了他的室友「Blame」一起組隊，但我沒想到跟我一對的隊友竟然是CF青色的怪物，所以在之後幾天我處於想付出但有心有餘而力不足的狀態，因為他實在太強了，他只要看到題目馬上就知道要用什麼方法去解決他。所以第三天的的上機練習基本上都是Blame在輸出了(成功把團體賽變個人賽)，我們只能在旁邊默默複習前幾天教的內容而已。最終，在大電神的帶領之下我們在第三天拿到第十二名，他砍了262多分。</p>
+</blockquote>
+<ul>
+<li>第三天練習賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test3.png"
+                      alt="image"
+                ></li>
+</ul>
+<h3 id="總結-2"><a href="#總結-2" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>今日早上我覺得我的精神狀態沒有到很好，因為每天都是早出晚歸再加上我又熬夜，所以早上的課我一定會燒雞，到了下午我成功在廁所找到我的兩個隊友(?，之後我們就開始討論說我們是要打div2還是div1，但由於考量到我跟另一位隊友的實力，我們最終選擇的是打div2，委屈了原本能輕鬆秒div1題目的Blame。到了上機時間，基本上都是Blame帶飛我們，我們其他兩個人還在旁邊燒雞早上教的東西，而他已經撈了一大堆子題分數讓我們的排名往上飆，要不是Blame的幫忙，單靠我根本不可能拿到這麼多分然後排名這麼前面。晚上，我們大家一如既往得出現在chung房間，打完我們的娃娃排球後我們跑去吃我們買回來的宵夜，之後又是一波熬夜打code環節。而我呢!一如既往的在複習前面的課程，而其他電神呢則是在看動漫、virtual ABC以及打比賽。再那時候我才意識到，我的程式能力真的菜，在那些已經能打比賽的電神面前我就只是個小丑🤡。所以其實那天有點學到小崩潰，但其實那些電神學長人都很好，對於我的提問也不吝嗇回答，還大方提供給我他們之前參加活動所拿到的資源或是講義等等，此刻我是如此感動，暗暗下定決心無論如何都要把競程打起來。</p>
+</blockquote>
+<h2 id="Day-4"><a href="#Day-4" class="headerlink" title="Day-4"></a>Day-4</h2><blockquote>
+<p>又又又又是早起的一天，今天的我已經對於睡眠不足已經免疫了，吃完早餐後，我異常的有精神，早上講的是數論，這東西很棒，他講了一大堆我沒聽過的數學專有名詞像是模運算、埃氏篩法、費馬小定理等等…對於我來說，這是一門數學課，雖然前面的我聽的津津有味，但到了課程後期，眼神逐漸渙散，但還是學到了許多，像是我終於懂了$a \equiv b \pmod{m}$原來是「$a$ 同餘 $b$ 模 $m$」。這對於我在寫題目上面能更懂題目意思，這錢花的值得啊!!!到了下午，是另一位學長教學，聽說他是ICPC 2022桃園站金牌，聽起來就很⚡🛐，但是當我看到簡報目錄的時候我傻眼了，裡頭幾乎沒有我看過的東西，全部都是專有名詞，像是折半枚舉、啟發式合併、均攤分析、bitset 優化等等等的專有名詞，所以到了下午我就過的很痛苦，因為那是前幾天的知識加上艱難數學形成的演算法，所以我聽的很痛苦，那三個半小時，我幾乎都是皺著眉頭上完的。上完課後我猶如艾連剛從進擊的巨人背後爬起來一樣，全身猶如發燒搬燒著，攤坐在椅子上，我只能說這真的不是人能上的課。</p>
+</blockquote>
+<h3 id="Day-4上機練習"><a href="#Day-4上機練習" class="headerlink" title="Day-4上機練習"></a>Day-4上機練習</h3><blockquote>
+<p>晚上又是熟悉的上機練習時間，這次我們團隊終於不是只有一個人在付出而已，我跟另一位前幾天認識的好朋朋非常努力的在幹子題分，刷一刷我突然發硯pL好像可以用dp常用模板幹分，所以我就去網路上找dp的模板然後嘗試運用這幾天學到的演算法知識來解這一題的子題分數，第一次試0分，我心想:靠背，不可能啊，之後就是漫長的debug時間，我在紙上一次次模擬可能的情況，然後終於發現我的code有一些怪怪的地方，修改之後我重新上傳，但這次是17分。我又矇了🤯跟我心想的37分差距了一題子題，我又又又燒機了，一直翻著早上剛拿到的講義，思考該如何修正，加上在網路上查詢之後我又修正了我的解法，欸這次37分了，水~正如預期，我抱著開心的心情收工，但看著時間，在看看我的隊友，他們也在燒機，所以我不好意思收工了，開始去研究其他題的子題，但跟我的預期一樣，根本不會。看著鍵盤敲超快的南一中社長，我既羨慕又無能為力，我是多麼希望我也能和他一樣當個超強的電神。我又又又又又又又又暗自打算一定要努力向他前進。最終，我們拿到了div2.第八名。可以看一下下面那張圖，那個綠綠的都是南一中社長的功勞🫣。</p>
+</blockquote>
+<ul>
+<li>第四天練習賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test4.png"
+                      alt="image"
+                ></li>
+</ul>
+<h3 id="總結-3"><a href="#總結-3" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>總結這天，就是從精神很好變成快死掉的狀態，然後我很開心的是今天拿到的子題分數，是這四天最多的，因為前幾天我都只拿到了十幾分或是跟本沒拿到分數今天終於有一點點分數了，心裡還是很開心的，雖然說對我的隊友有點抱歉就是了，我總感覺我一直在拖累他們(我有去跟他們道歉)，但他們還是安慰我說:沒事慢慢來。心裡還是暖暖的。回到宿舍，我又又又又跟Chung他們待在一起了，我們這次是在交誼廳過夜，有些人再打code；有些人在聊天；有些人在看動漫，我們就這樣從晚上待到了隔天早上，然後到了早上我們才各自去洗澡，並且換上拿到的營服，上面印著IONC，看著看著自信就來了🤣🤣。洗完澡，剛好是清晨，我們發現清晨的清大特別漂亮，於是我們跑到樓梯間拍了一張風景照，而這張風景照，也成為了我的手機桌布。</p>
+</blockquote>
+<ul>
+<li><p>跟一大群認識不到一個禮拜的朋友拍照<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/Day_4_night.jpg"
+                      alt="Day_4_night.jpg"
+                ></p>
+</li>
+<li><p>清大日出的樣子<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/SUN.jpg"
+                      alt="image"
+                ></p>
+</li>
+</ul>
+<h2 id="Day-5"><a href="#Day-5" class="headerlink" title="Day-5"></a>Day-5</h2><blockquote>
+<p>今天是營隊的做後一天，啊對，我又沒睡了，昨晚聽到今天下午要組隊比賽，根本沒心情睡覺，直接抄起傢伙熬夜苦讀，那群大電神也是如此，但我和他們不同的是，他們是再打比賽，virtual比賽等等，而我，還在研讀前幾天的知識，程度可說是截然不同。回歸正題，第五天的早上是TA時間，也就是俗稱的「Teaching Assistant」在這段時間，你可以對講師提出任何對課堂上有疑問的地方，所以整個上午，所有人都處在備戰狀態，都在為下午的比賽做準備，而我也就是在準備比賽而已，沒啥好講，喔對還是有一件事情對南一中社長很抱歉，就是我們真的太菜了，所以害他被迫選div2.屬實抱歉。</p>
+</blockquote>
+<h3 id="Day-5組隊競賽"><a href="#Day-5組隊競賽" class="headerlink" title="Day-5組隊競賽"></a>Day-5組隊競賽</h3><blockquote>
+<p>吃完午餐後，我們到外面拍了一張照片後，就轉移到電腦教室了，所有人都在為比賽備戰，而有些人因為昨天跟我們一起熬夜，所以趴在那邊聽著馬卡八卡睡著了。到了正式開始比賽，主辦方熱心的準備了大量食物及飲料在外面，供燒機選手補充能量用。接著是比賽時刻，今天的比賽有點特別，遵照了競程以往的傳統，提供了AC氣球，也就是說你AC一題，接著主辦方就會在當眾拿著一顆氣球給你，，而那時的榮譽感是絕無僅有的。當天，南一中社長手感特別好，啪啪寫了好幾題AC，我們其他隊員都嚇到，看著主辦方一直將氣球送進來，此刻的心情高昂到極點，努力的跟他一起做題。到了最後一小時封板，南一中社長也不演了，又寫了好幾題AC。最後，我們以一題想貪心又貪心到不到的貪心題做了整個比賽的結尾。最終開結果，我們竟然幹到div2. NO.1。我們其他人都嚇到了，因為沒人覺得我們是會第一名的那支隊伍。結果頒獎頒到最後，大家都因為趕車先走了，所以剩我一人在那裡領獎XD。</p>
+</blockquote>
+<ul>
+<li><p>第五天競賽成績<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test5.png"
+                      alt="image"
+                ></p>
+</li>
+<li><p>頒獎 - 南一中社長解出的大象題<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/elephant.JPG"
+                      alt="alt text"
+                ></p>
+</li>
+<li><p>頒獎 - 這個忘記了<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/DSC06278.jpg"
+                      alt="DSC06278.JPG"
+                ></p>
+</li>
+<li><p>頒獎 - 我自己領是因為他們都跑路了<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/DSC06276.jpg"
+                      alt="photo.jpg"
+                ></p>
+</li>
+</ul>
+<h3 id="總結-4"><a href="#總結-4" class="headerlink" title="總結"></a>總結</h3><blockquote>
+<p>今天，大家都全力以赴，經過五天的魔鬼集訓，大家都疲憊不堪，但還是堅持下來了。(突然有點感傷)我只能說相較於其他大學的營隊，清大的程式集訓營是真的猛。想當初還在對比要去哪間大學的資工營比較好，但幸好，我選了最讓我不會後悔的營隊，也就是清大舉辦的程式集訓營。總之，我不後悔我當初所做的決定，因為我不想花家裡這麼多錢來參加活動，然後去了就只有在那邊一直玩一直玩而已。好拉回正題，總之，我很喜歡這個營對，這讓我認次到很多電神，也讓我的程式知識面有了拓展的機會。</p>
+</blockquote>
+<ul>
+<li>大家的氣球<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/post/2024IONC%E5%BF%83%E5%BE%97/test5.png"
+                      alt="image"
+                ></li>
+</ul>
+<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><blockquote>
+<p>這個營隊讓我認識到很多人，最大得功臣是yok，要不是他，我完全不會有跟Chung、4yu、Youdong、Youtong、布丁、Winliu認識的機會。想想第一天去的時候，我完全不知道他們是誰，但後來yok帶了我去跟他們一起吃午餐之後，我開始運用E人的特質去認識每一個人，去了解他們是誰，有什麼專長等等的，而在後面幾天，也跟他們想處得很好，我們不僅會一起討論題目該如何撰寫，也會在晚上的時候一起在宿舍內玩著延長線架起來的排球遊戲，並且一起吃宵夜、一起熬夜等等的，那幾天的我們如同認識幾十年的好兄弟一樣熱絡，完全看不出來每個人都是來自不同地區、不同高中的。要我用一句話總結這個營隊，我會說:「IONC不只立意發掘程式人才，也讓不同地區但有相同興趣的人聚在一起。」推薦各位去參加。 </p>
+</blockquote>
+<h1 id="總結營隊收穫"><a href="#總結營隊收穫" class="headerlink" title="總結營隊收穫"></a>總結營隊收穫</h1><h2 id="競程知識提升"><a href="#競程知識提升" class="headerlink" title="#競程知識提升"></a>#競程知識提升</h2><h2 id="朋友圈擴展"><a href="#朋友圈擴展" class="headerlink" title="#朋友圈擴展"></a>#朋友圈擴展</h2><h2 id="對於自己目標有更明確的打算"><a href="#對於自己目標有更明確的打算" class="headerlink" title="#對於自己目標有更明確的打算"></a>#對於自己目標有更明確的打算</h2>]]></content>
       <categories>
         <category>營隊心得分享</category>
       </categories>
@@ -100,9 +728,48 @@
       </tags>
   </entry>
   <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
+<li>吉他學習紀錄</li>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)</li>
+</ul>
+<h1 id="嘉義區新創公司"><a href="#嘉義區新創公司" class="headerlink" title="嘉義區新創公司"></a>嘉義區新創公司</h1><h2 id="https-www-hyjdevelop-com"><a href="#https-www-hyjdevelop-com" class="headerlink" title="https://www.hyjdevelop.com/"></a><a class="link"   href="https://www.hyjdevelop.com/" >https://www.hyjdevelop.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>]]></content>
+  </entry>
+  <entry>
     <title>【題解】a004. 文文的求婚</title>
     <url>/post/a004/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/a004/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/a004/"></head></html>]]></content>
+    <content><![CDATA[<h2 id="a004-文文的求婚"><a href="#a004-文文的求婚" class="headerlink" title="a004. 文文的求婚"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a004" >a004. 文文的求婚<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small success no-icon">
+    <p><strong>題解:</strong><br>等待屏中社長中鍾笙祥先生幫我撰寫</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (cin&gt;&gt;n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ((n % <span class="number">4</span> == <span class="number">0</span>) &amp;&amp; (n % <span class="number">100</span> != <span class="number">0</span>) || n % <span class="number">400</span> == <span class="number">0</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;閏年&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;平年&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> stdin</span><br><span class="line"><span class="keyword">for</span> read <span class="keyword">in</span> stdin: </span><br><span class="line">    year=<span class="built_in">int</span>(read) </span><br><span class="line">    <span class="keyword">if</span> (year%<span class="number">4</span>==<span class="number">0</span> <span class="keyword">and</span> year%<span class="number">100</span>) <span class="keyword">or</span> year%<span class="number">400</span>==<span class="number">0</span>: <span class="built_in">print</span>(<span class="string">&#x27;閏年&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="built_in">print</span>(<span class="string">&#x27;平年&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1977</td>
+<td align="left">平年</td>
+</tr>
+<tr>
+<td>1980</td>
+<td align="left">閏年</td>
+</tr>
+</tbody></table>
+]]></content>
       <categories>
         <category>zerojudge題解</category>
       </categories>
