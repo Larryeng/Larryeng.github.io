@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【題解】a003, 兩光法師占卜術</title>
+    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
+    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/"></head></html>]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【題解】a002. 簡易加法</title>
     <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
     <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/"></head></html>]]></content>
@@ -29,11 +43,6 @@
       </tags>
   </entry>
   <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"></head></html>]]></content>
-  </entry>
-  <entry>
     <title>【題解】a001. 哈囉</title>
     <url>/post/%E5%93%88%E5%9B%89/</url>
     <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E5%93%88%E5%9B%89/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E5%93%88%E5%9B%89/"></head></html>]]></content>
@@ -57,20 +66,6 @@
       <tags>
         <tag>C++</tag>
         <tag>環境配置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a003, 兩光法師占卜術</title>
-    <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
-    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/"></head></html>]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -112,5 +107,10 @@
         <tag>C++</tag>
         <tag>python</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><link rel="canonical" href="https://sharkyy.netlify.app/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"><meta http-equiv="refresh" content="0; url=https://sharkyy.netlify.app/post/%E4%BB%8B%E7%B4%B9%E6%96%87/"></head></html>]]></content>
   </entry>
 </search>
