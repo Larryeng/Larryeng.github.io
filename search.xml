@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【題解】a002. 簡易加法</title>
+    <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small markdown-body success no-icon">
+    <p><strong>題解:</strong><br>注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 2</td>
+<td align="left">3</td>
+</tr>
+<tr>
+<td>5 10</td>
+<td align="left">15</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【題解】a003, 兩光法師占卜術</title>
     <url>/post/%E5%85%A9%E5%85%89%E6%B3%95%E5%B8%AB%E5%8D%A0%E5%8D%9C%E8%A1%93/</url>
     <content><![CDATA[<h2 id="a003-兩光法師占卜術"><a href="#a003-兩光法師占卜術" class="headerlink" title="a003, 兩光法師占卜術"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a003" >a003, 兩光法師占卜術<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
@@ -26,95 +64,6 @@
 <tr>
 <td>1 2</td>
 <td align="left">吉</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
-    <url>/post/Numbers/</url>
-    <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="#d096-00913-Joana-and-the-Odd-Numbers" class="headerlink" title="d096. 00913 - Joana and the Odd Numbers"></a><a class="link" href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small markdown-body success no-icon">
-    <p><strong>題解:</strong><br>🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>題目所給予的n是同一列有多少個奇數，此時奇數有一種特性就是當使用<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container>時可以表示這些奇數是在第幾列。</p>
-<blockquote>
-<p>ex:我設定n=3 則使用<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container>得知這三個奇數位在第二列。之後我們可以觀察期規律如下<br>N = 3 時，在第 2 列，此時已經寫了 4 個奇數，且第 4 個奇數為 7 ( 此數亦為該列最後一個數字 )<br>N = 5 時，在第 3 列，此時已經寫了 9 個奇數，且第 9 個奇數為 17<br>N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數為 31</p>
-</blockquote>
-<p>所以我們可以使用 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="8.453ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 3736.3 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mfrac" transform="translate(389,0)"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g><g data-mml-node="mo" transform="translate(1277,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(2055,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2555,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(1084.1,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2281.7" height="60" x="120" y="220"></rect></g><g data-mml-node="msup" transform="translate(2910.7,0)"><g data-mml-node="mo"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mn" transform="translate(422,363) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g></g></svg></mjx-container> 來表示到了第 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container> 列時總共有多少個奇數。再來我們需要算出此列末三項的總和所以我們可以在觀察到其實<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="32.933ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 14556.4 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">末</text></g><g data-mml-node="mi" transform="translate(1000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">項</text></g><g data-mml-node="mo" transform="translate(2277.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mo" transform="translate(3333.6,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(3722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">目</text></g><g data-mml-node="mi" transform="translate(4722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">前</text></g><g data-mml-node="mi" transform="translate(5722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">奇</text></g><g data-mml-node="mi" transform="translate(6722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">數</text></g><g data-mml-node="mi" transform="translate(7722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">總</text></g><g data-mml-node="mi" transform="translate(8722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">個</text></g><g data-mml-node="mi" transform="translate(9722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">數</text></g><g data-mml-node="mo" transform="translate(10944.8,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mn" transform="translate(11945,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mo" transform="translate(12445,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(13056.2,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(14056.4,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></svg></mjx-container>，之後再減二可以得到等差中項此時再<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="2.891ex" height="1.554ex" role="img" focusable="false" viewBox="0 -665 1278 687"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mn" transform="translate(778,0)"><path data-c="33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></g></g></g></svg></mjx-container>就是末三項的總和了。</p>
-
-  </div>
-
-<ul>
-<li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
-</ul>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    {</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">"EOF"</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>3</td>
-<td align="left">15</td>
-</tr>
-<tr>
-<td>5</td>
-<td align="left">45</td>
-</tr>
-<tr>
-<td>7</td>
-<td align="left">87</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【題解】a002. 簡易加法</title>
-    <url>/post/%E7%B0%A1%E6%98%93%E5%8A%A0%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="a002-簡易加法"><a href="#a002-簡易加法" class="headerlink" title="a002. 簡易加法"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a002" >a002. 簡易加法<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small markdown-body success no-icon">
-    <p><strong>題解:</strong><br>注意這裡是要空格輸入所以cin要在同一行，如果是用python寫要用map函式而C++只需要用Cin就好了每個輸入都是用空白隔開</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; a+b &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a,b=<span class="built_in">input</span>().split()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(a)+<span class="built_in">int</span>(b))</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1 2</td>
-<td align="left">3</td>
-</tr>
-<tr>
-<td>5 10</td>
-<td align="left">15</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -176,15 +125,24 @@
       </tags>
   </entry>
   <entry>
-    <title>【題解】a001. 哈囉</title>
-    <url>/post/%E5%93%88%E5%9B%89/</url>
-    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+    <title>【題解】d096. 00913 - Joana and the Odd Numbers</title>
+    <url>/post/Numbers/</url>
+    <content><![CDATA[<h2 id="d096-00913-Joana-and-the-Odd-Numbers"><a href="#d096-00913-Joana-and-the-Odd-Numbers" class="headerlink" title="d096. 00913 - Joana and the Odd Numbers"></a><a class="link" href="https://zerojudge.tw/ShowProblem?problemid=d096">d096. 00913 - Joana and the Odd Numbers<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
   <div class="note p-4 mb-4 rounded-small markdown-body success no-icon">
-    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
+    <p><strong>題解:</strong><br>🚨 <strong>UVa一定要用long long int否則會TLE</strong>🚨<br>這題其實最難的就是數學問題，你必須找出其規律才能寫出這個題目。<br>題目所給予的n是同一列有多少個奇數，此時奇數有一種特性就是當使用<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container>時可以表示這些奇數是在第幾列。</p>
+<blockquote>
+<p>ex:我設定n=3 則使用<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container>得知這三個奇數位在第二列。之後我們可以觀察期規律如下<br>N = 3 時，在第 2 列，此時已經寫了 4 個奇數，且第 4 個奇數為 7 ( 此數亦為該列最後一個數字 )<br>N = 5 時，在第 3 列，此時已經寫了 9 個奇數，且第 9 個奇數為 17<br>N = 7 時，在第 4 列，此時已經寫了 16 個奇數，且第 16 個奇數為 31</p>
+</blockquote>
+<p>所以我們可以使用 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="8.453ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 3736.3 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mfrac" transform="translate(389,0)"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g><g data-mml-node="mo" transform="translate(1277,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(2055,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2555,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(1084.1,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2281.7" height="60" x="120" y="220"></rect></g><g data-mml-node="msup" transform="translate(2910.7,0)"><g data-mml-node="mo"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mn" transform="translate(422,363) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g></g></svg></mjx-container> 來表示到了第 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="5.245ex" height="3.15ex" role="img" focusable="false" viewBox="0 -1047.1 2318.1 1392.1"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mrow" transform="translate(220,516.8) scale(0.707)"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(389,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(989,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mn" transform="translate(1767,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2267,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g><g data-mml-node="mn" transform="translate(982.3,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="2078.1" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container> 列時總共有多少個奇數。再來我們需要算出此列末三項的總和所以我們可以在觀察到其實<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="32.933ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 14556.4 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">末</text></g><g data-mml-node="mi" transform="translate(1000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">項</text></g><g data-mml-node="mo" transform="translate(2277.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mo" transform="translate(3333.6,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(3722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">目</text></g><g data-mml-node="mi" transform="translate(4722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">前</text></g><g data-mml-node="mi" transform="translate(5722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">奇</text></g><g data-mml-node="mi" transform="translate(6722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">數</text></g><g data-mml-node="mi" transform="translate(7722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">總</text></g><g data-mml-node="mi" transform="translate(8722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">個</text></g><g data-mml-node="mi" transform="translate(9722.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">數</text></g><g data-mml-node="mo" transform="translate(10944.8,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mn" transform="translate(11945,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mo" transform="translate(12445,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(13056.2,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(14056.4,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></svg></mjx-container>，之後再減二可以得到等差中項此時再<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="2.891ex" height="1.554ex" role="img" focusable="false" viewBox="0 -665 1278 687"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mn" transform="translate(778,0)"><path data-c="33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></g></g></g></svg></mjx-container>就是末三項的總和了。</p>
 
   </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><a href="https://ithelp.ithome.com.tw/articles/10266948?sc=iThomeR"><strong>電神教學</strong></a></li>
+</ul>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> <span class="type">int</span> n,sum;</span><br><span class="line">    <span class="keyword">while</span> (cin &gt;&gt; n)</span><br><span class="line">    {</span><br><span class="line">        sum = ((<span class="number">3</span>*n*n)+(<span class="number">6</span>*n) - <span class="number">15</span> ) / <span class="number">2</span></span><br><span class="line">        cout &lt;&lt; sum &lt;&lt; endl;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        n=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="string">"EOF"</span>):</span><br><span class="line">            T=<span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">sum</span> = ((<span class="number">3</span>*<span class="built_in">int</span>(n)*<span class="built_in">int</span>(n))+(<span class="number">6</span>*<span class="built_in">int</span>(n)) - <span class="number">15</span> ) // <span class="number">2</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure></div>
 
 <table>
 <thead>
@@ -194,16 +152,16 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>C++</td>
-<td align="left">hello, C++</td>
+<td>3</td>
+<td align="left">15</td>
 </tr>
 <tr>
-<td>Taiwan</td>
-<td align="left">hello, Taiwan</td>
+<td>5</td>
+<td align="left">45</td>
 </tr>
 <tr>
-<td>world</td>
-<td align="left">hello, world</td>
+<td>7</td>
+<td align="left">87</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -513,64 +471,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【題解】a004. 文文的求婚</title>
-    <url>/post/a004/</url>
-    <content><![CDATA[<h2 id="a004-文文的求婚"><a href="#a004-文文的求婚" class="headerlink" title="a004. 文文的求婚"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a004" >a004. 文文的求婚<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
-  <div class="note p-4 mb-4 rounded-small markdown-body success no-icon">
-    <p><strong>題解:</strong><br>在寫這題的時候，需要先理解閏年、平年的判別方式</p>
-<ul>
-<li>西元年被4整除且不被100整除，或被400整除者即為閏年</li>
-<li>使用 cin , cout 來進行輸入輸出</li>
-</ul>
-<p>以上是潤平年的判別方式，接下來題目還有一個重點，就是<code>輸入有若干行直到 EOF 結束</code>，也就是說要加上while (cin&gt;&gt;n)，這算是一個蠻重要的觀念，接著，跟著判別方式寫if判別式就可以了。</p>
-
-  </div>
-<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (cin&gt;&gt;n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ((n % <span class="number">4</span> == <span class="number">0</span>) &amp;&amp; (n % <span class="number">100</span> != <span class="number">0</span>) || n % <span class="number">400</span> == <span class="number">0</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;閏年&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;平年&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> stdin</span><br><span class="line"><span class="keyword">for</span> read <span class="keyword">in</span> stdin: </span><br><span class="line">    year=<span class="built_in">int</span>(read) </span><br><span class="line">    <span class="keyword">if</span> (year%<span class="number">4</span>==<span class="number">0</span> <span class="keyword">and</span> year%<span class="number">100</span>) <span class="keyword">or</span> year%<span class="number">400</span>==<span class="number">0</span>: <span class="built_in">print</span>(<span class="string">&#x27;閏年&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="built_in">print</span>(<span class="string">&#x27;平年&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
-
-<table>
-<thead>
-<tr>
-<th>範例輸入</th>
-<th align="left">範例輸出</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1977</td>
-<td align="left">平年</td>
-</tr>
-<tr>
-<td>1980</td>
-<td align="left">閏年</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>zerojudge題解</category>
-      </categories>
-      <tags>
-        <tag>zerojudge</tag>
-        <tag>題解</tag>
-        <tag>C++</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>介紹文</title>
-    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
-    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
-<li>吉他學習紀錄</li>
-<li>實用讀書小技巧</li>
-<li>一些基本軟體配置技巧(親測有效🥳)</li>
-<li>個人生涯學習紀錄</li>
-<li>程式語言學習</li>
-<li>程式小技巧分享</li>
-<li>軟體配置分享</li>
-<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)</li>
-</ul>
-<h1 id="嘉義區新創公司"><a href="#嘉義區新創公司" class="headerlink" title="嘉義區新創公司"></a>嘉義區新創公司</h1><h2 id="https-www-hyjdevelop-com"><a href="#https-www-hyjdevelop-com" class="headerlink" title="https://www.hyjdevelop.com/"></a><a class="link"   href="https://www.hyjdevelop.com/" >https://www.hyjdevelop.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>]]></content>
-  </entry>
-  <entry>
     <title>2024 IONC心得</title>
     <url>/post/2024IONC%E5%BF%83%E5%BE%97/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><blockquote>
@@ -783,6 +683,106 @@
       <tags>
         <tag>2024IONC</tag>
         <tag>營隊心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【題解】a004. 文文的求婚</title>
+    <url>/post/a004/</url>
+    <content><![CDATA[<h2 id="a004-文文的求婚"><a href="#a004-文文的求婚" class="headerlink" title="a004. 文文的求婚"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a004" >a004. 文文的求婚<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small markdown-body success no-icon">
+    <p><strong>題解:</strong><br>在寫這題的時候，需要先理解閏年、平年的判別方式</p>
+<ul>
+<li>西元年被4整除且不被100整除，或被400整除者即為閏年</li>
+<li>使用 cin , cout 來進行輸入輸出</li>
+</ul>
+<p>以上是潤平年的判別方式，接下來題目還有一個重點，就是<code>輸入有若干行直到 EOF 結束</code>，也就是說要加上while (cin&gt;&gt;n)，這算是一個蠻重要的觀念，接著，跟著判別方式寫if判別式就可以了。</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (cin&gt;&gt;n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ((n % <span class="number">4</span> == <span class="number">0</span>) &amp;&amp; (n % <span class="number">100</span> != <span class="number">0</span>) || n % <span class="number">400</span> == <span class="number">0</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;閏年&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;平年&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> stdin</span><br><span class="line"><span class="keyword">for</span> read <span class="keyword">in</span> stdin: </span><br><span class="line">    year=<span class="built_in">int</span>(read) </span><br><span class="line">    <span class="keyword">if</span> (year%<span class="number">4</span>==<span class="number">0</span> <span class="keyword">and</span> year%<span class="number">100</span>) <span class="keyword">or</span> year%<span class="number">400</span>==<span class="number">0</span>: <span class="built_in">print</span>(<span class="string">&#x27;閏年&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="built_in">print</span>(<span class="string">&#x27;平年&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1977</td>
+<td align="left">平年</td>
+</tr>
+<tr>
+<td>1980</td>
+<td align="left">閏年</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>介紹文</title>
+    <url>/post/%E4%BB%8B%E7%B4%B9%E6%96%87/</url>
+    <content><![CDATA[<h1 id="歡迎來到我夢想的起點"><a href="#歡迎來到我夢想的起點" class="headerlink" title="歡迎來到我夢想的起點"></a>歡迎來到我夢想的起點</h1><h2 id="此站主要是分享"><a href="#此站主要是分享" class="headerlink" title="此站主要是分享"></a>此站主要是分享</h2><ul>
+<li>吉他學習紀錄</li>
+<li>實用讀書小技巧</li>
+<li>一些基本軟體配置技巧(親測有效🥳)</li>
+<li>個人生涯學習紀錄</li>
+<li>程式語言學習</li>
+<li>程式小技巧分享</li>
+<li>軟體配置分享</li>
+<li>以及我新開設的學習互助社群TPEC (<a class="link"   href="https://discord.gg/TjEyXARQ" >傳送門<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)</li>
+</ul>
+<h1 id="嘉義區新創公司"><a href="#嘉義區新創公司" class="headerlink" title="嘉義區新創公司"></a>嘉義區新創公司</h1><h2 id="https-www-hyjdevelop-com"><a href="#https-www-hyjdevelop-com" class="headerlink" title="https://www.hyjdevelop.com/"></a><a class="link"   href="https://www.hyjdevelop.com/" >https://www.hyjdevelop.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>]]></content>
+  </entry>
+  <entry>
+    <title>【題解】a001. 哈囉</title>
+    <url>/post/%E5%93%88%E5%9B%89/</url>
+    <content><![CDATA[<h2 id="a001-哈囉"><a href="#a001-哈囉" class="headerlink" title="a001. 哈囉"></a><a class="link"   href="https://zerojudge.tw/ShowProblem?problemid=a001" >a001. 哈囉<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h2>
+  <div class="note p-4 mb-4 rounded-small markdown-body success no-icon">
+    <p><strong>題解:</strong><br>此題是程式小白最一開始接觸的題目也就是Hello world<br>注意空白要記得看(裁判機沒有人情味🥲)，老手也會看錯所以寫題目一定要注意。</p>
+
+  </div>
+<h3 id="C-解法"><a href="#C-解法" class="headerlink" title="C++解法"></a>C++解法</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello, &quot;</span>+a &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Python解法"><a href="#Python解法" class="headerlink" title="Python解法"></a>Python解法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello, &quot;</span>+a)</span><br></pre></td></tr></table></figure></div>
+
+<table>
+<thead>
+<tr>
+<th>範例輸入</th>
+<th align="left">範例輸出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C++</td>
+<td align="left">hello, C++</td>
+</tr>
+<tr>
+<td>Taiwan</td>
+<td align="left">hello, Taiwan</td>
+</tr>
+<tr>
+<td>world</td>
+<td align="left">hello, world</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>zerojudge題解</category>
+      </categories>
+      <tags>
+        <tag>zerojudge</tag>
+        <tag>題解</tag>
+        <tag>C++</tag>
+        <tag>python</tag>
       </tags>
   </entry>
 </search>
