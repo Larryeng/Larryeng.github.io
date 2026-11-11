@@ -6,7 +6,7 @@
   <link href="https://sharkyy.org/atom.xml" rel="self"/>
   
   <link href="https://sharkyy.org/"/>
-  <updated>2026-11-11T05:44:19.256Z</updated>
+  <updated>2026-11-11T05:48:45.451Z</updated>
   <id>https://sharkyy.org/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【題解】a004. 文文的求婚</title>
+    <title>【題解】1068. Weird Algorithm</title>
     <link href="https://sharkyy.org/post/CSES-1068/"/>
     <id>https://sharkyy.org/post/CSES-1068/</id>
     <published>2026-11-11T05:34:19.000Z</published>
-    <updated>2026-11-11T05:44:19.256Z</updated>
+    <updated>2026-11-11T05:48:45.451Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1068-Weird-Algorithm-Day1"><a href="#1068-Weird-Algorithm-Day1" class="headerlink" title="1068 Weird Algorithm (Day1)"></a>1068 Weird Algorithm (Day1)</h2><h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><blockquote><p>根據題目判斷奇偶然後做 <code>3*n+1</code> 或 <code>n/2</code> 做到 <code>n</code> 剩下1</p></blockquote><h3 id="AC-Code"><a href="#AC-Code" class="headerlink" title="AC Code"></a>AC Code</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="keyword">for</span>(;;)&#123;</span><br><span class="line">        cout&lt;&lt;n;</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="number">1</span>)<span class="keyword">break</span>;</span><br><span class="line">        cout&lt;&lt;<span class="string">&#x27; &#x27;</span>;</span><br><span class="line">        n=(n%<span class="number">2</span> ? <span class="number">3</span>*n<span class="number">+1</span> : n/<span class="number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;<span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><h3 id="題解"><a href="#題解" class="headerlink" title="題解"></a>題解</h3><blockquote><p>我用了一個斜咖無限迴圈用法，但跟while其實一樣，然後n用三元運算值去判斷奇偶數做更新</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="1068-Weird-Algorithm"><a href="#1068-Weird-Algorithm" class="headerlink" title="1068. Weird Algorithm"></a>1068. Weird Algorithm</h2><h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><blockquote><p>根據題目判斷奇偶然後做 <code>3*n+1</code> 或 <code>n/2</code> 做到 <code>n</code> 剩下1</p></blockquote><h3 id="AC-Code"><a href="#AC-Code" class="headerlink" title="AC Code"></a>AC Code</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="keyword">for</span>(;;)&#123;</span><br><span class="line">        cout&lt;&lt;n;</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="number">1</span>)<span class="keyword">break</span>;</span><br><span class="line">        cout&lt;&lt;<span class="string">&#x27; &#x27;</span>;</span><br><span class="line">        n=(n%<span class="number">2</span> ? <span class="number">3</span>*n<span class="number">+1</span> : n/<span class="number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;<span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><h3 id="題解"><a href="#題解" class="headerlink" title="題解"></a>題解</h3><blockquote><p>我用了一個斜咖無限迴圈用法，但跟while其實一樣，然後n用三元運算值去判斷奇偶數做更新</p></blockquote>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;1068-Weird-Algorithm-Day1&quot;&gt;&lt;a href=&quot;#1068-Weird-Algorithm-Day1&quot; class=&quot;headerlink&quot; title=&quot;1068 Weird Algorithm (Day1)&quot;&gt;&lt;/a&gt;1068 Weir</summary>
+    <summary type="html">&lt;h2 id=&quot;1068-Weird-Algorithm&quot;&gt;&lt;a href=&quot;#1068-Weird-Algorithm&quot; class=&quot;headerlink&quot; title=&quot;1068. Weird Algorithm&quot;&gt;&lt;/a&gt;1068. Weird Algorithm&lt;/h2</summary>
       
     
     
