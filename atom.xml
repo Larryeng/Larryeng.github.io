@@ -6,7 +6,7 @@
   <link href="https://sharkyy.org/atom.xml" rel="self"/>
   
   <link href="https://sharkyy.org/"/>
-  <updated>2026-11-11T05:48:45.451Z</updated>
+  <updated>2026-11-11T06:38:34.326Z</updated>
   <id>https://sharkyy.org/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【題解】1068. Weird Algorithm</title>
+    <link href="https://sharkyy.org/post/AP325-P-1-1/"/>
+    <id>https://sharkyy.org/post/AP325-P-1-1/</id>
+    <published>2026-11-11T06:31:47.000Z</published>
+    <updated>2026-11-11T06:38:34.326Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="P-1-1-合成函數-1"><a href="#P-1-1-合成函數-1" class="headerlink" title="P-1-1. 合成函數(1)"></a>P-1-1. 合成函數(1)</h2><h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><blockquote><p>有想過用自定義函數一直呼叫，然後藉此找出數值，但看了講義發現這樣就可以直接用遞迴而且複雜度只有O(n)</p></blockquote><h3 id="AC-code"><a href="#AC-code" class="headerlink" title="AC code"></a>AC code</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">count</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> x,y;</span><br><span class="line">    <span class="type">char</span> get[<span class="number">7</span>];</span><br><span class="line">    cin &gt;&gt; get;</span><br><span class="line">    <span class="keyword">if</span>(get[<span class="number">0</span>]==<span class="string">&#x27;f&#x27;</span>)&#123;</span><br><span class="line">        x=<span class="built_in">count</span>();</span><br><span class="line">        <span class="keyword">return</span> <span class="number">2</span>*x<span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(get[<span class="number">0</span>]== <span class="string">&#x27;g&#x27;</span>)&#123;</span><br><span class="line">        x=<span class="built_in">count</span>();</span><br><span class="line">        y=<span class="built_in">count</span>();</span><br><span class="line">        <span class="keyword">return</span> x<span class="number">+2</span>*y<span class="number">-3</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">atoi</span>(get);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="built_in">count</span>() &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><h3 id="題解"><a href="#題解" class="headerlink" title="題解"></a>題解</h3><blockquote><p>運用char技巧做每次判斷一個字元，接著設定char陣列大小為7，符合題目需求正負1000，然後就可以用if跟遞迴去取值跟計算最終答案，用if可以先一層一層往下找直到找到數字</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;P-1-1-合成函數-1&quot;&gt;&lt;a href=&quot;#P-1-1-合成函數-1&quot; class=&quot;headerlink&quot; title=&quot;P-1-1. 合成函數(1)&quot;&gt;&lt;/a&gt;P-1-1. 合成函數(1)&lt;/h2&gt;&lt;h3 id=&quot;想法&quot;&gt;&lt;a href=&quot;#想法&quot; cla</summary>
+      
+    
+    
+    
+    <category term="AP325題解" scheme="https://sharkyy.org/categories/AP325%E9%A1%8C%E8%A7%A3/"/>
+    
+    
+    <category term="題解" scheme="https://sharkyy.org/tags/%E9%A1%8C%E8%A7%A3/"/>
+    
+    <category term="C++" scheme="https://sharkyy.org/tags/C/"/>
+    
+    <category term="AP325" scheme="https://sharkyy.org/tags/AP325/"/>
+    
+  </entry>
   
   <entry>
     <title>【題解】1068. Weird Algorithm</title>
