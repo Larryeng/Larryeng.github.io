@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sharkyy.org/post/CSES-1083/</loc>
+    <loc>https://sharkyy.org/post/AP325-P-1-1/</loc>
     
     <lastmod>2026-11-23</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://sharkyy.org/post/AP325-P-1-1/</loc>
+    <loc>https://sharkyy.org/post/CSES-1083/</loc>
     
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
