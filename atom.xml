@@ -6,7 +6,7 @@
   <link href="https://sharkyy.org/atom.xml" rel="self"/>
   
   <link href="https://sharkyy.org/"/>
-  <updated>2026-11-11T06:38:34.326Z</updated>
+  <updated>2026-11-23T09:39:40.317Z</updated>
   <id>https://sharkyy.org/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【題解】1083. Missing Number</title>
+    <link href="https://sharkyy.org/post/CSES-1083/"/>
+    <id>https://sharkyy.org/post/CSES-1083/</id>
+    <published>2026-11-23T09:04:24.000Z</published>
+    <updated>2026-11-23T09:39:40.317Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1083-Missing-Number"><a href="#1083-Missing-Number" class="headerlink" title="1083. Missing Number"></a>1083. Missing Number</h2><h3 id="想法-題解"><a href="#想法-題解" class="headerlink" title="想法&amp;題解"></a>想法&amp;題解</h3><blockquote><p>想到適用vector去儲存數值，然後因為數值只會遺失一個，所以陣列最後面直接定一個最大值，然後用一個迴圈去輸入剩下<code>n-1</code>個數值，然後為了更好寫判斷，先對這個vector做排序，排完後再用一個迴圈去掃，條件是抓陣列數值以及對比<code>i</code>的值去得到使否相等，如果不相等就輸出那個數值，此時最後一個最大值的意義，就是在陣列掃到最後一個後，如果都沒有，那最後一個就是那個missing number</p></blockquote><h3 id="AC-Code"><a href="#AC-Code" class="headerlink" title="AC Code"></a>AC Code</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v</span><span class="params">(n)</span></span>;</span><br><span class="line">    v[n<span class="number">-1</span>]=<span class="number">1e9</span>; <span class="comment">// 1e9 =&gt; 10^9</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n<span class="number">-1</span>;i++)&#123;</span><br><span class="line">        cin&gt;&gt;v[i]; </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">sort</span>(v.<span class="built_in">begin</span>(),v.<span class="built_in">end</span>()); <span class="comment">// sort the vector</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(v[i]!=i<span class="number">+1</span>)&#123; </span><br><span class="line">            cout&lt;&lt;i<span class="number">+1</span>; </span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1083-Missing-Number&quot;&gt;&lt;a href=&quot;#1083-Missing-Number&quot; class=&quot;headerlink&quot; title=&quot;1083. Missing Number&quot;&gt;&lt;/a&gt;1083. Missing Number&lt;/h2&gt;&lt;h3</summary>
+      
+    
+    
+    
+    <category term="CSES入門題題解" scheme="https://sharkyy.org/categories/CSES%E5%85%A5%E9%96%80%E9%A1%8C%E9%A1%8C%E8%A7%A3/"/>
+    
+    
+    <category term="題解" scheme="https://sharkyy.org/tags/%E9%A1%8C%E8%A7%A3/"/>
+    
+    <category term="C++" scheme="https://sharkyy.org/tags/C/"/>
+    
+    <category term="CSES" scheme="https://sharkyy.org/tags/CSES/"/>
+    
+  </entry>
   
   <entry>
     <title>【題解】1068. Weird Algorithm</title>
